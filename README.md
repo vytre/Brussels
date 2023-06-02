@@ -20,3 +20,40 @@ This will run the built app locally, open http://localhost:3000 in your web-brow
 ## Azure WebServer
 [![Build and deploy Node.js app to Azure Web App - Brussels-ANCEP](https://github.com/vytre/Brussels/actions/workflows/main_brussels-ancep.yml/badge.svg)](https://github.com/vytre/Brussels/actions/workflows/main_brussels-ancep.yml) <br>
 Our React App is hosted on Azure Webservers at https://brussels-ancep.azurewebsites.net/
+
+## Standards
+
+### *Code Editors*
+We have no set Code Editors, we are using WebStorm, VSC and IntelliJ.
+
+### *Plugins*
+We are using the **[Prettier Plugin](https://prettier.io/)** integrated with our IDEs
+
+### *Functions and Variables*
+We are using lowerCamelCase for our Funtions and Variables
+
+*Functions*
+```javascript
+function showYear() {
+  console.log("Hello, World!");
+}
+
+````
+
+<br>
+
+*Variables*
+
+```javascript
+const universityCourse = "PRO 202 Agile Project";
+const groupName = "Brussels";
+```
+
+### *Folder*
+For folders we have use spinal-case
+
+```
+├── docs
+│ ├── group-docs
+│ └── sprint-reports
+````
