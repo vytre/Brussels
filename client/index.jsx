@@ -7,9 +7,15 @@ function sayHello() {
   alert('You clicked me!');
 }
 
-function MyButton() {
+function Button_ANCEP() {
   return (
     <button onClick={sayHello} className="button">ANCEP</button>
+  );
+}
+
+function Button_Arkivet() {
+  return (
+    <button onClick={sayHello} className="button">Arkivet</button>
   );
 }
 
@@ -33,7 +39,7 @@ const startside = (
         <div className="e44_740" />
         <div className="buttonBG">
 
-          <MyButton />
+          <Button_ANCEP />
         </div>
       </div>
       <div className="e335_208">
@@ -48,8 +54,8 @@ const startside = (
         <div className="e324_179" />
         <div className="e44_738" />
         <div className="e44_739" />
-        <div className="e44_996">
-          <span className="e44_997">ANCEP</span>
+        <div className="buttonBG">
+          
         </div>
       </div>
       <div className="e335_207">
@@ -75,7 +81,7 @@ const startside = (
         <div className="e339_189">
           <div className="e335_193" />
           <div className="e335_194">
-            <span className="e335_195">Start</span>
+            <Button_Arkivet />
           </div>
           <span className="e335_196">
             Her kan du teste din oppfatning av diverse dilemmaer. Man blir stilt
