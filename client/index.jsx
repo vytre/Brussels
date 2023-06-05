@@ -31,15 +31,16 @@ const startside = (
   <div className="e44_708">
       <div className="e44_709" />
       <div className="e335_209">
+        <span className="e44_721">
+          ANCEP skal bidra til at Arne Næss’ tanker blir gjort lett tilgjengelige
+          for alle.
+        </span>
         <span className="e44_711">
           Her kan du teste din oppfatning av diverse dilemmaer. Man blir stilt
           spørsmål, og deretter velger man selv hva som riktig å gjøre i en gitt
           situasjon. Det er ingen svar som er riktig eller feil.
         </span>
-        <span className="e44_721">
-          ANCEP skal bidra til at Arne Næss’ tanker blir gjort lett tilgjengelige
-          for alle.
-        </span>
+
         <div className="e44_726" />
         <div className="e324_178" />
         <div className="e44_1144" />
@@ -50,13 +51,14 @@ const startside = (
         </div>
       </div>
       <div className="e335_208">
+        <span className="e44_722">Hva er ANCEP?</span>
         <span className="e44_713">
           ANCEP er organiasjonen som bidrar til å tilgjengeligegjøre Arne Næss
           sine værk. De har et stort, og variert arkiv av Arne Næss sine tanker,
           og meninger. Med dette så kan alle dykke dypt inn i Arne Næss sin
           verden.
         </span>
-        <span className="e44_722">Hva er ANCEP?</span>
+        
         <div className="e44_736" />
         <div className="e324_179" />
         <div className="e44_738" />
