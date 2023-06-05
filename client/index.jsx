@@ -1,12 +1,13 @@
 import * as React from "react";
 import { createRoot } from "react-dom/client";
 
-import "./index.css";
+import "./groupSize.css";
 function sayHello() {
   alert("You clicked me!");
 }
 
-function Button_Start() {
+function groupButton() {
+  // SHOULD BE DIV, NOT BUTTON
   return (
     <button onClick={sayHello} className="button_Start">
       Start
@@ -14,7 +15,8 @@ function Button_Start() {
   );
 }
 
-function Button_ANCEP() {
+function aloneButton() {
+  // SHOULD BE DIV, NOT BUTTON
   return (
     <button onClick={sayHello} className="button_ANCEP">
       ANCEP
@@ -22,100 +24,73 @@ function Button_ANCEP() {
   );
 }
 
-function Button_Arkivet() {
-  return (
-    <button onClick={sayHello} className="button_Arkivet">
-      Arkivet
-    </button>
-  );
-}
+const groupSizePage = (
+  // FROM SCRATCH
 
-const startside = (
-  <div className="e44_708">
-    <div className="e44_709" />
-    <div className="e335_209">
-      <span className="e44_721">
-        ANCEP skal bidra til at Arne Næss’ tanker blir gjort lett tilgjengelige
-        for alle.
-      </span>
-      <span className="e44_711">
-        Her kan du teste din oppfatning av diverse dilemmaer. Man blir stilt
-        spørsmål, og deretter velger man selv hva som riktig å gjøre i en gitt
-        situasjon. Det er ingen svar som er riktig eller feil.
-      </span>
+  //CONTAINER SHOULD HAVE BG-IMG AND BG-SHAPES
+  <div className="cointainer">
+    <div className="header">
+      <div className="headerHome">
+        <span>Hjem</span>
+      </div>
 
-      <div className="e44_726" />
-      <div className="e324_178" />
-      <div className="e44_1144" />
-      <div className="e44_740" />
-      <div className="buttonBG_ANCEP">
-        <Button_ANCEP />
+      <div className="headerGame">
+        <span>Dilemmaer</span>
+      </div>
+
+      <div className="headerArchive">
+        <span>Arkiv</span>
       </div>
     </div>
-    <div className="e335_208">
-      <span className="e44_722">Hva er ANCEP?</span>
-      <span className="e44_713">
-        ANCEP er organiasjonen som bidrar til å tilgjengeligegjøre Arne Næss
-        sine værk. De har et stort, og variert arkiv av Arne Næss sine tanker,
-        og meninger. Med dette så kan alle dykke dypt inn i Arne Næss sin
-        verden.
-      </span>
 
-      <div className="e44_736" />
-      <div className="e324_179" />
-      <div className="e44_738" />
-      <div className="e44_739" />
-    </div>
-    <div className="e335_207">
-      <div className="e44_718">
-        <span className="e44_719">
-          Arne var en norsk filosof, kjent for sin lidenskap til natur og
-          mennesker. han blir sett på som mannen bak dypøkologien og var en
-          veldig innflytningsrik filosof. Arne sine ideer om verden lever videre
-          den dag idag.
-        </span>
-        <div className="e44_720" />
-      </div>
-      <div className="e44_727" />
-      <div className="e318_171" />
-      <span className="e44_725">Hvem var Arne?</span>
-      <div className="e44_735" />
-      <div className="buttonBG_Arkivet">
-        <Button_Arkivet />
-      </div>
-    </div>
-    <div className="e335_191">
-      <div className="e335_192" />
-      <div className="e339_189">
-        <div className="e335_193" />
+    <div className="backGround"></div>
+  </div>
 
-        <span className="e335_196">
-          Her kan du teste din oppfatning av diverse dilemmaer. Man blir stilt
-          spørsmål, og deretter velger man selv hva som riktig å gjøre i en gitt
-          situasjon. Det er ingen svar som er riktig eller feil.
-        </span>
-        <div className="buttonBG_Start">
-          <Button_Start />
-        </div>
-      </div>
-      <div className="e335_197" />
-      <span className="e335_199">Etisk Spill</span>
-      <div className="e335_215">
-        <div className="e335_198" />
-        <div className="e335_200" />
-        <div className="e335_201">
-          <span className="ei335_201_7_219">Dilemmaer</span>
-        </div>
-        <div className="e335_202">
-          <span className="ei335_202_7_219">Arkiv</span>
-        </div>
-        <div className="e335_203">
-          <span className="ei335_203_7_219">Hjem</span>
-        </div>
-      </div>
+  //from FIGMA
+
+<div className=e337_236>
+  <div className="e337_237"></div>
+  <div className="e337_238"></div>
+  <div className=e349_200>
+    <div className="e349_201"></div>
+    <div className="e349_202"></div>
+    <div className="e349_203"></div>
+  </div>
+
+  <div className=e337_239>
+    <div className=e337_245>
+      <div className="e337_246"></div>
+      <span className="e337_247">gruppe</span>
+    </div>
+
+    <div className=e337_250>
+      <div className="e337_251"></div>
+      <span className="e337_253">Alene</span>
+      <div className="e337_264"></div>
     </div>
   </div>
+
+  <div className=e337_255>
+    <div className="e337_256"></div>
+    <div className="e337_257"></div>
+    <div className=e337_258>
+      <span className="ei337_258_7_219">Arkiv</span>
+    </div>
+
+    <div className=e337_259>
+      <span className="ei337_259_7_219">Dilemmaer</span>
+    </div>
+
+    <div className=e337_260>
+      <span className="ei337_260_7_219">Hjem</span>
+    </div>
+  </div>
+
+  <span className="e337_254">Hvordan jobber du?</span>
+  <div className="e337_265"></div>
+  <div className="e349_198"></div>
+</div>
 );
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(startside);
+root.render(groupSizePage);
