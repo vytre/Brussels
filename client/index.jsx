@@ -29,7 +29,37 @@ function Button_Arkivet() {
 
 const startside = (
   <div className="e44_708">
-      <div className="e44_709" />
+          <div className="e335_191">
+        <div className="e335_192" />
+        <div className="e339_189">
+          <div className="e335_193" />
+
+          <span className="e335_196">
+            Her kan du teste din oppfatning av diverse dilemmaer. Man blir stilt
+            spørsmål, og deretter velger man selv hva som riktig å gjøre i en gitt
+            situasjon. Det er ingen svar som er riktig eller feil.
+          </span>
+          <div className="buttonBG_Start">
+            <Button_Start />
+          </div>
+        </div>
+        <div className="e335_197" />
+        <span className="e335_199">Etisk Spill</span>
+        <div className="e335_215">
+          <div className="e335_198" />
+          <div className="e335_200" />
+          <div className="e335_201">
+            <span className="ei335_201_7_219">Dilemmaer</span>
+          </div>
+          <div className="e335_202">
+            <span className="ei335_202_7_219">Arkiv</span>
+          </div>
+          <div className="e335_203">
+            <span className="ei335_203_7_219">Hjem</span>
+          </div>
+        </div>
+      </div>
+      
       <div className="e335_209">
         <span className="e44_721">
           ANCEP skal bidra til at Arne Næss’ tanker blir gjort lett tilgjengelige
@@ -83,36 +113,7 @@ const startside = (
           <Button_Arkivet />
         </div>
       </div>
-      <div className="e335_191">
-        <div className="e335_192" />
-        <div className="e339_189">
-          <div className="e335_193" />
 
-          <span className="e335_196">
-            Her kan du teste din oppfatning av diverse dilemmaer. Man blir stilt
-            spørsmål, og deretter velger man selv hva som riktig å gjøre i en gitt
-            situasjon. Det er ingen svar som er riktig eller feil.
-          </span>
-          <div className="buttonBG_Start">
-            <Button_Start />
-          </div>
-        </div>
-        <div className="e335_197" />
-        <span className="e335_199">Etisk Spill</span>
-        <div className="e335_215">
-          <div className="e335_198" />
-          <div className="e335_200" />
-          <div className="e335_201">
-            <span className="ei335_201_7_219">Dilemmaer</span>
-          </div>
-          <div className="e335_202">
-            <span className="ei335_202_7_219">Arkiv</span>
-          </div>
-          <div className="e335_203">
-            <span className="ei335_203_7_219">Hjem</span>
-          </div>
-        </div>
-      </div>
     </div>
 
 );

@@ -4,22 +4,7 @@ body{
 	margin:0;
 }
 
-.e44_708 { 
-	background-color:rgba(243.6556175351143, 243.6556175351143, 243.6556175351143, 0.33000001311302185);
-	width:100%;
-	height:100%;
-	position:absolute;
-}
-
-/**Hvit Bakgrunn**/
-.e44_709 { 
-	background-color:rgba(255, 255, 255, 1);
-	width:100%;
-	height:100%;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
+/** Gul Boks**/
 .e335_209 { 
 	width:100%;
 	height:979px;
@@ -27,6 +12,8 @@ body{
 	left:0px;
 	top:885px;
 }
+
+/* Gul Tekst */
 .e44_711 { 
 	color:rgba(0, 0, 0, 1);
 	width:574.0000610351562px;
@@ -39,6 +26,8 @@ body{
 	font-size:35px;
 	letter-spacing:0;
 }
+
+/* Gul Overskrift */
 .e44_721 { 
 	color:rgba(0, 0, 0, 1);
 	width:638.9999389648438px;
@@ -51,6 +40,8 @@ body{
 	font-size:50px;
 	letter-spacing:0;
 }
+
+/* Gul Bilde Skygge */
 .e44_726 { 
 	background-color:rgba(252.15562462806702, 128.68342369794846, 14.709078166633844, 0.10000000149011612);
 	width:683px;
@@ -59,16 +50,20 @@ body{
 	left:720px;
 	top:31px;
 }
+
+/* Bilde av Arne som Klatrer */
 .e324_178 { 
 	width:672.9999389648438px;
 	height:940px;
 	position:absolute;
-	left:767.0003051757812px;
+	left:768px;
 	top:-4.547473508864641e-13px;
 	background-image:url(images/arne_climb_cropped_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+/* Bilde av Arne som Klatrer Fargeboks */
 .e44_1144 { 
 	background-color:rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
 	width:672.9999389648438px;
@@ -77,6 +72,8 @@ body{
 	left:767.0003051757812px;
 	top:-4.547473508864641e-13px;
 }
+
+/* Gul Tekstboks */
 .e44_740 { 
 	background-color:rgba(252.15562462806702, 128.68342369794846, 14.709078166633844, 0.10000000149011612);
 	width:685.0000610351562px;
@@ -85,6 +82,8 @@ body{
 	left:0px;
 	top:80px;
 }
+
+/* ANCEP Knapp Bakgrunn */
 .buttonBG_ANCEP { 
 
 	background-color:rgba(0, 0, 0, 1);
@@ -98,6 +97,8 @@ body{
 	border-bottom-left-radius:100px;
 	border-bottom-right-radius:100px;
 }
+
+/* ANCEP Knapp */
 .button_ANCEP { 
 	background-color:rgba(255, 255, 255, 1);
 	color:rgba(0, 0, 0, 1);
@@ -116,6 +117,8 @@ body{
 	border-bottom-right-radius:100px;
 	outline: none;
 }
+
+/* Blå Boks */
 .e335_208 { 
 	width:1440px;
 	height:988px;
@@ -123,6 +126,8 @@ body{
 	left:0px;
 	top:1886px;
 }
+
+/* Blå Tekst */
 .e44_713 { 
 	color:rgba(0, 0, 0, 1);
 	width:516.4270629882812px;
@@ -135,6 +140,8 @@ body{
 	font-size:35px;
 	letter-spacing:0;
 }
+
+/* Blå Overskrift */
 .e44_722 { 
 	color:rgba(0, 0, 0, 1);
 	width:445.82940673828125px;
@@ -147,6 +154,8 @@ body{
 	font-size:50px;
 	letter-spacing:0;
 }
+
+/* Blå Bilde Skygge */
 .e44_736 { 
 	background-color:rgba(14.543708190321922, 144.85511273145676, 218.15562665462494, 0.10000000149011612);
 	width:650.8528442382812px;
@@ -155,6 +164,8 @@ body{
 	left:45.45344161987305px;
 	top:54px;
 }
+
+/* Bilde av Arne på Fjellet */
 .e324_179 { 
 	width:650.8528442382812px;
 	height:935px;
@@ -165,6 +176,8 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+/* Blå Tekstboks */
 .e44_738 { 
 	background-color:rgba(15.000000055879354, 145.00000655651093, 218.00000220537186, 0.10000000149011612);
 	width:697.2732543945312px;
@@ -173,6 +186,8 @@ body{
 	left:742.7267456054688px;
 	top:96px;
 }
+
+/* Bilde av Arne på Fjellet Fargeboks */
 .e44_739 { 
 	background-color:rgba(19.12500075995922, 255, 255, 0.10000000149011612);
 	width:651px;
@@ -181,32 +196,8 @@ body{
 	left:0px;
 	top:0px;
 }
-.e44_996 { 
-	box-shadow:0px 1px 2px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
-	background-color:rgba(255, 255, 255, 1);
-	width:271.75286865234375px;
-	height:136px;
-	position:absolute;
-	left:932.2763061523438px;
-	top:608px;
-	border-top-left-radius:100px;
-	border-top-right-radius:100px;
-	border-bottom-left-radius:100px;
-	border-bottom-right-radius:100px;
-}
 
-.e44_997 { 
-	color:rgba(0, 0, 0, 1);
-	width:150px;
-	height:45px;
-	position:absolute;
-	left:60.876434326171875px;
-	top:45.5px;
-	font-family:Lato;
-	text-align:left;
-	font-size:45px;
-	letter-spacing:0;
-}
+/* Grønn Boks */
 .e335_207 { 
 	width:1440px;
 	height:990px;
@@ -214,6 +205,8 @@ body{
 	left:0px;
 	top:2908px;
 }
+
+/* Grønn Tekstboks */
 .e44_718 { 
 	width:685px;
 	height:571px;
@@ -221,6 +214,8 @@ body{
 	left:0px;
 	top:120px;
 }
+
+/* Grønn Tekst */
 .e44_719 { 
 	color:rgba(0, 0, 0, 1);
 	width:583.3971557617188px;
@@ -233,6 +228,8 @@ body{
 	font-size:35px;
 	letter-spacing:0;
 }
+
+/* Grønn Tekstboks */
 .e44_720 { 
 	background-color:rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
 	width:685px;
@@ -241,6 +238,8 @@ body{
 	left:0px;
 	top:0px;
 }
+
+/* Grønn Bilde Skygge */
 .e44_727 { 
 	background-color:rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
 	width:662px;
@@ -249,6 +248,8 @@ body{
 	left:735px;
 	top:69px;
 }
+
+/* Bilde av Arne Glad :) */
 .e318_171 { 
 	width:660px;
 	height:935px;
@@ -259,6 +260,8 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+/* Grønn Overskrift */
 .e44_725 { 
 	color:rgba(0, 0, 0, 1);
 	width:461px;
@@ -271,6 +274,8 @@ body{
 	font-size:50px;
 	letter-spacing:0;
 }
+
+/* Bilde av arne Glad Fargeboks */
 .e44_735 { 
 	background-color:rgba(19.12500075995922, 255, 71.01749762892723, 0.10000000149011612);
 	width:660px;
@@ -279,6 +284,8 @@ body{
 	left:780px;
 	top:0px;
 }
+
+/* Knapp til Arkivet Bakgrunn */
 .buttonBG_Arkivet { 
 	box-shadow:0px 1px 2px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
 	background-color:rgba(255, 255, 255, 1);
@@ -293,6 +300,7 @@ body{
 	border-bottom-right-radius:100px;
 }
 
+/* Knapp Til Arkivet */
 .button_Arkivet { 
 
 	background-color:rgba(255, 255, 255, 1);
@@ -313,6 +321,8 @@ body{
 	border-bottom-right-radius:100px;
 	outline: none;
 }
+
+/* Startside Topp */
 .e335_191 { 
 	width:100%;
 	height:841px;
@@ -320,6 +330,8 @@ body{
 	left:0px;
 	top:-1px;
 }
+
+/* Bilde av Arne i Forelesingsal */
 .e335_192 { 
 	width:100%;
 	height:841px;
@@ -330,6 +342,8 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+/* Startside Topp Tekstboks */
 .e339_189 { 
 	width:875px;
 	height:331.46923828125px;
@@ -337,6 +351,8 @@ body{
 	left:278px;
 	top:402.4004211425781px;
 }
+
+/* Startside Topp Tekstboks Farget Bakgrunn */
 .e335_193 { 
 	background-color:rgba(158.6556226015091, 158.6556226015091, 158.6556226015091, 0.30000001192092896);
 	width:875px;
@@ -346,6 +362,7 @@ body{
 	top:0px;
 }
 
+/* Start Knapp Bakgrunn */
 .buttonBG_Start { 
 	box-shadow:0px 1px 2px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
 	background-color:rgba(255, 255, 255, 1);
@@ -360,6 +377,7 @@ body{
 	border-bottom-right-radius:100px;
 }
 
+/* Start Knapp */
 .button_Start { 
 	background-color:rgba(255, 255, 255, 1);
 	color:rgba(0, 0, 0, 1);
@@ -379,6 +397,8 @@ body{
 	border-bottom-right-radius:100px;
 	outline: none;
 }
+
+/* Startside Topp tekstboks */
 .e335_196 { 
 	color:rgba(255, 255, 255, 1);
 	width:804.5303955078125px;
@@ -402,6 +422,8 @@ body{
 	left:0px;
 	top:821px;
 }
+
+/* Starside Topp Overskrift */
 .e335_199 { 
 	color:rgba(255, 255, 255, 1);
 	width:538px;
@@ -414,22 +436,28 @@ body{
 	font-size:110px;
 	letter-spacing:0;
 }
+
+/* Starstide Header Box */
 .e335_215 { 
-	width:1440px;
+	width:100%;
 	height:66.46768951416016px;
 	position:absolute;
 	left:0px;
 	top:0.6418149471282959px;
 }
+
+/* Startside Header */
 .e335_198 { 
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.5);
 	background-color:rgba(199.0000033378601, 185.00000417232513, 165.00000536441803, 0.8999999761581421);
-	width:1440px;
+	width:100%;
 	height:66.46768951416016px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
+
+/* Startside Header Logo */
 .e335_200 { 
 	width:172px;
 	height:49.079872131347656px;
@@ -440,6 +468,8 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+/* Startside Header Dilemmaer */
 .e335_201 { 
 	width:233px;
 	height:57.93111801147461px;
@@ -447,6 +477,8 @@ body{
 	left:429px;
 	top:8.347709655761719px;
 }
+
+/* Startside Header Dilemmaer Tekst */
 .ei335_201_7_219 { 
 	color:rgba(54.00000058114529, 54.00000058114529, 54.00000058114529, 1);
 	width:233px;
@@ -459,6 +491,8 @@ body{
 	font-size:30px;
 	letter-spacing:0;
 }
+
+/* Startside Header Arkiv */
 .e335_202 { 
 	width:262px;
 	height:57.93111801147461px;
@@ -466,6 +500,8 @@ body{
 	left:662px;
 	top:8.347709655761719px;
 }
+
+/* Startside Header Arkiv Tekst */
 .ei335_202_7_219 { 
 	color:rgba(54.00000058114529, 54.00000058114529, 54.00000058114529, 1);
 	width:262px;
@@ -478,6 +514,8 @@ body{
 	font-size:30px;
 	letter-spacing:0;
 }
+
+/* Startside Header Hjem */
 .e335_203 { 
 	width:223px;
 	height:57.93111801147461px;
@@ -485,6 +523,8 @@ body{
 	left:206px;
 	top:8.347709655761719px;
 }
+
+/* Startside Header Hjem Tekst */
 .ei335_203_7_219 { 
 	color:rgba(54.00000058114529, 54.00000058114529, 54.00000058114529, 1);
 	width:223px;
