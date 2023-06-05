@@ -104,7 +104,7 @@ const startside = (
         <div className="e335_198" />
         <div className="e335_200" />
         <div className="e335_201">
-          <span className="ei335_201_7_219">Dilemmaer</span>
+          <span className="ei335_201_7_219">Dilemmas</span>
         </div>
         <div className="e335_202">
           <span className="ei335_202_7_219">Arkiv</span>
