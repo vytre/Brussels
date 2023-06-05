@@ -1,10 +1,16 @@
 import * as React from "react";
-import {createRoot} from "react-dom/client"
+import {createRoot} from "react-dom/client";
+
 
 import './index.css';
-
 function sayHello() {
   alert('You clicked me!');
+}
+
+function MyButton() {
+  return (
+    <button onClick={sayHello} className="button">ANCEP</button>
+  );
 }
 
 
@@ -25,8 +31,9 @@ const startside = (
         <div className="e324_178" />
         <div className="e44_1144" />
         <div className="e44_740" />
-        <div className="e44_993">
-          <button onClick={sayHello} className="e44_994">Start</button>
+        <div className="buttonBG">
+
+          <MyButton />
         </div>
       </div>
       <div className="e335_208">
