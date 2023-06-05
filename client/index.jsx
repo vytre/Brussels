@@ -7,15 +7,21 @@ function sayHello() {
   alert('You clicked me!');
 }
 
+function Button_Start() {
+  return (
+    <button onClick={sayHello} className="button_Start">Start</button>
+  );
+}
+
 function Button_ANCEP() {
   return (
-    <button onClick={sayHello} className="button">ANCEP</button>
+    <button onClick={sayHello} className="button_ANCEP">ANCEP</button>
   );
 }
 
 function Button_Arkivet() {
   return (
-    <button onClick={sayHello} className="button">Arkivet</button>
+    <button onClick={sayHello} className="button_Arkivet">Arkivet</button>
   );
 }
 
@@ -37,7 +43,7 @@ const startside = (
         <div className="e324_178" />
         <div className="e44_1144" />
         <div className="e44_740" />
-        <div className="buttonBG">
+        <div className="buttonBG_ANCEP">
 
           <Button_ANCEP />
         </div>
@@ -54,9 +60,7 @@ const startside = (
         <div className="e324_179" />
         <div className="e44_738" />
         <div className="e44_739" />
-        <div className="buttonBG">
-          
-        </div>
+
       </div>
       <div className="e335_207">
         <div className="e44_718">
@@ -72,22 +76,23 @@ const startside = (
         <div className="e318_171" />
         <span className="e44_725">Hvem var Arne?</span>
         <div className="e44_735" />
-        <div className="e44_998">
-          <span className="e44_999">Arkivet</span>
+        <div className="buttonBG_Arkivet">
+          <Button_Arkivet />
         </div>
       </div>
       <div className="e335_191">
         <div className="e335_192" />
         <div className="e339_189">
           <div className="e335_193" />
-          <div className="e335_194">
-            <Button_Arkivet />
-          </div>
+
           <span className="e335_196">
             Her kan du teste din oppfatning av diverse dilemmaer. Man blir stilt
             spørsmål, og deretter velger man selv hva som riktig å gjøre i en gitt
             situasjon. Det er ingen svar som er riktig eller feil.
           </span>
+          <div className="buttonBG_Start">
+            <Button_Start />
+          </div>
         </div>
         <div className="e335_197" />
         <span className="e335_199">Etisk Spill</span>

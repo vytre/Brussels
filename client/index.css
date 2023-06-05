@@ -80,7 +80,7 @@
 	left:0px;
 	top:80px;
 }
-.buttonBG { 
+.buttonBG_ANCEP { 
 
 	background-color:rgba(0, 0, 0, 1);
 	width:281px;
@@ -93,7 +93,7 @@
 	border-bottom-left-radius:100px;
 	border-bottom-right-radius:100px;
 }
-.button { 
+.button_ANCEP { 
 	background-color:rgba(255, 255, 255, 1);
 	color:rgba(0, 0, 0, 1);
 	box-shadow:0px 1px 2px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
@@ -176,7 +176,7 @@
 	left:0px;
 	top:0px;
 }
-.buttonBG_ANCEP { 
+.e44_996 { 
 	box-shadow:0px 1px 2px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
 	background-color:rgba(255, 255, 255, 1);
 	width:271.75286865234375px;
@@ -190,7 +190,7 @@
 	border-bottom-right-radius:100px;
 }
 
-.Button_ANCEP { 
+.e44_997 { 
 	color:rgba(0, 0, 0, 1);
 	width:150px;
 	height:45px;
@@ -274,7 +274,7 @@
 	left:780px;
 	top:0px;
 }
-.e44_998 { 
+.buttonBG_Arkivet { 
 	box-shadow:0px 1px 2px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
 	background-color:rgba(255, 255, 255, 1);
 	width:281px;
@@ -288,17 +288,25 @@
 	border-bottom-right-radius:100px;
 }
 
-.e44_999 { 
+.button_Arkivet { 
+
+	background-color:rgba(255, 255, 255, 1);
 	color:rgba(0, 0, 0, 1);
-	width:148px;
-	height:45px;
-	position:absolute;
+	box-shadow:0px 1px 2px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
+	width:281px;
+	height:136px;
+	
 	left:66.5px;
 	top:45.5px;
 	font-family:Lato;
-	text-align:left;
+	
 	font-size:45px;
 	letter-spacing:0;
+	border-top-left-radius:100px;
+	border-top-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-bottom-right-radius:100px;
+	outline: none;
 }
 .e335_191 { 
 	width:1440px;
@@ -333,11 +341,11 @@
 	top:0px;
 }
 
-.e335_194 { 
+.buttonBG_Start { 
 	box-shadow:0px 1px 2px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
 	background-color:rgba(255, 255, 255, 1);
-	width:279.447509765625px;
-	height:117.39747619628906px;
+	width:281px;
+	height:136px;
 	position:absolute;
 	left:294px;
 	top:214.07167053222656px;
@@ -347,17 +355,24 @@
 	border-bottom-right-radius:100px;
 }
 
-.e335_195 { 
+.button_Start { 
+	background-color:rgba(255, 255, 255, 1);
 	color:rgba(0, 0, 0, 1);
-	width:97px;
-	height:45px;
-	position:absolute;
+	box-shadow:0px 1px 2px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
+	width:281px;
+	height:136px;
+	
 	left:91.2237548828125px;
 	top:36.19873809814453px;
 	font-family:Lato;
-	text-align:left;
+
 	font-size:45px;
 	letter-spacing:0;
+	border-top-left-radius:100px;
+	border-top-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-bottom-right-radius:100px;
+	outline: none;
 }
 .e335_196 { 
 	color:rgba(255, 255, 255, 1);
