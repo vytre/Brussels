@@ -7,7 +7,10 @@
     "build": "npm run build:client && npm run build:server",
     "build:client": "cd client && npm run build",
     "build:server": "cd server && npm run build",
-    "start": "cd server && npm start"
+    "start": "cd server && npm start",
+    "dev": "concurrently npm:dev:client npm:dev:server",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/dpoxodp/Brussels/issues"
   },
-  "homepage": "https://github.com/dpoxodp/Brussels#readme"
+  "homepage": "https://github.com/dpoxodp/Brussels#readme",
+  "devDependencies": {
+    "concurrently": "^8.1.0"
+  }
 }
