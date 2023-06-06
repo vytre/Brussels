@@ -1,5 +1,5 @@
 import * as React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM, { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -26,7 +26,7 @@ export const router = createBrowserRouter(
 );
 
 const element = document.getElementById("app");
-const root = ReactDOM.createRoot(element);
+const root = createRoot(element);
 
 //Should render FrontPage, but is set to groupSize for this branch
 root.render(
