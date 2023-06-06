@@ -50,7 +50,7 @@ function Application() {
                 <Route path={"/archive"} element={<Archive/>}/>
             </Routes>
         </BrowserRouter>
-        <h1>hallo</h1>
+        <h1>hllo</h1>
     </div>
 }
 
