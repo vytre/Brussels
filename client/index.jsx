@@ -2,120 +2,80 @@ import * as React from "react";
 import { createRoot } from "react-dom/client";
 
 import "./index.css";
-function sayHello() {
-  alert("You clicked me!");
-}
 
-function Button_Start() {
-  return (
-    <button onClick={sayHello} className="button_Start">
-      Start
-    </button>
-  );
-}
-
-function Button_ANCEP() {
-  return (
-    <button onClick={sayHello} className="button_ANCEP">
-      ANCEP
-    </button>
-  );
-}
-
-function Button_Arkivet() {
-  return (
-    <button onClick={sayHello} className="button_Arkivet">
-      Arkivet
-    </button>
-  );
-}
-
-const startside = (
-  <div className="e44_708">
-    <div className="e44_709" />
-    <div className="e335_209">
-      <span className="e44_721">
-        ANCEP skal bidra til at Arne Næss’ tanker blir gjort lett tilgjengelige
-        for alle.
-      </span>
-      <span className="e44_711">
-        Her kan du teste din oppfatning av diverse dilemmaer. Man blir stilt
-        spørsmål, og deretter velger man selv hva som riktig å gjøre i en gitt
-        situasjon. Det er ingen svar som er riktig eller feil.
-      </span>
-
-      <div className="e44_726" />
-      <div className="e324_178" />
-      <div className="e44_1144" />
-      <div className="e44_740" />
-      <div className="buttonBG_ANCEP">
-        <Button_ANCEP />
+const resultatSide = (
+        // Header
+      <>
+    <div className="div-header">
+      <div className="e335_198" />
+      <div className="e335_200" />
+      <div className="e335_201">
+        <span className="ei335_201_7_219">Dilemmaer</span>
+      </div>
+      <div className="e335_202">
+        <span className="ei335_202_7_219">Arkiv</span>
+      </div>
+      <div className="e335_203">
+        <span className="ei335_203_7_219">Hjem</span>
       </div>
     </div>
-    <div className="e335_208">
-      <span className="e44_722">Hva er ANCEP?</span>
-      <span className="e44_713">
-        ANCEP er organiasjonen som bidrar til å tilgjengeligegjøre Arne Næss
-        sine værk. De har et stort, og variert arkiv av Arne Næss sine tanker,
-        og meninger. Med dette så kan alle dykke dypt inn i Arne Næss sin
-        verden.
-      </span>
-
-      <div className="e44_736" />
-      <div className="e324_179" />
-      <div className="e44_738" />
-      <div className="e44_739" />
+        {/* Tittel*/}
+    <div class="div-resultat-tittel">
+      <h1 id="tittel-resultat">Resultat</h1>   
     </div>
-    <div className="e335_207">
-      <div className="e44_718">
-        <span className="e44_719">
-          Arne var en norsk filosof, kjent for sin lidenskap til natur og
-          mennesker. han blir sett på som mannen bak dypøkologien og var en
-          veldig innflytningsrik filosof. Arne sine ideer om verden lever videre
-          den dag idag.
-        </span>
-        <div className="e44_720" />
-      </div>
-      <div className="e44_727" />
-      <div className="e318_171" />
-      <span className="e44_725">Hvem var Arne?</span>
-      <div className="e44_735" />
-      <div className="buttonBG_Arkivet">
-        <Button_Arkivet />
-      </div>
+    {/* tekstbokser*/}
+    <div id="tekstBoks1">
+      <p id="boks1-p">Her har vi vurdert dine svar og sammenlignet med gjennomsnittet.
+      <p>
+      Du scoret høyest i krig, og lavest i dypøkologi. <p>
+       Vil du lære mer om disse? </p>
+      </p>
+      </p>
+      <button id="videreBtn"type="button">Ta meg videre</button>
     </div>
-    <div className="e335_191">
-      <div className="e335_192" />
-      <div className="e339_189">
-        <div className="e335_193" />
-
-        <span className="e335_196">
-          Her kan du teste din oppfatning av diverse dilemmaer. Man blir stilt
-          spørsmål, og deretter velger man selv hva som riktig å gjøre i en gitt
-          situasjon. Det er ingen svar som er riktig eller feil.
-        </span>
-        <div className="buttonBG_Start">
-          <Button_Start />
-        </div>
+    <div id="tekstBoks2">
+      <p id="boks2-p">
+        Gratulerer med gjennomført spill! 
+        <p>
+          Om du vil kan du nå printe ut diplom.
+        </p>
+      </p>
+      <button id="diplomBtn"type="button">Print diplom</button>
+    </div>
+     {/* statistikk bokser*/}
+    <div id="dineSvar-div">
+      <p id="dineSvar-p"> Dine svar </p>
+      <div id="dineSvarBlokk-1">
+        <p id="ds-score-blokk-1">10</p>
+        <p id="blokk-p-1">Krig</p>
       </div>
-      <div className="e335_197" />
-      <span className="e335_199">Etisk Spill</span>
-      <div className="e335_215">
-        <div className="e335_198" />
-        <div className="e335_200" />
-        <div className="e335_201">
-          <span className="ei335_201_7_219">Dilemmaer</span>
-        </div>
-        <div className="e335_202">
-          <span className="ei335_202_7_219">Arkiv</span>
-        </div>
-        <div className="e335_203">
-          <span className="ei335_203_7_219">Hjem</span>
-        </div>
+      <div id="dineSvarBlokk-2">
+      <p id="ds-score-blokk-2">8</p>
+      <p id="blokk-p-2">Dypøkologi</p>
+      </div>
+      <div id="dineSvarBlokk-3">
+      <p id="ds-score-blokk-3">15</p>
+      <p id="blokk-p-3">Minimalisme</p>
+      </div>
+      </div>
+    <div id="gjennomsnitt-div">
+    <p id="gjennomsnitt-p">Gjennomsnitt</p>
+    <div id="gjennomsnitt-blokk-1">
+        <p id="gs-score-blokk-1">10</p>
+        <p id="gs-blokk-p-1">Krig</p>
+      </div>
+      <div id="gjennomsnitt-blokk-2">
+      <p id="gs-score-blokk-2">10</p>
+      <p id="gs-blokk-p-2">Dypøkologi</p>
+      </div>
+      <div id="gjennomsnitt-blokk-3">
+      <p id="gs-score-blokk-3">15</p>
+      <p id="gs-blokk-p-3">Minimalisme</p>
       </div>
     </div>
-  </div>
+    </>
 );
+
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(startside);
+root.render(resultatSide);
