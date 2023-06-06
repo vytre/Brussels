@@ -4,6 +4,11 @@ body {
 	
 }
 
+.firstDiv {
+	width: 100%;
+	height: 800px;
+}
+
 .containerHeader {
 	display: flex;
 	flex-direction: column;
@@ -31,17 +36,20 @@ body {
 .hjem {
 	margin-left: 20%;
 	font-family: monospace;
+	cursor: pointer;
 }
 
 .dilemmaer {
 	margin-left: 2%;
 	font-family: 'Courier New', Courier, monospace;
+	cursor: pointer;
 	
 }
 
 .arkiv {
 	margin-left: 2%;
 	font-family: 'Courier New', Courier, monospace;
+	cursor: pointer;
 }
 
 .title {
@@ -94,6 +102,7 @@ body {
 }
 
 .startGameText {
+	margin-top: 0px;
 	text-align: center;
 	font-size: 25px;
 	align-items: center;
@@ -106,3 +115,332 @@ body {
 	font-family: 'Courier New', Courier, monospace;
 }
 
+/*=============================================================================*/
+
+.main_column{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+  
+  
+  }
+  
+  .box_yellow{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 800px;
+  
+	margin-bottom: 50px;
+  }
+  
+  .row1_yellow{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+  
+	justify-content: center;
+  
+  }
+  
+  .text_box{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height:617px;
+	background-color:rgba(252.15562462806702, 128.68342369794846, 14.709078166633844, 0.10000000149011612);
+	top:80px;
+	align-items: center;
+  
+  
+  }
+  
+  .text_header_yellow{
+		display: flex;
+  
+	width: 100%;
+	height:40%;
+	  align-items: center;
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+  
+	font-family:Inter;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+  }
+  
+  .text_yellow{
+	  display: flex;
+	  height:30%;
+	width: 100%;
+	  align-items: center;
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+	font-family:Inter;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:0;
+  
+  }
+  
+  
+  
+  .button_ANCEP { 
+	background-color:rgba(255, 255, 255, 1);
+	color:rgba(0, 0, 0, 1);
+	box-shadow:0px 2px 4px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
+	width:281px;
+	height:136px;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 80%;
+	font-family:Lato;
+	font-size:60px;
+	letter-spacing:0;
+	border-top-left-radius:100px;
+	border-top-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-bottom-right-radius:100px;
+	outline: none;
+  }
+  
+  
+  
+  
+  .row2_yellow{
+	display: flex;
+	width: 50%;
+	padding: 50px;
+	  align-items: center;
+	justify-content: center;
+  
+  }
+  
+  .arne_klatrer { 
+	width:50%;
+	height:800px;
+	position:absolute;
+	box-shadow: -20px 20px rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
+	background-image:url(images/arne_climb_cropped_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+		align-items: center;
+	justify-content: center;
+  }
+  
+  .colorbox_yellow{
+	background-color:rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
+	width:50%;
+	height:800px;
+	position:absolute;
+  
+  }
+  
+  
+  .box_blue{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 800px;
+  
+	margin-bottom: 50px;
+  
+  }
+  
+  .row1_blue{
+	display: flex;
+	width: 50%;
+	padding: 50px;
+	  align-items: center;
+	justify-content: center;
+  
+  }
+  
+  .arne_fjellet { 
+	width:50%;
+	height:800px;
+	position:absolute;
+	box-shadow: 20px 20px rgba(19.12500075995922, 255, 255, 0.10000000149011612);
+  
+	background-image:url(images/arne_fjell_cropped_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+		  align-items: center;
+	justify-content: center;
+  }
+  
+  .colorbox_blue{
+	background-color:rgba(19.12500075995922, 255, 255, 0.10000000149011612);
+	width:50%;
+	height:800px;
+	position:absolute;
+  
+  }
+  
+  .row2_blue{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-left: auto;
+	justify-content: center;
+	
+  
+  }
+  
+  .text_box_blue{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height:617px;
+	background-color:rgba(15.000000055879354, 145.00000655651093, 218.00000220537186, 0.10000000149011612);
+	top:80px;
+	left: 90%;
+	align-items: center;
+  
+	margin-left: auto;
+  }
+  
+  
+  
+  .text_header_blue{
+		display: flex;
+  
+	width: 100%;
+	height:40%;
+	  align-items: center;
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+  
+	font-family:Inter;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+  }
+  
+  .text_blue{
+	  display: flex;
+	  height:30%;
+	width: 100%;
+	  align-items: center;
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+	font-family:Inter;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:0;
+  
+  }
+  
+  .box_green{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 800px;
+  
+	margin-bottom: 50px;
+  }
+  
+  .row1_green{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+  
+	justify-content: center;
+  
+  }
+  
+  .text_box_green{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height:617px;
+	background-color:rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
+	top:80px;
+	align-items: center;
+  
+  
+  }
+  
+  .text_header_green{
+		display: flex;
+  
+	width: 100%;
+	height:40%;
+	  align-items: center;
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+  
+	font-family:Inter;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+  }
+  
+  .text_green{
+	  display: flex;
+	  height:30%;
+	width: 100%;
+	  align-items: center;
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+	font-family:Inter;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:0;
+  
+  }
+  
+  .button_arkivet{
+	background-color:rgba(255, 255, 255, 1);
+	color:rgba(0, 0, 0, 1);
+	box-shadow:0px 2px 4px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
+	margin-top: 37%;
+	width:281px;
+	height:136px;
+	align-items: center;
+	justify-content: center;
+	position:absolute;
+	font-family:Lato;
+	font-size:60px;
+	letter-spacing:0;
+	border-top-left-radius:100px;
+	border-top-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-bottom-right-radius:100px;
+	outline: none;
+  }
+  
+  
+  
+  .row2_green{
+	display: flex;
+	width: 50%;
+	padding: 50px;
+	  align-items: center;
+	justify-content: center;
+  
+  }
+  
+  .arne_glad { 
+	width:50%;
+	height:800px;
+	position:absolute;
+	box-shadow: -20px 20px rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
+  
+	background-image:url(images/arne_happy_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .colorbox_green{
+	background-color:rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
+	width:50%;
+	height:800px;
+	position:absolute;
+  
+  }

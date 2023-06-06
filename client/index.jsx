@@ -2,6 +2,7 @@ import * as React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import Header from "/Header.jsx";
+import FrontpageUnder from "/Frontpageunder.jsx"
 
 function sayHello() {
   alert("You clicked me!");
@@ -37,7 +38,14 @@ function Button_Arkivet() {
 
 function Frontpage (){
   return (
+    <>
+    <div className="firstDiv">
     <Header />
+    
+    </div>
+
+    <FrontpageUnder />
+    </>
   );
 }
 const element = document.getElementById("app");
