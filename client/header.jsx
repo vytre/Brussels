@@ -1,19 +1,22 @@
 import * as React from "react";
+import { Outlet, NavLink } from "react-router-dom";
 
-export default function () {
+//HEADER FOR ALL PAGES
+function header() {
   return (
     <div className="header">
-      <div className="headerHome">
-        <span>Hjem</span>
-      </div>
-
-      <div className="headerGame">
-        <span>Dilemmaer</span>
-      </div>
-
-      <div className="headerArchive">
-        <span>Arkiv</span>
-      </div>
+      <header>
+        <nav>
+          <h1>ANCEP LOGO</h1>
+          <NavLink to={"/"}>Hjem</NavLink>
+          <NavLink to={"dilemmaer"}>Dilemmaer</NavLink>
+          <NavLink to={"arkivet"}>Arkiv</NavLink>
+        </nav>
+      </header>
+      <main>
+        <Outlet />
+      </main>
     </div>
   );
 }
+export default header;
