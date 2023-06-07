@@ -1,6 +1,12 @@
 import * as React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+
+import "./header.css"
+
+import './introTogame.css'
+import IntroToGame from "/introToGame.jsx" 
+
 import Header from "/Header.jsx";
 import FrontpageUnder from "/Frontpageunder.jsx"
 
@@ -39,15 +45,37 @@ function Button_Arkivet() {
 function Frontpage (){
   return (
     <>
+    <div className="main">
     <div className="firstDiv">
     <Header />
     
     </div>
 
+    <div className="secondDiv">
     <FrontpageUnder />
+    </div>
+
+    </div>
     </>
   );
 }
+
+function Fordubegynner() {
+  return (
+    <>
+    <div className="mainCon">
+    <Header/>
+    <div className="introGame">
+    <IntroToGame />
+    </div>
+    
+    </div>
+    
+    </>
+  );
+}
+
+
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(<Frontpage/>);
+root.render(<Fordubegynner/>);
