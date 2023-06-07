@@ -114,7 +114,7 @@
 	height:100vh;
 	position:absolute;
 	box-shadow: -20px 20px rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
-	background-image:url(images/arne_climb_cropped_1.png);
+	background-image:url(../images/arne_climb_cropped_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	align-items: center;
@@ -156,7 +156,7 @@
 	height:100vh;
 	position:absolute;
 	box-shadow: 20px 20px rgba(19.12500075995922, 255, 255, 0.10000000149011612);
-	background-image:url(images/arne_fjell_cropped_1.png);
+	background-image:url(../images/arne_fjell_cropped_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	align-items: center;
@@ -316,7 +316,7 @@
 	position:absolute;
 	box-shadow: -20px 20px rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
   
-	background-image:url(images/arne_happy_1.png);
+	background-image:url(../images/arne_happy_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	align-items: center;
@@ -359,7 +359,7 @@
 .logo{
 	width: 18vw;
 	height: 10vh;
-	background-image: url(images/ancep_logo_1_2023_1.png);
+	background-image: url(../images/ancep_logo_1_2023_1.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	justify-content: center;
@@ -441,7 +441,7 @@
 	align-items: center;
 	height: 100vh;
 	width: 100vw;
-	background-image: url(images/arne_presenting_1.png);
+	background-image: url(../images/arne_presenting_1.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
