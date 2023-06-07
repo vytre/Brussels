@@ -1,5 +1,5 @@
 import { RouterProvider } from "react-router-dom";
-import { router } from "./index.jsx";
+import { router } from "./app.jsx";
 import * as React from "react";
 
 function FrontPage() {
