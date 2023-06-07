@@ -28,6 +28,8 @@ body {
 .questionOne{
     font-size: 5vh;
     z-index: 10;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .yesOrNo {
@@ -42,6 +44,7 @@ body {
     
 }
 
+
 .yes {
     display: flex;
     justify-content: center;
@@ -54,14 +57,22 @@ body {
     background-color: white;
     margin-top: 10vh;
     cursor: pointer;
+    
+}
+
+.yes:hover {
+    transition: ease-in 0.5s;
+    background-color: #93c572;
 }
 
 .yesTextDesign {
-    font-size: 3vh;
+    font-size: 4vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .noTextDesign {
-    font-size: 3vh;
+    font-size: 4vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -77,4 +88,10 @@ body {
     background-color: white;
     margin-top: 10vh;
     cursor: pointer;
+}
+
+.no:hover {
+    transition: ease-in 0.5s;
+    background-color: #ff6961;
+
 }

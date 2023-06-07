@@ -96,4 +96,4 @@ function IntroQuestion(){
 
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(<IntroQuestion />);
+root.render(<IntroQuestion/>);

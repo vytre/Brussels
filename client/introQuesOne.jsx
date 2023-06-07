@@ -1,5 +1,6 @@
 function IntroQuestionsOne() {
     return (
+        
         <div className="introToGameContainer">
             <div className="abstractGreenShape"/>
             <div className="abstractYellowShape"/>
@@ -23,6 +24,7 @@ function IntroQuestionsOne() {
                 </div>
             </div>
             </div>
+            
     );
 }
 
