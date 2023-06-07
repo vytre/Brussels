@@ -56,4 +56,19 @@ For folders we have use spinal-case
 ├── docs
 │ ├── group-docs
 │ └── sprint-reports
+│ 
+│ 
+├── client
+│      ├── pages
+│           ├── frontpage.jsx
+│           ├── archive.jsx
+│      └── stylesheets
+│             └── frontpage.css
+│             └── arkiv.css
+│             └── header.css
+│      └── utils
+│           └── header.jsx
+│── application.jsx
+│── index.html
+│── index.jsx
 ````
