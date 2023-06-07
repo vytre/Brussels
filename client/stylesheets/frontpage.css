@@ -1,0 +1,510 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+	font-family: Arial;
+	margin: 0;
+	overflow-x: hidden;
+	background-color: #C7B9A5;
+  
+  }
+  
+  .main_column{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+  }
+  
+  .box_yellow{
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 100vh;
+  
+	margin-bottom: 50px;
+  }
+  
+  .row1_yellow{
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+  
+	justify-content: center;
+  
+  }
+  
+  .text_box{
+	display: flex;
+	flex-direction: column;
+	width: 40vw;
+	height: 70vh;
+	background-color:rgba(252.15562462806702, 128.68342369794846, 14.709078166633844, 0.10000000149011612);
+	top:80px;
+	align-items: center;
+  
+  
+  }
+  
+  .text_header_yellow{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+	height: 30vh;
+	font-family:Inter;
+	text-align:left;
+	font-size:1.8vw;
+	letter-spacing:0;
+  }
+  
+  .text_yellow{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+	font-family:Inter;
+	text-align:left;
+	font-size:1.8vw;
+	letter-spacing:0;
+  
+  }
+  
+  
+  
+  .button_ANCEP { 
+	background-color:rgba(255, 255, 255, 1);
+	color:rgba(0, 0, 0, 1);
+	box-shadow:0px 2px 4px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
+	width:14.6vw;
+	height:14vh;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	margin-top: 63vh;
+	font-family:Lato;
+	font-size:60px;
+	letter-spacing:0;
+	border-top-left-radius:100px;
+	border-top-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-bottom-right-radius:100px;
+	outline: none;
+  }
+  
+  
+  
+  
+  .row2_yellow{
+	display: flex;
+	width: 50vw;
+   
+	align-items: center;
+	justify-content: center;
+  
+  }
+  
+  .arne_klatrer { 
+	width:50%;
+	height:100vh;
+	position:absolute;
+	box-shadow: -20px 20px rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
+	background-image:url(../images/arne_climb_cropped_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	align-items: center;
+	justify-content: center;
+	
+  }
+  
+  .colorbox_yellow{
+	background-color:rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
+	width:50%;
+	height:100vh;
+	position:absolute;
+  
+  }
+  
+  
+  
+  .box_blue{
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 100vh;
+  
+	margin-bottom: 50px;
+  
+  }
+  
+  .row1_blue{
+	display: flex;
+	width: 50vw;
+  
+	align-items: center;
+	justify-content: left;
+  
+  }
+  
+  .arne_fjellet { 
+	width:50%;
+	height:100vh;
+	position:absolute;
+	box-shadow: 20px 20px rgba(19.12500075995922, 255, 255, 0.10000000149011612);
+	background-image:url(../images/arne_fjell_cropped_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .colorbox_blue{
+	background-color:rgba(19.12500075995922, 255, 255, 0.10000000149011612);
+	width:50%;
+	height:100vh;
+	position:absolute;
+  
+  }
+  
+  .row2_blue{
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	margin-left: auto;
+	justify-content: center;
+	
+  
+  }
+  
+  .text_box_blue{
+	display: flex;
+	flex-direction: column;
+	width: 40vw;
+	height: 70vh;
+	background-color:rgba(15.000000055879354, 145.00000655651093, 218.00000220537186, 0.10000000149011612);
+	top:80px;
+	left: 90%;
+	align-items: center;
+  
+	margin-left: auto;
+  }
+  
+  
+  
+  .text_header_blue{
+	display: flex;
+	height: 30vh;
+  
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+  
+	font-family:Inter;
+	text-align:left;
+	font-size:1.8vw;
+	letter-spacing:0;
+  }
+  
+  .text_blue{
+	display: flex;
+	
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+	font-family:Inter;
+	text-align:left;
+	font-size:1.8vw;
+	letter-spacing:0;
+  
+  }
+  
+  .box_green{
+	display: flex;
+	flex-direction: row;
+	width:100vw;
+	height:100vh;
+  
+	margin-bottom: 50px;
+  }
+  
+  .row1_green{
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+  
+	justify-content: center;
+  
+  }
+  
+  .text_box_green{
+	display: flex;
+	flex-direction: column;
+	width: 40vw;
+	height: 70vh;
+	background-color:rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
+	top:80px;
+	align-items: center;
+  
+  
+  }
+  
+  .text_header_green{
+	display: flex;
+  
+	height: 30vh;
+	align-items: center;
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+  
+	font-family:Inter;
+	text-align:left;
+	font-size:1.8vw;  
+	letter-spacing:0;
+  }
+  
+  .text_green{
+	display: flex;
+	height:30%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	color:rgba(0, 0, 0, 1);
+	font-family:Inter;
+	text-align:left;
+	font-size:1.8vw;
+	letter-spacing:0;
+  
+  }
+  
+  .button_arkivet{
+	background-color:rgba(255, 255, 255, 1);
+	color:rgba(0, 0, 0, 1);
+	box-shadow:0px 2px 4px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
+	margin-top: 63vh;
+	width:14.6vw;
+	height:14vh;
+	align-items: center;
+	justify-content: center;
+	position:absolute;
+	font-family:Lato;
+	font-size:60px;
+	letter-spacing:0;
+	border-top-left-radius:100px;
+	border-top-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-bottom-right-radius:100px;
+	outline: none;
+  }
+  
+  
+  
+  .row2_green{
+	display: flex;
+	width: 50vw;
+	padding: 50px;
+	align-items: center;
+	justify-content: center;
+  
+  }
+  
+  .arne_glad { 
+	width:50%;
+	height:100vh;
+	position:absolute;
+	box-shadow: -20px 20px rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
+  
+	background-image:url(../images/arne_happy_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .colorbox_green{
+	background-color:rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
+	width:50%;
+	height:100vh;
+	position:absolute;
+  
+  }
+
+
+  .starside_topp{
+	position: absolute top;
+	width: 100vw;
+	height: 100vh;
+	margin-bottom: 20px;
+	
+  }
+
+  .containerHeader {
+
+	position: absolute;
+	width: 100vw;
+	height: 10vh;
+	background-color: #c7b9a5c7;
+	
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	margin-top: 0;
+		
+}
+
+.logo{
+	width: 18vw;
+	height: 10vh;
+	background-image: url(../images/ancep_logo_1_2023_1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	justify-content: center;
+	align-items: center;
+	margin-left: 1vw;
+	margin-right: 19vw;
+}
+
+.hjem {
+	margin-top: 4vh;
+	margin-left: 2vw;
+	font-family: Inter;
+	cursor: pointer;
+	justify-content: center;
+	font-size: 3vh;
+	text-decoration: none;
+	outline: 0;
+	border-bottom: solid 0.5vh transparent;
+	transition: color .4s ease-out, border-bottom-color .4s ease-out;
+}
+
+.hjem:hover{
+	border-bottom: solid 0.5vh #96608ed8;
+
+}
+
+.dilemmaer {
+	margin-top: 4vh;
+	margin-left: 2vw;
+	font-family: Inter;
+	cursor: pointer;
+	justify-content: center;
+
+	font-size: 3vh;
+	border-bottom: solid 0.5vh transparent;
+	transition: color .4s ease-out, border-bottom-color .4s ease-out;
+	
+}
+
+.dilemmaer:hover{
+	border-bottom: solid 0.5vh #96608ed8;
+}
+
+.arkiv {
+	margin-top: 4vh;
+	margin-left: 2vw;
+	font-family: Inter;
+	cursor: pointer;
+	justify-content: center;
+
+	font-size: 3vh;
+	border-bottom: solid 0.5vh transparent;
+	transition: color .4s ease-out, border-bottom-color .4s ease-out;
+}
+
+.arkiv:hover{
+	border-bottom: solid 0.5vh #96608ed8;
+}
+
+.title {
+	top:26vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:rgb(255, 255, 255);
+	font-family:Inter;
+	font-size:6vw;
+	letter-spacing:0;
+	position: absolute;
+	margin-bottom: 2vh;
+	width: 40vw;
+	height: 15vh;
+}
+
+.infoBox {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	background-image: url(../images/arne_presenting_1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.infoTextBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top:40vh;
+	width: 58vw;
+	height: 33vh;
+	position: absolute;
+	margin-top: 10vh;
+	background-color: #9f9f9f4e;
+	
+}
+
+.startGame {
+	display: flex;
+	border: 2px solid black;
+	background-color:rgba(255, 255, 255, 1);
+	color:rgba(0, 0, 0, 1);
+	box-shadow:0px 2px 4px rgba(19.610873088240623, 13.60885575413704, 61.62499822676182, 0.25);
+	margin-top: 66vh;
+	width:14.6vw;
+	height:14vh;
+	align-items: center;
+	justify-content: center;
+	position:absolute;
+	font-family:Lato;
+	font-size:60px;
+	letter-spacing:0;
+	border-top-left-radius:100px;
+	border-top-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-bottom-right-radius:100px;
+	outline: none;
+}
+
+.startGame:hover {
+	transition: ease-in-out 1s;
+	background-color: blanchedalmond;
+	cursor: pointer;
+}
+
+.startGameText {
+	margin-top: 0px;
+	color:#ffff;
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+	font-family:Inter;
+	text-align:center;
+	font-size:2.5vw;
+	letter-spacing:0;
+	
+	
+}
+
+
+
+.startTitle {
+	font-size:3vw;
+	font-family:Inter;
+}
