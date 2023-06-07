@@ -28,7 +28,7 @@ body {
     background-size: 100% 100%;
     justify-content: center;
     align-items: center;
-    position: stat  ic;
+    position: static;
 
 }
 .heading {
@@ -104,6 +104,7 @@ body {
     height:80%;
     left:10vw;
     top:16px;
+    display: flex;
     background-image:url(../images/pngwing_1.png);
     background-repeat:no-repeat;
     background-size:contain;
@@ -114,6 +115,7 @@ body {
     width:35vw;
     height:75%;
     left: 0;
+    display: flex;
     top: 0;
     position:static;
     background-image:url(../images/pngwing_2.png);
