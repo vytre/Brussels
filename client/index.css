@@ -23,7 +23,7 @@
   .box_yellow{
 	display: flex;
 	flex-direction: row;
-	width: 99vw;
+	width: 98vw;
 	height: 100vh;
   
 	margin-bottom: 50px;
@@ -118,6 +118,7 @@
 	background-size:cover;
 	align-items: center;
 	justify-content: center;
+	
   }
   
   .colorbox_yellow{
@@ -133,7 +134,7 @@
   .box_blue{
 	display: flex;
 	flex-direction: row;
-	width: 99vw;
+	width: 98vw;
 	height: 100vh;
   
 	margin-bottom: 50px;
@@ -142,7 +143,7 @@
   
   .row1_blue{
 	display: flex;
-	width: 50%;
+	width: 50vw;
   
 	align-items: center;
 	justify-content: center;
@@ -223,7 +224,7 @@
   .box_green{
 	display: flex;
 	flex-direction: row;
-	width:99vw;
+	width:98vw;
 	height:100vh;
   
 	margin-bottom: 50px;
