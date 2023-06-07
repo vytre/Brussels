@@ -10,6 +10,7 @@ export function Application() {
                 <Routes>
                     <Route path={"/"} element={<Frontpage/>}></Route>
                     <Route path={"/arkiv"} element={<h1>Arkiv Side</h1>}></Route>
+                    <Route path={"/dilemma"} element={<h1>Dilemma Side</h1>}></Route>
                     <Route path={"*"} element={<h1>Page not found</h1>}></Route>
                 </Routes>
             </main>
