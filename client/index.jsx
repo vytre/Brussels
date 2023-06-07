@@ -1,7 +1,7 @@
 import * as React from "react";
 import { createRoot } from "react-dom/client";
 
-import "./index.css";
+import "./stylesheets/style.css";
 function sayHello() {
   alert("You clicked me!");
 }
@@ -29,7 +29,35 @@ function Button_Arkivet() {
     </button>
   );
 }
+const groupSize = (
 
+    <div className="page">
+      <div className="containerHeader">
+        <div className="header">
+          <div className="logo"></div>
+          <h1 className="hjem">Hjem</h1>
+          <h1 className="dilemmaer">Dilemmaer</h1>
+          <h1 className="arkiv">Arkiv</h1>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="heading">Hvordan jobber du?</div>
+        <div className="ageGroup">
+          <div className="greenBox">
+            <div className="text">Alene</div>
+            <div className="imgAlone"></div>
+          </div>
+          <div className="purpBox">
+            <div className="text">Gruppe</div>
+            <div className="imgGroup"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+);
 const startside = (
   <div className="e44_708">
     <div className="e44_709" />
@@ -118,4 +146,4 @@ const startside = (
 );
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(startside);
+root.render(groupSize);
