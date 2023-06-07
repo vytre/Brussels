@@ -2,7 +2,9 @@ import "../stylesheets/archive.css"
 export function Archive() {
     return(
   <div className="page">
-      <div className="containerHeader">
+
+      <div className="topContainer">
+          <div className="containerHeader">
               <div className="header">
                   <div className="logo"></div>
                   <h1 className="hjem">Hjem</h1>
@@ -10,9 +12,12 @@ export function Archive() {
                   <h1 className="arkiv">Arkiv</h1>
               </div>
           </div>
-      <div className="topContainer">
-          <div className="heading"></div>
-          <div className="text"></div>
+          <div className="topBox">
+              <div className="topInfoBox">
+                  <div className="heading">Arnes Historie</div>
+                  <div className="text">Arne Næss var en norsk filosof som var en de mest innflytelsesrike intellektuelle i Norge i andre halvdel av 1900-tallet. Gjennom Næss' innflytelse fikk analytisk filosofi en dominerende stilling i Norge i tiårene etter andre verdenskrig. Han var også kjent som fjellklatrer, friluftsmann og aktivist i norsk natur- og miljøvern. I Norge ble han særlig kjent gjennom sin deltakelse i aksjonene mot utbyggingen av Mardøla (1970) og Alta (1979–1981, se Alta-saken). Næss regnes som grunnleggeren av dypøkologien som filosofisk retning.</div>
+              </div>
+          </div>
       </div>
       <div className="container">
           <div className="infoContainer">

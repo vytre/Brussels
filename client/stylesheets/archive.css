@@ -1,31 +1,23 @@
 /* General */
+* {
+    box-sizing: border-box;
+}
 main{
     max-width: 100%;
     background: aquamarine;
 }
 body {
-    overflow-y: hidden;
+    font-family: Arial;
+    overflow-x: hidden;
     margin: 0;
+    background-color: #C7B9A5;
 }
 /* DIV */
 .page{
     display: flex;
     flex-direction: column;
     background-color:rgba(243.6556175351143, 243.6556175351143, 243.6556175351143, 0.33000001311302185);
-    width: 100vw;
-    height:100vh;
-}
-.text{
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    color:rgba(255, 255, 255, 1);
-    width:560px;
-    height:20%;
-    position:static;
-    font-family:Nunito;
-    text-align: center;
-    font-size:60px;
-    letter-spacing:3;
-
+    width: 100%;
 }
 /*SIDE TOPP*/
 .topContainer{
@@ -33,12 +25,26 @@ body {
     flex-direction: column;
 
     width:100vw;
-    height: ;
+    height: 100vh;
     position:static;
     background-image:url(../images/dypokologi_2.png);
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:100% 100%;
 
+}
+.topBox{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+topInfoBox{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    flex-direction: column;
+    column-gap: 5vh;
+    background-color: #C7B9A5;
 }
 .heading{
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -48,7 +54,7 @@ body {
     margin-top: 5vh;
     display: flex;
     align-items: center;
-    justify-content:center ;
+    justify-content: center;
     position: static;
     font-family:Nunito;
     text-align:center;
@@ -56,34 +62,43 @@ body {
     letter-spacing:3;
 
 }
+.text{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color:rgba(255, 255, 255, 1);
+    position:static;
+    font-family:Nunito;
+    text-align: left;
+    font-size: 4vh;
+    letter-spacing: 3;
+    padding: 0 10vw 0 10vw;
+
+
+}
 /* Info Containers*/
 .container{
     display: flex;
     flex-direction: column;
-
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
+    top: 100vh;
+    height: 100vh;
     position: static;
 }
 .infoContainer{
     display: flex;
     flex-direction: row;
+
     width: 100vw;
-    height:88vh;
+    height:70vh;
+    top: 100vh;
     justify-content: center;
-    align-items: center;
-    gap: 10vw;
+    gap: 20vw;
 }
 .box{
     display: flex;
     flex-direction: column;
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color:rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 1);
-    width:37vw;
-    height:60vh;
-    justify-content: center;
-    align-items: center;
+    width:30vw;
+    height:30vh;
 }
 .h2{
 
@@ -98,9 +113,8 @@ body {
 
 }
 .arneHammerImg{
-    align-items: center;
-    width:35vw;
-    height:75%;
+    width:45vw;
+    height: 50vh;
     left: 0;
     display: flex;
     top: 0;
@@ -108,16 +122,12 @@ body {
     background-image:url(../images/n_ss.png);
     background-repeat:no-repeat;
     background-size:contain;
-    background-position: center;
-
 }
 .arneAktivImg{
     align-items: center;
-    width:35vw;
+    width:55vw;
     height:75%;
-    left: 0;
     display: flex;
-    top: 0;
     position:static;
     background-image:url(../images/arne_rebell_1.png);
     background-repeat:no-repeat;
