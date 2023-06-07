@@ -1,0 +1,171 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+    background-image: url(./images/bg-1920.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+.containerHeader {
+  position: absolute;
+  width: 100vw;
+  height: 10vh;
+  background-color: #c7b9a5;
+  
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+    
+}
+
+.logo{
+  width: 18vw;
+  height: 8vh;
+  background-image: url(images/ancep_logo_1_2023_1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1vw;
+  margin-right: 15vw;
+}
+
+.hjem {
+z-index:1;
+  margin-top: 4vh;
+  margin-left: 2vw;
+  font-family: Inter;
+  cursor: pointer;
+  justify-content: center;
+  font-size: 3vh;
+  text-decoration: none;
+  outline: 0;
+  border-bottom: solid 0.5vh transparent;
+  transition: color .4s ease-out, border-bottom-color .4s ease-out;
+}
+
+.hjem:hover{
+  border-bottom: solid 0.5vh #96608ed8;
+}
+
+.dilemmaer {
+    z-index: 1;
+  margin-top: 4vh;
+  margin-left: 2vw;
+  font-family: Inter;
+  cursor: pointer;
+  justify-content: center;
+
+  font-size: 3vh;
+  border-bottom: solid 0.5vh transparent;
+  transition: color .4s ease-out, border-bottom-color .4s ease-out;
+  
+}
+
+.dilemmaer:hover{
+  border-bottom: solid 0.5vh #96608ed8;
+}
+
+.arkiv {
+  margin-top: 4vh;
+  margin-left: 2vw;
+  font-family: Inter;
+  cursor: pointer;
+  justify-content: center;
+
+  font-size: 3vh;
+  border-bottom: solid 0.5vh transparent;
+  transition: color .4s ease-out, border-bottom-color .4s ease-out;
+}
+
+.arkiv:hover{
+  border-bottom: solid 0.5vh #96608ed8;
+}
+
+.main-div {
+    display:flex;
+    flex-direction: column;
+    width: 100vw;   
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    align-items: center;
+}
+
+.diskuter-wrap {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bilde-boks {
+    width: 100vw;
+    height: 100vh;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.diskuter-tittel-div {
+    position: absolute;
+    display:flex;
+    width:100vw;
+    height:20vh;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    background-position: top;
+}
+
+.diskuter-tittel-h {
+    width: 100vw;
+    height: 20vh;
+    position:static;
+    font-size:10vh;
+    color:white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    text-align: center;
+}
+
+.diskuter-bilde {
+    top:23vh;
+    background-repeat: no-repeat;
+    position:absolute;
+    width:60vw;
+    height:60vh;
+    background-size: contain;
+    background-position: center;
+    background-image: url(./images/african-gf6a6e85ea_1280\ 1.png);
+}
+.button-div-diskuter {
+    display:flexbox;
+    position:absolute;
+    width:14.6vw;
+    height:14vh;
+    top:80vh;
+    justify-content: center;
+    align-items: center;   
+}
+.diskuter-ferdig-btn {
+    position: absolute;
+    width:14.6vw;
+    height:14vh;
+    border-style: solid;
+	border-radius: 100px;
+    font-size:5vh;
+    background-color: lightblue;
+}
+.diskuter-ferdig-btn:hover {
+    border-bottom: solid 0.5vh;
+    background-color: rgb(93, 166, 190);
+    z-index: 10;
+    cursor:pointer;
+}

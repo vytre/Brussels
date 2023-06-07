@@ -1,126 +1,21 @@
 @charset "utf-8";
-
-body{
-	margin:0;
-	background-image: url(./images/bg-resultat.png);
+body {
+    width:100vw;
+    height:100vh;
+    background-image: url(./images/bg-1920.png);
 	background-repeat: no-repeat;
-}
+}	
 
-/* Starstide Header Box */
-.div-header { 
-	width:100%;
-	height:66.46768951416016px;
-	position:absolute;
-	left:0px;
-}
-
-/* Startside Header */
-.e335_198 { 
-	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.5);
-	background-color:rgba(199.0000033378601, 185.00000417232513, 165.00000536441803, 0.8999999761581421);
-	width:100%;
-	height:66.46768951416016px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-
-/* Startside Header Logo */
-.e335_200 { 
-	width:172px;
-	height:49.079872131347656px;
-	position:absolute;
-	left:11px;
-	top:8.07606029510498px;
-	background-image:url(images/ancep_logo_1_2023_1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-
-/* Startside Header Dilemmaer */
-.e335_201 { 
-	width:233px;
-	height:57.93111801147461px;
-	position:absolute;
-	left:429px;
-	top:8.347709655761719px;
-}
-
-/* Startside Header Dilemmaer Tekst */
-.ei335_201_7_219 { 
-	color:rgba(54.00000058114529, 54.00000058114529, 54.00000058114529, 1);
-	width:233px;
-	height:58px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-family:Inter;
-	text-align:center;
-	font-size:30px;
-	letter-spacing:0;
-}
-
-/* Startside Header Arkiv */
-.e335_202 { 
-	width:262px;
-	height:57.93111801147461px;
-	position:absolute;
-	left:662px;
-	top:8.347709655761719px;
-}
-
-/* Startside Header Arkiv Tekst */
-.ei335_202_7_219 { 
-	color:rgba(54.00000058114529, 54.00000058114529, 54.00000058114529, 1);
-	width:262px;
-	height:58px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-family:Inter;
-	text-align:center;
-	font-size:30px;
-	letter-spacing:0;
-}
-
-/* Startside Header Hjem */
-.e335_203 { 
-	width:223px;
-	height:57.93111801147461px;
-	position:absolute;
-	left:206px;
-	top:8.347709655761719px;
-}
-
-/* Startside Header Hjem Tekst */
-.ei335_203_7_219 { 
-	color:rgba(54.00000058114529, 54.00000058114529, 54.00000058114529, 1);
-	width:223px;
-	height:58px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-family:Inter;
-	text-align:center;
-	font-size:30px;
-	letter-spacing:0;
-}
-
-.div-resultat-tittel {
-	position:absolute;
-	margin:auto;
-	padding:10px;
-	top:15%;
-	left:50%;
-	transform: translate(-50%,-50%);
-}
-#tittel-resultat {
+.tittel-resultat {
+	position: absolute;
+	top:5vh;
+	left:40vw;
 	font-size: 100px;
 	color:white;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;;
 }
 
-#tekstBoks1 {
+.tekstBoks1 {
 	background-image: url(./images/Rectangle\ 33.png);
 	height:300px;
 	width: 600px;
@@ -129,14 +24,14 @@ body{
 	left:60%;
 	background-repeat: no-repeat;
 }
-#boks1-p {
+.boks1-p {
 	position: relative;
 	top:12%;
 	left:4%;
 	font-size:18px;
 }
 
-#videreBtn {
+.videreBtn {
 	position:relative;	
 	left:50%;
 	top:10%;
@@ -144,7 +39,13 @@ body{
 	border-style: solid;
 	border-radius: 100px;
 }
-#tekstBoks2 {
+
+.videreBtn:hover {
+cursor: pointer;
+background-color: rgb(208, 208, 208);
+}
+
+.tekstBoks2 {
 	background-image: url(./images/Rectangle\ 33.png);
 	height:300px;
 	width: 600px;
@@ -155,13 +56,13 @@ body{
 	background-repeat: no-repeat;
 	display:inline-block;
 }
-#boks2-p {
+.boks2-p {
 	font-size:18px;
 	position:relative;
 	top:10%;
 	left:10%
 }
-#diplomBtn {
+.diplomBtn {
 	position:relative;	
 	left:50%;
 	top:20%;
@@ -169,46 +70,54 @@ body{
 	border-style: solid;
 	border-radius: 100px;
 }
-#dineSvar-div {
+
+.diplomBtn:hover {
+	cursor: pointer;
+	background-color: rgb(208, 208, 208);
+}
+
+.dineSvar-div {
+	background-repeat: no-repeat;
 	display:flex;
 	align-items:flex-end;
 	background-image: url(./images/dineSvar-bg.png);
 	position: absolute;
-	width:356px;
+	width:35vw;
 	height: 615px;
 	top:30%;
 	left:10%;
 }
-#dineSvar-p {
-	bottom:12em;
+.dineSvar-p {
+	position: relative;
+	bottom:80%;
 	font-size:42px;
-	position:relative;
-	left:28%;
+	left:15%;
 	color:white;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;;
 }
 
-#gjennomsnitt-div {
+.gjennomsnitt-div {
+	background-repeat: no-repeat;
 	display:flex;
 	align-items:flex-end;
 	background-image: url(./images/gjennomsnitt-bg.png);
 	position:absolute;
-	width:356px;
+	width:35vw;
 	height: 615px;
 	top:30%;
 	left:35%;
 }
 
-#gjennomsnitt-p {
-	bottom:12em;
-	font-size:42px;
+.gjennomsnitt-p {
 	position:relative;
-	left:20%;
+	bottom:80%;
+	font-size:42px;
+	left:10%;
 	color:white;
-	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;;
+	text-shadow: 1px 0 0 .000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
-#dineSvarBlokk-1 {
+.dineSvarBlokk-1 {
 	width:50px;
 	height:10em;	
 	display:inline-block;
@@ -217,7 +126,7 @@ body{
 	right:8em;
 	bottom:10%;
 }
-#dineSvarBlokk-2 {
+.dineSvarBlokk-2 {
 	width:50px;
 	height:8em;	
 	display:inline-block;
@@ -226,7 +135,7 @@ body{
 	right:4em;
 	bottom:10%;
 }
-#dineSvarBlokk-3 {
+.dineSvarBlokk-3 {
 	width:50px;
 	height:15em;	
 	display:inline-block;
@@ -235,27 +144,26 @@ body{
 	right:0em;
 	bottom:10%;
 }
-#blokk-p-1 {
+.blokk-p-1 {
 	position:relative;
 	top:75%;
 	font-size: 16px;
 	left:15%;
-
 }
-#blokk-p-2 {
+.blokk-p-2 {
 	position:relative;
 	top:70%;
 	font-size: 16px;
 	right:40%;
 }
-#blokk-p-3 {
+.blokk-p-3 {
 	position:relative;
 	top:85%;
 	right:40%;
 	font-size:16px;
 }
 
-#gjennomsnitt-blokk-1 {
+.gjennomsnitt-blokk-1 {
 	flex-shrink: 0;
 	width:50px;
 	height:10em;	
@@ -265,7 +173,7 @@ body{
 	right:11em;
 	bottom:10%;
 }
-#gjennomsnitt-blokk-2 {
+.gjennomsnitt-blokk-2 {
 	width:50px;
 	height:10em;	
 	display:inline-block;
@@ -274,7 +182,7 @@ body{
 	right:7em;
 	bottom:10%;
 }
-#gjennomsnitt-blokk-3 {
+.gjennomsnitt-blokk-3 {
 	width:50px;
 	height:15em;	
 	display:inline-block;
@@ -284,61 +192,61 @@ body{
 	bottom:10%;
 }
 
-#gs-blokk-p-1 {
+.gs-blokk-p-1 {
 	position:relative;
 	top:75%;
 	font-size: 16px;
 
 }
-#gs-blokk-p-2 {
+.gs-blokk-p-2 {
 	position:relative;
 	top:75%;
 	font-size: 16px;
 	right:40%;
 }
-#gs-blokk-p-3 {
+.gs-blokk-p-3 {
 	position:relative;
 	top:83%;
 	right:40%;
 	font-size:16px;
 }
 
-#ds-score-blokk-1 {
+.ds-score-blokk-1 {
 	position:relative;
 	bottom:25%;
 	left:30%;
 	font-size:18px;
 }
 
-#ds-score-blokk-2 {
+.ds-score-blokk-2 {
 	position:relative;
 	bottom:30%;
 	left:30%;
 	font-size:18px;
 }
 
-#ds-score-blokk-3 {
+.ds-score-blokk-3 {
 	position:relative;
 	bottom:20%;
 	left:30%;
 	font-size:18px;
 }
 
-#gs-score-blokk-1 {
+.gs-score-blokk-1 {
 	position:relative;
 	bottom:25%;
 	left:30%;
 	font-size:18px;
 }
 
-#gs-score-blokk-2 {
+.gs-score-blokk-2 {
 	position:relative;
 	bottom:25%;
 	left:30%;
 	font-size:18px;
 }
 
-#gs-score-blokk-3 {
+.gs-score-blokk-3 {
 	position:relative;
 	bottom:20%;
 	left:30%;
