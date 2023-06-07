@@ -45,12 +45,13 @@ const groupSize = (
         <div className="heading">Hvordan jobber du?</div>
         <div className="ageGroup">
           <div className="greenBox">
+            <div className="aloneImg"></div>
             <div className="text">Alene</div>
-            <div className="imgAlone"></div>
+            
           </div>
           <div className="purpBox">
+            <div className="groupImg"></div>
             <div className="text">Gruppe</div>
-            <div className="imgGroup"></div>
           </div>
         </div>
       </div>

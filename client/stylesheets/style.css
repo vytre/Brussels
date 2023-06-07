@@ -4,13 +4,13 @@ main{
     background: aquamarine;
 }
 body {
-    overflow-x: hidden;
+    overflow: hidden;
     margin: 0px;
 }
 
 .page {
 
-    flex-wrap: wrap;
+    
     display: flex;
     flex-direction: column;
     background-color:rgba(243.6556175351143, 243.6556175351143, 243.6556175351143, 0.33000001311302185);
@@ -23,7 +23,12 @@ body {
     flex-direction: column;
     top: 10vh;
     width: 100vw;
-
+    background-image:url(../images/bg_img.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    position: stat  ic;
 
 }
 .heading {
@@ -32,7 +37,8 @@ body {
     width:100vw;
     height:48px;
     display: flex;
-    position:absolute;
+    align-items: center;
+    justify-content:center ;
     left:-6px;
     top:0;
     font-family:Nunito;
@@ -44,14 +50,13 @@ body {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     color:rgba(255, 255, 255, 1);
     width:560px;
-    height:54px;
-    position:absolute;
-    left:0px;
-    top:384px;
+    height:20%;
+    position:static;
     font-family:Nunito;
-    text-align:center;
+    text-align: center;
     font-size:60px;
     letter-spacing:3;
+    
 }
 .ageGroup {
     display: flex;
@@ -59,6 +64,9 @@ body {
     width: 100vw;
     height:88vh;
     top:15vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
 }
 .greenBox {
     display: flex;
@@ -67,7 +75,8 @@ body {
     background-color:rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 1);
     width:37vw;
     height:60vh;
-    left:0;
+    justify-content: center;
+    align-items: center;
     top:0;
     border-top-left-radius:50px;
     border-top-right-radius:50px;
@@ -79,7 +88,8 @@ body {
     flex-direction: column;
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color:rgba(150.0000062584877, 96.00000187754631, 142.00000673532486, 1);
-    left:40vw;
+    justify-content: center;
+    align-items: center;
     width:37vw;
     height:60vh;
     top:0;
@@ -89,23 +99,28 @@ body {
     border-bottom-right-radius:50px;
 }
 .aloneImg {
+    align-items: center;
     width:20vw;
-    height:50vh;
+    height:80%;
     left:10vw;
     top:16px;
     background-image:url(../images/pngwing_1.png);
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:contain;
+    background-position: bottom;
 }
 .groupImg {
-    width:457px;
-    height:231px;
+    align-items: center;
+    width:35vw;
+    height:75%;
     left: 0;
     top: 0;
-    position:absolute;
+    position:static;
     background-image:url(../images/pngwing_2.png);
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:contain;
+    background-position: center;
+
 }
 .bgImg {
 
@@ -122,7 +137,7 @@ body {
 /* FOR HEADER*/
 .containerHeader {
     display: flex;
-    position: absolute;
+    position: static;
     width: 100vw;
     height: 10vh;
     background-color: #c7b9a5c7;
