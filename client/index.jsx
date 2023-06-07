@@ -4,6 +4,9 @@ import "./index.css";
 
 import "./header.css"
 
+import "./introQuesOne.css"
+import IntroQuestionOne from "/introQuesOne.jsx"
+
 import './introTogame.css'
 import IntroToGame from "/introToGame.jsx" 
 
@@ -75,7 +78,22 @@ function Fordubegynner() {
   );
 }
 
+function IntroQuestion(){
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <IntroQuestionOne />
+    </div>
+    
+    </div>
+    </>
+
+  );
+}
+
 
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(<Fordubegynner/>);
+root.render(<IntroQuestion />);

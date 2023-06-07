@@ -12,7 +12,8 @@ body {
     height: 90vh;
     margin-bottom: 0;
     border: 2px solid black;
-    background-image: url(images/flower.png);
+    background-image: url(images/flowerpower.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -69,8 +70,8 @@ body {
     width: 45%;
     border: 0.5px solid black;
     border-radius: 10px;
-    background-color: black;
-    opacity: 0.6;
+    background-color: #9F9F9F4E;
+    
     z-index: 10;
     
 }
@@ -78,7 +79,7 @@ body {
 
 
 .introVognText {
-    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-family: Inter;
     font-size: 3vh;
     text-align: center;
     color: white;
@@ -100,12 +101,13 @@ body {
 }
 
 .goForward:hover {
-    transition: ease-in-out 1s;
+    transition: ease-in-out 0.5s;
 	background-color: blanchedalmond;
 }
 
 .goForwardText {
     text-align: center;
     font-size: 4vh;
+    font-family: Inter;
     
 }
