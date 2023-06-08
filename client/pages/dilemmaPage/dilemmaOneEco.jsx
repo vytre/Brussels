@@ -1,9 +1,13 @@
-import {Header} from "../utils/header.jsx";
-import
-const handleClick = () => {
-    navigate("/dilemma/result");
-};
+import "../../stylesheets/dilemmaOneEcoStyle.css"
+import {Header} from "../../utils/header.jsx";
+import {useNavigate} from "react-router-dom";
+
 export function DilemmaOneEco () {
+
+    const navigate= useNavigate();
+    const handleClick = () => {
+        navigate("/dilemma/result");
+    };
     return (
         <>
             <Header />
@@ -18,8 +22,8 @@ export function DilemmaOneEco () {
                 </div>
 
                 <div className="veggieOrNotContainer">
-                    <div className="saladContainer"/>
-                    <div className="steakContainer"/>
+                    <div className="saladContainer" onClick={handleClick}/>
+                    <div className="steakContainer" onClick={handleClick}/>
                 </div>
 
             </div>
