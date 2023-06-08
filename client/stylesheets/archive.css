@@ -47,35 +47,37 @@ body {
     width: 100vw;
     height: 90vh;
     flex-direction: column;
-    gap: 25vh;
+    gap: 5vh;
 }
 /*burde line opp med hvor bgbox var*/
 .bgBoxContainer{
     overflow: hidden;
     justify-content: center;
+    align-items: center;
     width: 100vw;
-    height: 35vh;
+    height: 50vh;
     display: flex;
     position: static;
 
 }
 .bgBox{
     z-index: 0;
-    top: 60vh;
     display: flex;
     position: absolute;
     width: 80vw;
-    height:35vh;
-    background-color: #C7B9A5;
-    opacity: 70%;
+    height:30vh;
+    background-color: #c7b9a5b6;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .headingContainer{
-    top: 20vh;
     justify-content: center;
     width: 100vw;
-    height: 20vh;
+    margin-top: 25vh;
     display: flex;
     position: static;
+
 }
 .heading{
     z-index: 1;
@@ -84,6 +86,7 @@ body {
     display: flex;
     position: static;
     justify-content: center;
+    align-items: center;
 
     text-shadow: 0.2vh 0.2vw 0 #000, -0.2vh -0.2vw 0 #000, 0.2vh 0.2vw 0 #000, -0.2vh -0.2vw 0 #000;
     color:rgba(255, 255, 255, 1);
@@ -94,34 +97,41 @@ body {
 
 }
 .text{
-    z-index: 1;
-    width:100vw;
-    height: 35vh;
+    z-index: 10;
+    width: 70vw;
+
     display: flex;
 
     position:static;
-    padding: 0vh 12vw 0 12vw;
 
     text-shadow: -1px -1px 0 #000;
     color:rgba(255, 255, 255, 1);
     font-family:Nunito;
     text-align: left;
     font-size: 3vh;
-    letter-spacing: 3;
+    letter-spacing: 1;
 }
 /* Info Containers*/
 .container{
+    margin-top: 2.5vh;
     display: flex;
     flex-direction: column;
-    top: 170vh;
-    height: 100vh;
+    height: 170vh;
     position: static;
     gap: 20vh;
 }
 .infoContainer{
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    height:70vh;
+    justify-content: center;
+    gap: 10vw;
+}
 
+.infoContainer2{
+    display: flex;
+    flex-direction: row;
 
     width: 100vw;
     height:70vh;
@@ -131,17 +141,20 @@ body {
 }
 
 .box{
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     background-color:rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
     width:30vw;
-    height:70vh;
+    height:60vh;
 }
 .box2{
+    margin-top: 10vh;
+    align-items: center;
     display: flex;
     flex-direction: column;
     background-color:rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
-    width:50vw;
+    width:35vw;
     height:50vh;
 }
 .h2{
@@ -158,9 +171,11 @@ body {
     font-size: 2.5vh;
 }
 .btn{
-    font-size: 2vh;
-    height: 8vh;
-    width: 15vw;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 4vh;
+    height: 10vh;
+    width: 25vw;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -179,7 +194,6 @@ body {
 }
 .arneAktivImg{
     width:55vw;
-    height:50vh;
     display: flex;
     box-shadow: -7vh 7vh rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
     background-image:url(../images/arne_rebell_1.png);
