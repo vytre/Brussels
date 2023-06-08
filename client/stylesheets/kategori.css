@@ -1,0 +1,144 @@
+body{
+	margin: 0;
+	overflow: hidden;
+}
+
+.flex-container{
+	display: flex;
+
+}
+.containerHeader {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 800px;
+
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	margin-top: 0;
+	gap: 5%;
+	align-items: center;
+	width: 100%;
+	height: 10vh;
+	border: 2px solid black;
+	background-image: url("/client/images/ancep_logo_1_2023_1.png");
+	background-repeat: no-repeat;
+	background-size: 15%;
+	background-color: #C7B9A5;
+}
+
+.hjem {
+	margin-left: 20%;
+	font-family: monospace;
+	cursor: pointer;
+}
+
+.dilemmaer {
+	margin-left: 2%;
+	font-family: 'Courier New', Courier, monospace;
+	cursor: pointer;
+
+}
+
+.arkiv {
+	margin-left: 2%;
+	font-family: 'Courier New', Courier, monospace;
+	cursor: pointer;
+}
+
+
+
+.BG{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	top: 14%;
+
+}
+.kategori-div {
+	position:absolute;
+	width:25%;
+	height:15%;
+	left:37%;
+	top:14%;
+	z-index: 2;
+}
+
+.kategori-h1 {
+	-webkit-text-stroke: black 1.4px;
+	color:rgba(255, 255, 255, 1);
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0%;
+	top:0%;
+	font-family:cambria;
+	text-align:center;
+	font-size:250%;
+	letter-spacing:3;
+}
+
+.minimalisme-div {
+	position: absolute;
+	top: 34%;
+	left: 19%;
+	width: 18%;
+	height: 60%;
+	z-index: 1;
+}
+
+.minimalisme-picture {
+	background-image: url("../images/Minimalisme.png");
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	z-index: 3;
+}
+
+.dypøkologi-div {
+	position: absolute;
+	top: 34%;
+	left: 40.5%;
+	width: 18%;
+	height: 60%;
+	z-index: 1;
+}
+
+.dypøkologi-picture {
+	background-image: url("../images/Dypøkologi.png");
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	z-index: 3;
+}
+
+.kritisk-div {
+	position: absolute;
+	top: 34%;
+	right: 19.8%;
+	width: 18%;
+	height: 60%;
+	z-index: 1;
+}
+
+.kritisk-picture {
+	background-image: url("../images/Hverdag.png");
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: -12%;
+	z-index: 3;
+}
