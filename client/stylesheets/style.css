@@ -148,7 +148,7 @@ body {
     display: flex;
     background-image:url(../images/barneskole2.png);
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:contain;
     background-position: center;
     
 }
