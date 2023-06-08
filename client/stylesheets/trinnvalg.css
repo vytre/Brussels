@@ -1,0 +1,181 @@
+body, html {
+    overflow:hidden;
+    height: 100%;
+    margin: 0%;
+}
+
+.trinnvalg {
+    display: flex;
+}
+
+.background-image {
+    display: flex;
+    background-image:url("/pictures/BG-IMG.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left:0%;
+    top: 10%;
+    z-index: 1;
+}
+
+
+.header-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    gap: 5%;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    border: 2px solid black;
+    background-image: url("../pictures/ancep-logo.png");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-color: #C7B9A5;
+}
+
+.hjem {
+    margin-left: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.hjem:hover {
+    border-bottom: solid 0.5vh #96608ed8;
+}
+
+.dilemmaer {
+    margin-left: 2%;
+    font-family: 'monospace';
+    cursor: pointer;
+    z-index: 3;
+}
+
+.dilemmaer:hover {
+    border-bottom: solid 0.5vh #96608ed8;
+}
+
+.arkiv {
+    margin-left: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.arkiv:hover {
+    border-bottom: solid 0.5vh #96608ed8;
+}
+
+
+
+.trinn-div {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-shrink: 1;
+    position:absolute;
+    width:25%;
+    height:15%;
+    left:37%;
+    top:14%;
+    z-index: 1;
+}
+
+.trinn {
+    -webkit-text-stroke: black 1.4px;
+    color:rgba(255, 255, 255, 1);
+    position:absolute;
+    font-family:Trebuchet ms;
+    text-align:center;
+    flex-wrap: nowrap;
+    font-size:250%;
+    letter-spacing:3;
+}
+
+.pictures-div{
+    display: flex;
+    justify-content: center;
+}
+
+.giraffe-div {
+    position: absolute;
+    top: 34%;
+    left: 19%;
+    width: 18%;
+    height: 60%;
+    z-index: 3;
+}
+
+.giraffe-picture {
+    background-image: url("/pictures/1-3.png");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 3;
+}
+
+.bear-div {
+    position: absolute;
+    top: 34%;
+    left: 40.5%;
+    width: 18%;
+    height: 60%;
+    z-index: 3;
+}
+
+.bear-picture {
+    background-image:url("/pictures/4-7.png");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 122%;
+    top: -20.5%;
+    left: 0%;
+    z-index: 3;
+}
+
+.monkey-picture {
+    background-image: url(/pictures/monkey.png);
+    background-size: cover;
+    position: absolute;
+    top: 1.3%;
+    left: 15%;
+    width: 65%;
+    height: 65%;
+    z-index: 3;
+}
+
+.lion-div {
+    position: absolute;
+    top: 34%;
+    right: 19.8%;
+    width: 18%;
+    height: 60%;
+    z-index: 3;
+}
+
+.lion-picture {
+    background-image: url(/pictures/8-10.png);
+    background-size: cover;
+    position: absolute;
+    width: 126%;
+    height: 130%;
+    top: -29%;
+    left: -12%;
+    z-index: 3;
+}
