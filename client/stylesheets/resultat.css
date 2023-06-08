@@ -5,7 +5,7 @@ body {
     background-image: url(./images/bg-1920.png);
 	background-repeat: no-repeat;
 }	
-.main-div {
+.resultat-main-div {
 	display:flex;
     flex-direction: column;
     width: 100vw;   
@@ -16,14 +16,14 @@ body {
     align-items: center;
 }
 
-.midt-div {
+.resultat-midt-div {
 	display:flex;
 	flex-direction: row;
 	width:100vw;
 	height:100vh;
 }
 
-.venstre-div {
+.resultat-venstre-div {
 	display:flex;
 	flex-direction: row;
 	width:100vw;
@@ -31,7 +31,7 @@ body {
 	position: absolute;
 }
 
-.høyre-div {
+.resultat-høyre-div {
 	display:flex;
 	flex-direction: column;
 	width:100vw;
@@ -39,7 +39,7 @@ body {
 	position: absolute;
 }
 
-.div-resultat-tittel {
+.resultat-div-resultat-tittel {
     position: absolute;
     display:flex;
 	flex-direction: column;
@@ -50,7 +50,7 @@ body {
 	top:5vh;
 }
 
-.tittel-resultat {
+.resultat-tittel-resultat {
 	width: 100vw;
     height: 20vh;
     position:static;
@@ -60,7 +60,7 @@ body {
     text-align: center;
 }
 
-.tekstBoks1 {
+.resultat-tekstBoks1 {
 	background-image: url(./images/Rectangle\ 33.png);
 	height:30vh;
 	width: 40vw;
@@ -70,14 +70,14 @@ body {
 	left:60%;
 	background-repeat: no-repeat;
 }
-.boks-p {
+.resultat-boks-p {
 	position: absolute;
 	top:4vh;
 	left:3vw;
 	font-size:1vw;
 }
 
-.btn {
+.resultat-btn {
 	position:absolute;	
 	left:17vw;
 	top:17vh;
@@ -86,12 +86,12 @@ body {
 	border-radius: 100px;
 }
 
-.btn:hover {
+.resultat-btn:hover {
 cursor: pointer;
 background-color: rgb(208, 208, 208);
 }
 
-.tekstBoks2 {
+.resultat-tekstBoks2 {
 	background-image: url(./images/Rectangle\ 33.png);
 	height:30vh;
 	width: 40vw;
@@ -103,7 +103,7 @@ background-color: rgb(208, 208, 208);
 	background-size: contain;
 }
 
-.diplomBtn {
+.resultat-diplomBtn {
 	position:relative;	
 	left:50%;
 	top:20%;
@@ -112,7 +112,7 @@ background-color: rgb(208, 208, 208);
 	border-radius: 100px;
 }
 
-.dineSvar-p-div {
+.resultat-dineSvar-p-div {
 	display:flex;
 	flex-direction: column;
 	background-position: top;
@@ -122,7 +122,7 @@ background-color: rgb(208, 208, 208);
 	bottom:50vh;
 }
 
-.dineSvar-div {
+.resultat-dineSvar-div {
 	background-repeat: no-repeat;
 	display:flex;
 	align-items: center;
@@ -136,7 +136,7 @@ background-color: rgb(208, 208, 208);
 	left:10%;
 	background-size: contain;
 }
-.dineSvar-p {
+.resultat-dineSvar-p {
 	text-align: center;
 	position: static;
 	font-size:5vh;
@@ -144,7 +144,7 @@ background-color: rgb(208, 208, 208);
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;;
 }
 
-.blokker-ds-div {
+.resultat-blokker-ds-div {
 	display:flex;
 	flex-direction: row;
 	gap:3vw;	
@@ -153,7 +153,7 @@ background-color: rgb(208, 208, 208);
 	align-items: center;
 }
 
-.gjennomsnitt-div {
+.resultat-gjennomsnitt-div {
 	background-repeat: no-repeat;
 	display:flex;
 	align-items:center;
@@ -168,7 +168,7 @@ background-color: rgb(208, 208, 208);
 	position:absolute;
 }
 
-.gjennomsnitt-p-div {
+.resultat-gjennomsnitt-p-div {
 	display:flex;
 	flex-direction: column;
 	background-position: top;
@@ -178,7 +178,7 @@ background-color: rgb(208, 208, 208);
 	bottom:50vh;
 }
 
-.gjennomsnitt-p {
+.resultat-gjennomsnitt-p {
 	text-align: center;
 	position: static;
 	font-size:5vh;
@@ -186,46 +186,46 @@ background-color: rgb(208, 208, 208);
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;;
 }
 
-.dineSvarBlokk-1 {
+.resultat-dineSvarBlokk-1 {
 	width:2.5vw;
 	height:10vh;		
 	display:inline-block;
 	background-color: blue;
 	position: static;
 }
-.dineSvarBlokk-2 {
+.resultat-dineSvarBlokk-2 {
 	width:2.5vw;
 	height:8vh;	
 	display:inline-block;
 	position:static;
 	background-color: red;
 }
-.dineSvarBlokk-3 {
+.resultat-dineSvarBlokk-3 {
 	width:2.5vw;
 	height:15vh;	
 	display:inline-block;
 	position:static;
 	background-color: yellow;
 }
-.blokk-p-1 {
+.resultat-blokk-p-1 {
 	position:absolute;
 	top:12.8vh;
 	font-size: 1vw;
 }
-.blokk-p-2 {
+.resultat-blokk-p-2 {
 	position:absolute;
 	top:12.8vh;
 	font-size: 1vw;
 	right:4.3vw;
 }
-.blokk-p-3 {
+.resultat-blokk-p-3 {
 	position:absolute;
 	top:13vh;
 	font-size: 1vw;
 	left:10vw;
 }
 
-.gs-blokker-div {
+.resultat-gs-blokker-div {
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
@@ -235,21 +235,21 @@ background-color: rgb(208, 208, 208);
 	gap:3vw;
 }
 
-.gjennomsnitt-blokk-1 {
+.resultat-gjennomsnitt-blokk-1 {
 	position:static;
 	width:2.5vw;
 	height:10vh;	
 	display:inline-block;
 	background-color: blue;
 }
-.gjennomsnitt-blokk-2 {
+.resultat-gjennomsnitt-blokk-2 {
 	position:static;
 	width:2.5vw;
 	height:10vh;	
 	display:inline-block;
 	background-color: red;
 }
-.gjennomsnitt-blokk-3 {
+.resultat-gjennomsnitt-blokk-3 {
 	position:static;
 	width:2.5vw;
 	height:15vh;	
@@ -257,61 +257,61 @@ background-color: rgb(208, 208, 208);
 	background-color: yellow;
 }
 
-.gs-blokk-p-1 {
+.resultat-gs-blokk-p-1 {
 	position:absolute;
 	top:12.8vh;
 	font-size: 1vw;
 
 }
-.gs-blokk-p-2 {
+.resultat-gs-blokk-p-2 {
 	position:absolute;
 	top:12.8vh;
 	font-size: 1vw;
 	right:4.3vw;
 }
-.gs-blokk-p-3 {
+.resultat-gs-blokk-p-3 {
 	position:absolute;
 	top:13vh;
 	font-size: 1vw;
 	left:10vw;
 }
 
-.ds-score-blokk-1 {
+.resultat-ds-score-blokk-1 {
 	position:absolute;
 	font-size:1vw;
 	bottom:10.5vh;
 	left:0.5vw;
 }
 
-.ds-score-blokk-2 {
+.resultat-ds-score-blokk-2 {
 	position:absolute;
 	font-size:1vw;
 	bottom:10vh;
 	left:6.5vw;
 }
 
-.ds-score-blokk-3 {
+.resultat-ds-score-blokk-3 {
 	position:absolute;
 	font-size:1vw;
 	bottom:13.5vh;
 	left:11.5vw;
 }
 
-.gs-score-blokk-1 {
+.resultat-gs-score-blokk-1 {
 	position:absolute;
 	font-size:1vw;
 	bottom:10.5vh;
 	left:0.5vw;
 }
 
-.gs-score-blokk-2 {
+.resultat-gs-score-blokk-2 {
 	position:absolute;
 	font-size:1vw;
 	bottom:10.5vh;
 	left:6.5vw;
 }
 
-.gs-score-blokk-3 {
+.resultat-gs-score-blokk-3 {
 	position:absolute;
 	font-size:1vw;
 	bottom:13.5vh;
