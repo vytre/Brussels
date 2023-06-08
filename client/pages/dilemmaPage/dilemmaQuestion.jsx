@@ -1,4 +1,4 @@
-import "../../stylesheets/question.css";
+import "../../stylesheets/dilemmaQuestion.css";
 import * as React from "react";
 import { useState } from "react";
 import { Header } from "../../utils/header.jsx";
@@ -24,26 +24,26 @@ export function DilemmaQuestion() {
   };
 
   return (
-    <div className={"mainCon"}>
+    <>
       <Header />
-      <div className={"questContain"}>
-        <div className="introToGameContainer">
-          <div className="questionOneContainer">
-            <div className="questionsOneTextContainer">
-              <p className="questionOne">{questions[index]}</p>
-            </div>
+      <div className="introToGameContainer43">
+        <div className="questionOneContainer43">
+          <div className="questionsOneTextContainer43">
+            <p className="questionOne43">
+              Er mennesker mer verdt enn dyr?
+            </p>
+          </div>
 
-            <div className="yesOrNo">
-              <div className="yes" onClick={handleClick}>
-                <p className="yesTextDesign">Ja</p>
-              </div>
-              <div className="no" onClick={handleClick}>
-                <p className="noTextDesign">Nei</p>
-              </div>
+          <div className="yesOrNo43">
+            <div className="yes43" onClick={handleClick}>
+              <p className="yesTextDesign43">Ja</p>
+            </div>
+            <div className="no43" onClick={handleClick}>
+              <p className="noTextDesign43">Nei</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
