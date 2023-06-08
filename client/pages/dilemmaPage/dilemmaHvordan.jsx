@@ -1,7 +1,7 @@
 import { Header } from "../../utils/header.jsx";
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
-import "../../stylesheets/question.css";
+import "../../stylesheets/dilemmaHvordan.css";
 
 export function DilemmaHvordan() {
   const navigate = useNavigate();
@@ -11,25 +11,25 @@ export function DilemmaHvordan() {
   };
 
   return (
-    <div className={"mainCon"}>
+    <>
       <Header />
-      <div className={"questContain"}>
-        <div className="introToGameContainer">
-          <div className="questionOneContainer">
-            <div className="questionsOneTextContainer">
-              <p className="questionOne">Hvordan jobber du?</p>
+      <div className="pageHow">
+
+        <div className="containerHow">
+          <div className="headingHow">Hvordan jobber du?</div>
+          <div className="ageGroupHow">
+            <div className="greenBoxHow" onClick={handleClick}>
+              <div className="aloneImgHow"></div>
+              <div className="textHow">Alene</div>
+
             </div>
-            <div className="yesOrNo">
-              <div className="yes" onClick={handleClick}>
-                <p className="yesTextDesign">Alene</p>
-              </div>
-              <div className="yes" onClick={handleClick}>
-                <p className="yesTextDesign">Gruppe</p>
-              </div>
+            <div className="purpBoxHow" onClick={handleClick}>
+              <div className="groupImgHow"></div>
+              <div className="textHow">Gruppe</div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
