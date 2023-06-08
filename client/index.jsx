@@ -1,6 +1,7 @@
   import * as React from "react";
   import { createRoot } from "react-dom/client";
   import ReactToPrint from "react-to-print";
+  import React, {Component} from 'react';
 
   import "./index.css";
   import "./diskusjon.css";
