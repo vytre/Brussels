@@ -29,10 +29,10 @@ export function IntroQuestionsOne() {
         </div>
 
         <div className="yesOrNo">
-          <div className="yes">
+          <div className="yes" onClick={handleClick}>
             <p className="yesTextDesign">Ja</p>
           </div>
-          <div className="no">
+          <div className="no" onClick={handleClick}>
             <p className="noTextDesign">Nei</p>
           </div>
         </div>
