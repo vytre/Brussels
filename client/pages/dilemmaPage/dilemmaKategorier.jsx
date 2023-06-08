@@ -1,26 +1,13 @@
-import "../stylesheets/question.css";
+import { Header } from "../../utils/header.jsx";
 import * as React from "react";
-import { useState } from "react";
-import { Header } from "../utils/header.jsx";
 import { useNavigate } from "react-router-dom";
+import "../../stylesheets/question.css";
 
-export function DilemmaQuestion() {
-  const questions = [
-    "Er mennesker mer verdt enn dyr?",
-    "Er naturen mer verdt enn mennesker?",
-    "Er det verdt å teste på dyr?",
-  ];
-
-  const [index, setIndex] = useState(0);
+export function DilemmaKategorier() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    if (index < questions.length) {
-      setIndex(index + 1);
-    }
-    if (index >= questions.length - 1) {
-      navigate("/dilemma/resultat");
-    }
+    navigate("/dilemma/start-message");
   };
 
   return (
@@ -30,15 +17,17 @@ export function DilemmaQuestion() {
         <div className="introToGameContainer">
           <div className="questionOneContainer">
             <div className="questionsOneTextContainer">
-              <p className="questionOne">{questions[index]}</p>
+              <p className="questionOne">Velg Kategori</p>
             </div>
-
             <div className="yesOrNo">
               <div className="yes" onClick={handleClick}>
-                <p className="yesTextDesign">Ja</p>
+                <p className="yesTextDesign">Minalisme</p>
               </div>
               <div className="no" onClick={handleClick}>
-                <p className="noTextDesign">Nei</p>
+                <p className="noTextDesign">Dypøkologi</p>
+              </div>
+              <div className="no" onClick={handleClick}>
+                <p className="noTextDesign">Kritisk Tenkning</p>
               </div>
             </div>
           </div>

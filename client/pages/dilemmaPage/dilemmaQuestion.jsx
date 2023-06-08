@@ -1,13 +1,26 @@
-import { Header } from "../utils/header.jsx";
+import "../../stylesheets/question.css";
 import * as React from "react";
+import { useState } from "react";
+import { Header } from "../../utils/header.jsx";
 import { useNavigate } from "react-router-dom";
-import "../stylesheets/question.css";
 
-export function DilemmaAlder() {
+export function DilemmaQuestion() {
+  const questions = [
+    "Er mennesker mer verdt enn dyr?",
+    "Er naturen mer verdt enn mennesker?",
+    "Er det verdt å teste på dyr?",
+  ];
+
+  const [index, setIndex] = useState(0);
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/dilemma/hvordan");
+    if (index < questions.length) {
+      setIndex(index + 1);
+    }
+    if (index >= questions.length - 1) {
+      navigate("/dilemma/result");
+    }
   };
 
   return (
@@ -17,17 +30,15 @@ export function DilemmaAlder() {
         <div className="introToGameContainer">
           <div className="questionOneContainer">
             <div className="questionsOneTextContainer">
-              <p className="questionOne">Velg Alder</p>
+              <p className="questionOne">{questions[index]}</p>
             </div>
+
             <div className="yesOrNo">
               <div className="yes" onClick={handleClick}>
-                <p className="yesTextDesign">5-7</p>
+                <p className="yesTextDesign">Ja</p>
               </div>
               <div className="no" onClick={handleClick}>
-                <p className="noTextDesign">8-10</p>
-              </div>
-              <div className="no" onClick={handleClick}>
-                <p className="noTextDesign">VGS</p>
+                <p className="noTextDesign">Nei</p>
               </div>
             </div>
           </div>
