@@ -11,22 +11,26 @@ export function Test() {
   };
 
   return (
-    <div className="page">
+    <div className="pageAge">
       <Header />
 
-      <div className="container">
-        <div className="heading">Velg Aldersgruppe</div>
-        <div className="ageGroup">
-          <div className="brownBox" onClick={handleClick}>
-            <div className="brownImg"></div>
+      <div className="containerAge">
+        <div className="tittelAge">Velg Aldersgruppe</div>
+        <div className="ageGroupAge">
+          
+          <div className="brownBoxAge">
+            <div className="brownImgAge" onClick={handleClick}></div>
           </div>
 
-          <div className="greenBox" onClick={handleClick}>
-            <div className="greenImg"></div>
+          <div className="greenBoxAge">
+            <div className="greenImgAge"onClick={handleClick}></div>
+
+            
           </div>
-          <div className="purpBox" onClick={handleClick}>
-            <div className="purpImg"></div>
+          <div className="purpBoxAge">
+            <div className="purpImgAge"onClick={handleClick}></div>
           </div>
+
         </div>
       </div>
     </div>
