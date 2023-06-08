@@ -1,17 +1,9 @@
 import { Header } from "../utils/header.jsx";
 import * as React from "react";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../stylesheets/question.css";
 
-export function DilemmaStart() {
-  const questions = [
-    "Er det alltid galt å drepe? ",
-    "Bør man ofre personlig glede for naturen?",
-    "Er jeg dum?",
-  ];
-
-  const [index, setIndex] = useState(0);
+export function DilemmaAlder() {
   const navigate = useNavigate();
 
   const handleClick = () => {
