@@ -8,9 +8,6 @@ function IntroToGame (){
         <h1 className="introTitle">Før du begynner</h1>
         </div>
 
-            <div className="abstractGreenShape"/>
-            <div className="abstractYellowShape"/>
-            <div className="abstractPurpleShape"/>
             <div className="introTextBox">
                 
                 <p className="introVognText">
