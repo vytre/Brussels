@@ -5,35 +5,19 @@ import { Header } from "../utils/header.jsx";
 import { useNavigate } from "react-router-dom";
 
 export function Frontpage() {
-  function Button_Start() {
-    return (
-      <button onClick={sayHello} className="button_Start">
-        Start
-      </button>
-    );
-  }
-
-  function Button_ANCEP() {
-    return (
-      <button onClick={sayHello} className="button_ANCEP">
-        ANCEP
-      </button>
-    );
-  }
-
-  function Button_Arkivet() {
-    return (
-      <button onClick={sayHello} className="button_Arkivet">
-        Arkivet
-      </button>
-    );
-  }
-
   const navigate = useNavigate();
 
   const startButton = () => {
     navigate("/dilemma");
   };
+
+  function ancepButton() {
+    window.location.href = "https://ancep.no/";
+  }
+
+  function archiveButton() {
+    navigate("/archive");
+  }
 
   return (
     <div className="main_column">
@@ -75,7 +59,9 @@ export function Frontpage() {
               <br /> Næss sin verden.
             </p>
 
-            <div className="button_ANCEP"></div>
+            <div className="startGame" onClick={ancepButton}>
+              <h1 className="startTitle">ANCEP</h1>
+            </div>
           </div>
         </div>
 
@@ -133,7 +119,9 @@ export function Frontpage() {
               <br /> videre den dag idag.
             </p>
 
-            <div className="button_arkivet"></div>
+            <div className="startGame" onClick={archiveButton}>
+              <h1 className="startTitle">Archive</h1>
+            </div>
           </div>
         </div>
         <div className="row2_green">
