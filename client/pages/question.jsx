@@ -1,4 +1,7 @@
 import "../stylesheets/question.css";
+import * as React from "react";
+import { Test } from "../utils/message.js";
+
 export function IntroQuestionsOne() {
   return (
     <div className="introToGameContainer">
@@ -8,7 +11,9 @@ export function IntroQuestionsOne() {
 
       <div className="questionOneContainer">
         <div className="questionsOneTextContainer">
-          <p className="questionOne">Er mennesker mer verdt enn dyr?</p>
+          <p className="questionOne">
+            <Test />
+          </p>
         </div>
 
         <div className="yesOrNo">
