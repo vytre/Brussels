@@ -1,13 +1,10 @@
   import * as React from "react";
   import { createRoot } from "react-dom/client";
-  import ReactToPrint from "react-to-print";
-  import React, {Component} from 'react';
 
   import "./index.css";
   import "./diskusjon.css";
   import "./diplom.css";
   import "./kategori.css";
-  /*test haha*/ 
 
   const resultatSide = (
     <>
@@ -123,21 +120,9 @@ const diskusjonSide = (
 
 const diplomSide = (
   <>
-  <ReactToPrint
-  trigger={()=>{
 
-    return <button>Print this</button>
-  }}
-  
-  content = {()=>this.componentRef}
-  documentTitle='new document'
-  pageStyle="print"
-
-  
-  />
-    <div className="main-div">
-  <div ref={el=>(this.componentRef=el)} className="diplom-bilde">
-    hei
+<div className="main-div">
+  <div className="diplom-bilde">
   </div>
 <div className="containerHeader">
     <div className="header">
