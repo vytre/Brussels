@@ -4,6 +4,7 @@
   "description": "Smidig",
   "main": "index.js",
   "scripts": {
+    "t": "npm run build && npm run start",
     "build": "npm run build:client && npm run build:server",
     "build:client": "cd client && npm run build",
     "build:server": "cd server && npm run build",

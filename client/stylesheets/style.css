@@ -9,7 +9,9 @@ body {
 }
 
 .page {
-
+    background-image:url(../images/bg_img.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
     
     display: flex;
     flex-direction: column;
@@ -23,9 +25,7 @@ body {
     flex-direction: column;
     
     width: 100vw;
-    background-image:url(../images/bg_img.png);
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
+    
     justify-content: center;
     align-items: center;
     position: static;
@@ -43,7 +43,7 @@ body {
     position: static;
     font-family:Nunito;
     text-align:center;
-    font-size:90px;
+    font-size:10vh;
     letter-spacing:3;
 }
 .text {
@@ -54,7 +54,7 @@ body {
     position:static;
     font-family:Nunito;
     text-align: center;
-    font-size:60px;
+    font-size:7vh;
     letter-spacing:3;
     
 }
@@ -62,7 +62,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height:88vh;
+    height:60vh;
     justify-content: center;
     align-items: center;
     gap: 10vw;
@@ -72,7 +72,7 @@ body {
     flex-direction: column;
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color:rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 1);
-    width:37vw;
+    width:30vw;
     height:60vh;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ body {
     background-color:rgba(150.0000062584877, 96.00000187754631, 142.00000673532486, 1);
     justify-content: center;
     align-items: center;
-    width:37vw;
+    width:30vw;
     height:60vh;
     top:0;
     border-top-left-radius:50px;
@@ -107,11 +107,11 @@ body {
     background-image:url(../images/pngwing_1.png);
     background-repeat:no-repeat;
     background-size:contain;
-    background-position: bottom;
+    background-position: center;
 }
 .groupImg {
     align-items: center;
-    width:35vw;
+    width:30vw;
     height:75%;
     left: 0;
     display: flex;
