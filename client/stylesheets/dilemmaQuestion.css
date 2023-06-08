@@ -1,6 +1,6 @@
 body {
     margin-top: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .introToGameContainer43 {
     display: flex;
