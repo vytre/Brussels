@@ -1,7 +1,8 @@
 import { Header } from "../utils/header.jsx";
 import * as React from "react";
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import "../stylesheets/question.css";
 
 export function DilemmaStart() {
   const questions = [
@@ -14,7 +15,7 @@ export function DilemmaStart() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/hvordan");
+    navigate("/dilemma/hvordan");
   };
 
   return (
