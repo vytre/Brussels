@@ -10,12 +10,13 @@ body {
     font-family: Arial;
     overflow-x: hidden;
     margin: 0;
-    background-color: #C7B9A5;
+    background-color: #FFFFFF;
 }
 /* DIV */
 .page{
     display: flex;
     flex-direction: column;
+    position: absolute;
     background-color:rgba(243.6556175351143, 243.6556175351143, 243.6556175351143, 0.33000001311302185);
     width: 100%;
 }
@@ -23,112 +24,167 @@ body {
 .topContainer{
     display: flex;
     flex-direction: column;
-
     width:100vw;
     height: 100vh;
-    position:static;
+    position: static;
     background-image:url(../images/dypokologi_2.png);
     background-repeat:no-repeat;
     background-size:100% 100%;
 
 }
 .topBox{
+    justify-content: center;
     width: 100vw;
     height: 90vh;
     display: flex;
-    flex-direction: column;
+    position: static;
 }
-topInfoBox{
+.topInfoBox{
+    overflow: hidden;
+    justify-content: center;
     display: flex;
+    position: static;
     width: 100vw;
     height: 90vh;
     flex-direction: column;
-    column-gap: 5vh;
+    gap: 25vh;
+}
+/*burde line opp med hvor bgbox var*/
+.bgBoxContainer{
+    overflow: hidden;
+    justify-content: center;
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    position: static;
+
+}
+.bgBox{
+    z-index: 0;
+    top: 60vh;
+    display: flex;
+    position: absolute;
+    width: 80vw;
+    height:35vh;
     background-color: #C7B9A5;
+    opacity: 70%;
+}
+.headingContainer{
+    top: 20vh;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    position: static;
 }
 .heading{
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    color:rgba(255, 255, 255, 1);
+    z-index: 1;
     width:100vw;
     height:15vh;
-    margin-top: 5vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
     position: static;
+    justify-content: center;
+
+    text-shadow: 0.2vh 0.2vw 0 #000, -0.2vh -0.2vw 0 #000, 0.2vh 0.2vw 0 #000, -0.2vh -0.2vw 0 #000;
+    color:rgba(255, 255, 255, 1);
     font-family:Nunito;
     text-align:center;
-    font-size:90px;
-    letter-spacing:3;
+    font-size:12vh;
+    letter-spacing: 3;
 
 }
 .text{
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    color:rgba(255, 255, 255, 1);
+    z-index: 1;
+    width:100vw;
+    height: 35vh;
+    display: flex;
+
     position:static;
+    padding: 0vh 12vw 0 12vw;
+
+    text-shadow: -1px -1px 0 #000;
+    color:rgba(255, 255, 255, 1);
     font-family:Nunito;
     text-align: left;
-    font-size: 4vh;
+    font-size: 3vh;
     letter-spacing: 3;
-    padding: 0 10vw 0 10vw;
-
-
 }
 /* Info Containers*/
 .container{
     display: flex;
     flex-direction: column;
-    top: 140vh;
+    top: 170vh;
     height: 100vh;
     position: static;
+    gap: 20vh;
 }
 .infoContainer{
     display: flex;
     flex-direction: row;
 
+
     width: 100vw;
     height:70vh;
     top: 100vh;
     justify-content: center;
-    gap: 20vw;
+    gap: 10vw;
 }
+
 .box{
     display: flex;
     flex-direction: column;
-    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color:rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 1);
+    background-color:rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
     width:30vw;
-    height:30vh;
+    height:70vh;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
+    width:50vw;
+    height:50vh;
 }
 .h2{
-
+    text-align: center;
+    font-size: 7vh;
+    padding: 2vh 2vw 2vh 2vw;
 }
 .h3{
-
+    padding: 2vh 2vw 2vh 2vw;
+    font-size: 4vh;
 }
 .h4{
-
+    padding: 2vh 2vw 2vh 2vw;
+    font-size: 2.5vh;
 }
 .btn{
     font-size: 2vh;
-    height: 3vh;
-    width: 3vw;
+    height: 8vh;
+    width: 15vw;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
 }
 .arneHammerImg{
-    width:63vw;
-    height: 70vh;
+    width:60vw;
+    box-shadow: 7vh 7vh rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
+    height: 80vh;
     display: flex;
+    position: relative;
     background-image:url(../images/n_ss.png);
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size:cover;
 }
 .arneAktivImg{
     width:55vw;
     height:50vh;
     display: flex;
+    box-shadow: -7vh 7vh rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
     background-image:url(../images/arne_rebell_1.png);
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size:cover;
 }
 /* FOR HEADER*/
 .containerHeader {
