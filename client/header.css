@@ -1,76 +1,77 @@
 .containerHeader {
-    position: absolute;
-    width: 100vw;
-    height: 10vh;
-    background-color: #c7b9a5c7;
+  position: absolute;
+  width: 100vw;
+  height: 10vh;
+  background-color: #c7b9a5c7;
+  
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
     
-  }
+}
+
+.logo{
+  width: 18vw;
+  height: 10vh;
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1vw;
+  margin-right: 15vw;
+}
+
+.hjem {
+  margin-top: 4vh;
+  margin-left: 2vw;
+  font-family: Inter;
+  cursor: pointer;
+  justify-content: center;
+  font-size: 3vh;
+  text-decoration: none;
+  outline: 0;
+  border-bottom: solid 0.5vh transparent;
+  transition: color .4s ease-out, border-bottom-color .4s ease-out;
+}
+
+.hjem:hover{
+  border-bottom: solid 0.5vh #96608ed8;
+
+}
+
+.dilemmaer {
+  margin-top: 4vh;
+  margin-left: 2vw;
+  font-family: Inter;
+  cursor: pointer;
+  justify-content: center;
+
+  font-size: 3vh;
+  border-bottom: solid 0.5vh transparent;
+  transition: color .4s ease-out, border-bottom-color .4s ease-out;
   
-  .header {
-    display: flex;
-    flex-direction: row;
-    margin-top: 0;
-      
-  }
-  
-  .logo{
-    width: 18vw;
-    height: 10vh;
-    background-image: url(images/logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1vw;
-    margin-right: 15vw;
-  }
-  
-  .hjem {
-    margin-top: 4vh;
-    margin-left: 2vw;
-    font-family: Inter;
-    cursor: pointer;
-    justify-content: center;
-    font-size: 3vh;
-    text-decoration: none;
-    outline: 0;
-    border-bottom: solid 0.5vh transparent;
-    transition: color .4s ease-out, border-bottom-color .4s ease-out;
-  }
-  
-  .hjem:hover{
-    border-bottom: solid 0.5vh #96608ed8;
-  
-  }
-  
-  .dilemmaer {
-    margin-top: 4vh;
-    margin-left: 2vw;
-    font-family: Inter;
-    cursor: pointer;
-    justify-content: center;
-  
-    font-size: 3vh;
-    border-bottom: solid 0.5vh transparent;
-    transition: color .4s ease-out, border-bottom-color .4s ease-out;
-    
-  }
-  
-  .dilemmaer:hover{
-    border-bottom: solid 0.5vh #96608ed8;
-  }
-  
-  .arkiv {
-    margin-top: 4vh;
-    margin-left: 2vw;
-    font-family: Inter;
-    cursor: pointer;
-    justify-content: center;
-    font-size: 3vh;
-    border-bottom: solid 0.5vh transparent;
-    transition: color .4s ease-out, border-bottom-color .4s ease-out;
-  }
-  
-  .arkiv:hover{
-    border-bottom: solid 0.5vh #96608ed8;
-  }
+}
+
+.dilemmaer:hover{
+  border-bottom: solid 0.5vh #96608ed8;
+}
+
+.arkiv {
+  margin-top: 4vh;
+  margin-left: 2vw;
+  font-family: Inter;
+  cursor: pointer;
+  justify-content: center;
+
+  font-size: 3vh;
+  border-bottom: solid 0.5vh transparent;
+  transition: color .4s ease-out, border-bottom-color .4s ease-out;
+}
+
+.arkiv:hover{
+  border-bottom: solid 0.5vh #96608ed8;
+}

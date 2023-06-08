@@ -1,6 +1,6 @@
 import * as React from "react";
 import { createRoot } from "react-dom/client";
-//import "./index.css";
+import "./index.css";
 
 import "./header.css"
 
@@ -17,6 +17,8 @@ import IntroQuesOneIfYes from "/introQuesOneIfYes.jsx"
 import IntroQuesOneIfNo from "/introQuesOneIfNo.jsx"
 
 import "/questionsStyle.css"
+
+import DilemmaOneEco from  "/dilemmaOneEco.jsx"
 
 
 
@@ -132,10 +134,24 @@ function IntroQuesOneIfNoh () {
 
 }
 
+function DilemmaOneEcoVeggie() {
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <DilemmaOneEco />
+    </div>
+    </div>
+    </>
+
+  );
+}
+
 
 
 
 
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(<IntroQuesOneIfNoh />);
+root.render(<DilemmaOneEcoVeggie />);
