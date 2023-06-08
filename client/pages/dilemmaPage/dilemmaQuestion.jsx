@@ -7,8 +7,8 @@ import { useNavigate } from "react-router-dom";
 export function DilemmaQuestion() {
   const questions = [
     "Er mennesker mer verdt enn dyr?",
-    "Er naturen mer verdt enn mennesker?",
-    "Er det verdt å teste på dyr?",
+   /* "Er naturen mer verdt enn mennesker?",
+    "Er det verdt å teste på dyr?",*/
   ];
 
   const [index, setIndex] = useState(0);
