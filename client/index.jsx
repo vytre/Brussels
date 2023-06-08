@@ -7,7 +7,7 @@
   import "./diskusjon.css";
   import "./diplom.css";
   import "./kategori.css";
-  
+  /*test*/ 
 
   const resultatSide = (
     <>
