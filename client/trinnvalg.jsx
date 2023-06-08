@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import "./stylesheets/trinnvalg.css";
+import "client/stylesheets/trinnvalg.css";
 import { Header } from "./utils/header.jsx";
 
 function sayHello() {
