@@ -1,10 +1,8 @@
 @charset "utf-8";
 body {
-    width:100vw;
-    height:100vh;
-    background-image: url(./images/bg-1920.png);
-	background-repeat: no-repeat;
-}	
+	width: 100vw;
+	height: 100vh;
+}
 .resultat-main-div {
 	display:flex;
     flex-direction: column;
@@ -14,6 +12,8 @@ body {
     margin-right: auto;
     padding: 0;
     align-items: center;
+	background-image: url(../images/flowerpower-BG.png);
+	background-repeat: no-repeat;
 }
 
 .resultat-midt-div {
@@ -27,7 +27,7 @@ body {
 	display:flex;
 	flex-direction: row;
 	width:100vw;
-	height:100vh;
+	height:90vh;
 	position: absolute;
 }
 
@@ -35,7 +35,7 @@ body {
 	display:flex;
 	flex-direction: column;
 	width:100vw;
-	height:100vh;
+	height:90vh;
 	position: absolute;
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .resultat-tekstBoks1 {
-	background-image: url(./images/Rectangle\ 33.png);
+	background-image: url(../images/Rectangle33.png);
 	height:30vh;
 	width: 40vw;
 	top:20%;
@@ -92,7 +92,7 @@ background-color: rgb(208, 208, 208);
 }
 
 .resultat-tekstBoks2 {
-	background-image: url(./images/Rectangle\ 33.png);
+	background-image: url(../images/Rectangle33.png);
 	height:30vh;
 	width: 40vw;
 	top:50%;
@@ -128,10 +128,10 @@ background-color: rgb(208, 208, 208);
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	background-image: url(./images/dineSvar-bg.png);
+	background-image: url(../images/dineSvar-bg.png);
 	position: absolute;
 	width:18.6vw;
-	height: 63.5vh;
+	height: 40vh;
 	top:30vh;
 	left:10%;
 	background-size: contain;
@@ -158,7 +158,7 @@ background-color: rgb(208, 208, 208);
 	display:flex;
 	align-items:center;
 	justify-content: center;
-	background-image: url(./images/gjennomsnitt-bg.png);
+	background-image: url(../images/gjennomsnitt-bg.png);
 	flex-direction: column;
 	width:18.6vw;
 	height: 63.5vh;
