@@ -65,14 +65,14 @@ body {
     height:60vh;
     justify-content: center;
     align-items: center;
-    gap: 10vw;
+    gap: 5vw;
 }
 .greenBox {
     display: flex;
     flex-direction: column;
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color:rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 1);
-    width:30vw;
+    width:20vw;
     height:60vh;
     justify-content: center;
     align-items: center;
@@ -81,36 +81,78 @@ body {
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
     border-bottom-right-radius:50px;
+
+    box-sizing: border-box;
+    border: 10px solid rgba(150, 96, 142, 0.8);;
+    margin: 10px;
 }
 .purpBox {
     display: flex;
     flex-direction: column;
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color:rgba(150.0000062584877, 96.00000187754631, 142.00000673532486, 1);
+    background-color:#96608e;
     justify-content: center;
     align-items: center;
-    width:30vw;
+    width:20vw;
     height:60vh;
     top:0;
     border-top-left-radius:50px;
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
     border-bottom-right-radius:50px;
+
+    box-sizing: border-box;
+    border: 10px solid rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 0.8);
+    margin: 10px;
 }
-.aloneImg {
+.brownBox {
+    display: flex;
+    flex-direction: column;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color:rgb(163, 141, 98);
+    justify-content: center;
+    align-items: center;
+    width:20vw;
+    height:60vh;
+    top:0;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+
+    box-sizing: border-box;
+    border: 10px solid rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 0.8);
+    margin: 10px;
+}
+
+.brownImg {
     align-items: center;
     width:20vw;
     height:80%;
     left:10vw;
     top:16px;
     display: flex;
-    background-image:url(../images/pngwing_1.png);
+    background-image:url(../images/giraff_1.png);
     background-repeat:no-repeat;
     background-size:contain;
     background-position: center;
     
 }
-.groupImg {
+
+.greenImg {
+    align-items: center;
+    width:20vw;
+    height:80%;
+    left:10vw;
+    top:16px;
+    display: flex;
+    background-image:url(../images/barneskole2.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+.purpImg {
     align-items: center;
     width:30vw;
     height:75%;
@@ -118,7 +160,7 @@ body {
     display: flex;
     top: 0;
     position:static;
-    background-image:url(../images/pngwing_2.png);
+    background-image:url(../images/ungdom.png);
     background-repeat:no-repeat;
     background-size:contain;
     background-position: center;
