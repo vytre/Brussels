@@ -1,9 +1,9 @@
-import { Header } from "../../utils/header.jsx";
+import "../../stylesheets/dilemmaAlder.css";
 import * as React from "react";
+import { Header } from "../../utils/header.jsx";
 import { useNavigate } from "react-router-dom";
-import "../../stylesheets/question.css";
 
-export function DilemmaAlder() {
+export function Test() {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -11,26 +11,26 @@ export function DilemmaAlder() {
   };
 
   return (
-    <div className={"mainCon"}>
+    <div className="pageAge">
       <Header />
-      <div className={"questContain"}>
-        <div className="introToGameContainer">
-          <div className="questionOneContainer">
-            <div className="questionsOneTextContainer">
-              <p className="questionOne">Velg Alder</p>
-            </div>
-            <div className="yesOrNo">
-              <div className="yes" onClick={handleClick}>
-                <p className="yesTextDesign">5-7</p>
-              </div>
-              <div className="no" onClick={handleClick}>
-                <p className="noTextDesign">8-10</p>
-              </div>
-              <div className="no" onClick={handleClick}>
-                <p className="noTextDesign">VGS</p>
-              </div>
-            </div>
+
+      <div className="containerAge">
+        <div className="tittelAge">Velg Aldersgruppe</div>
+        <div className="ageGroupAge">
+          
+          <div className="brownBoxAge">
+            <div className="brownImgAge" onClick={handleClick}></div>
           </div>
+
+          <div className="greenBoxAge">
+            <div className="greenImgAge"onClick={handleClick}></div>
+
+            
+          </div>
+          <div className="purpBoxAge">
+            <div className="purpImgAge"onClick={handleClick}></div>
+          </div>
+
         </div>
       </div>
     </div>

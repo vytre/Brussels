@@ -1,0 +1,321 @@
+@charset "utf-8";
+body {
+	width: 100vw;
+	height: 100vh;
+}
+.resultat-main-div {
+	display:flex;
+    flex-direction: column;
+    width: 100vw;   
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    align-items: center;
+	background-image: url(../images/flowerpower-BG.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.resultat-midt-div {
+	display:flex;
+	flex-direction: row;
+	width:100vw;
+	height:100vh;
+}
+
+.resultat-venstre-div {
+	display:flex;
+	flex-direction: row;
+	width:100vw;
+	height:90vh;
+	position: absolute;
+}
+
+.resultat-høyre-div {
+	display:flex;
+	flex-direction: column;
+	width:100vw;
+	height:90vh;
+	position: absolute;
+}
+
+.resultat-div-resultat-tittel {
+    position: absolute;
+    display:flex;
+	flex-direction: column;
+    width:100vw;
+    height:20vh;
+    position:absolute;
+    align-items: center;
+	top:5vh;
+}
+
+.resultat-tittel-resultat {
+	width: 100vw;
+    height: 20vh;
+    position:static;
+    font-size:10vh;
+    color:white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    text-align: center;
+}
+
+.resultat-tekstBoks1 {
+	background-image: url(../images/Rectangle33.png);
+	height:30vh;
+	width: 40vw;
+	top:20%;
+	background-size: contain;
+	position:absolute;
+	left:60%;
+	background-repeat: no-repeat;
+}
+.resultat-boks-p {
+	position: absolute;
+	top:4vh;
+	left:3vw;
+	font-size:1vw;
+}
+
+.resultat-btn {
+	position:absolute;	
+	left:17vw;
+	top:17vh;
+	font-size:2vw;
+	border-style: solid;
+	border-radius: 100px;
+}
+
+.resultat-btn:hover {
+cursor: pointer;
+background-color: rgb(208, 208, 208);
+}
+
+.resultat-tekstBoks2 {
+	background-image: url(../images/Rectangle33.png);
+	height:30vh;
+	width: 40vw;
+	top:50%;
+	left:10%;
+	position:absolute;
+	left:63%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.resultat-diplomBtn {
+	position:relative;	
+	left:50%;
+	top:20%;
+	font-size:30px;
+	border-style: solid;
+	border-radius: 100px;
+}
+
+.resultat-dineSvar-p-div {
+	display:flex;
+	flex-direction: column;
+	background-position: top;
+	justify-content: center;
+	align-items: center;
+	position:absolute;
+	bottom:25vh;
+}
+
+.resultat-dineSvar-div {
+	background-repeat: no-repeat;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-image: url(../images/dineSvar-bg.png);
+	position: absolute;
+	width:22vw;
+	height: 40vh;
+	top:30vh;
+	left:10%;
+	background-size: cover;
+}
+.resultat-dineSvar-p {
+	text-align: center;
+	position: static;
+	font-size:5vh;
+	color:white;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;;
+}
+
+.resultat-blokker-ds-div {
+	display:flex;
+	flex-direction: row;
+	gap:3vw;	
+	position:absolute;
+	top:22vh;
+	align-items: center;
+}
+
+.resultat-gjennomsnitt-div {
+	background-repeat: no-repeat;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	background-image: url(../images/gjennomsnitt-bg.png);
+	flex-direction: column;
+	width:22vw;
+	height: 40vh;
+	top:30vh;
+	left:35%;
+	background-size: cover;
+	position:absolute;
+}
+
+.resultat-gjennomsnitt-p-div {
+	display:flex;
+	width: ;
+	flex-direction: column;
+	background-position: top;
+	justify-content: center;
+	align-items: center;
+	position:absolute;
+	bottom:25vh;
+}
+
+.resultat-gjennomsnitt-p {
+	text-align: center;
+	position: static;
+	font-size:5vh;
+	color:white;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;;
+}
+
+.resultat-dineSvarBlokk-1 {
+	width:2.5vw;
+	height:10vh;		
+	display:inline-block;
+	background-color: blue;
+	position: static;
+}
+.resultat-dineSvarBlokk-2 {
+	width:2.5vw;
+	height:8vh;	
+	display:inline-block;
+	position:static;
+	background-color: red;
+}
+.resultat-dineSvarBlokk-3 {
+	width:2.5vw;
+	height:15vh;	
+	display:inline-block;
+	position:static;
+	background-color: yellow;
+}
+.resultat-blokk-p-1 {
+	position:absolute;
+	top:12.8vh;
+	font-size: 1vw;
+}
+.resultat-blokk-p-2 {
+	position:absolute;
+	top:12.8vh;
+	font-size: 1vw;
+	right:4.3vw;
+}
+.resultat-blokk-p-3 {
+	position:absolute;
+	top:13vh;
+	font-size: 1vw;
+	left:10vw;
+}
+
+.resultat-gs-blokker-div {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;	
+	position:absolute;
+	top:22vh;
+	gap:3vw;
+}
+
+.resultat-gjennomsnitt-blokk-1 {
+	position:static;
+	width:2.5vw;
+	height:10vh;	
+	display:inline-block;
+	background-color: blue;
+}
+.resultat-gjennomsnitt-blokk-2 {
+	position:static;
+	width:2.5vw;
+	height:10vh;	
+	display:inline-block;
+	background-color: red;
+}
+.resultat-gjennomsnitt-blokk-3 {
+	position:static;
+	width:2.5vw;
+	height:15vh;	
+	display:inline-block;
+	background-color: yellow;
+}
+
+.resultat-gs-blokk-p-1 {
+	position:absolute;
+	top:12.8vh;
+	font-size: 1vw;
+
+}
+.resultat-gs-blokk-p-2 {
+	position:absolute;
+	top:12.8vh;
+	font-size: 1vw;
+	right:4.3vw;
+}
+.resultat-gs-blokk-p-3 {
+	position:absolute;
+	top:13vh;
+	font-size: 1vw;
+	left:10vw;
+}
+
+.resultat-ds-score-blokk-1 {
+	position:absolute;
+	font-size:1vw;
+	bottom:10.5vh;
+	left:0.5vw;
+}
+
+.resultat-ds-score-blokk-2 {
+	position:absolute;
+	font-size:1vw;
+	bottom:10vh;
+	left:6.5vw;
+}
+
+.resultat-ds-score-blokk-3 {
+	position:absolute;
+	font-size:1vw;
+	bottom:13.5vh;
+	left:11.5vw;
+}
+
+.resultat-gs-score-blokk-1 {
+	position:absolute;
+	font-size:1vw;
+	bottom:10.5vh;
+	left:0.5vw;
+}
+
+.resultat-gs-score-blokk-2 {
+	position:absolute;
+	font-size:1vw;
+	bottom:10.5vh;
+	left:6.5vw;
+}
+
+.resultat-gs-score-blokk-3 {
+	position:absolute;
+	font-size:1vw;
+	bottom:13.5vh;
+	left:11.5vw;
+}

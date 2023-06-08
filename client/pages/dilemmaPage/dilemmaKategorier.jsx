@@ -1,7 +1,7 @@
 import { Header } from "../../utils/header.jsx";
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
-import "../../stylesheets/question.css";
+import "../../stylesheets/kategori.css";
 
 export function DilemmaKategorier() {
   const navigate = useNavigate();
@@ -11,28 +11,28 @@ export function DilemmaKategorier() {
   };
 
   return (
-    <div className={"mainCon"}>
+
+      <div className="pageCategory">
       <Header />
-      <div className={"questContain"}>
-        <div className="introToGameContainer">
-          <div className="questionOneContainer">
-            <div className="questionsOneTextContainer">
-              <p className="questionOne">Velg Kategori</p>
+      
+      <div className="containerCategory">
+          <div className="headingCategory">Velg kategori</div>
+          <div className="ageGroupCategory">
+            
+            <div className="brownBoxCategory" onClick={handleClick}>
+          
             </div>
-            <div className="yesOrNo">
-              <div className="yes" onClick={handleClick}>
-                <p className="yesTextDesign">Minalisme</p>
-              </div>
-              <div className="no" onClick={handleClick}>
-                <p className="noTextDesign">Dypøkologi</p>
-              </div>
-              <div className="no" onClick={handleClick}>
-                <p className="noTextDesign">Kritisk Tenkning</p>
-              </div>
+  
+            <div className="greenBoxCategory" onClick={handleClick}>
+             
             </div>
+            <div className="purpBoxCategory" onClick={handleClick}>
+             
+            </div>
+  
           </div>
         </div>
-      </div>
-    </div>
+        </div>
+
   );
 }
