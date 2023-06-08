@@ -3,7 +3,6 @@
 
   import "./index.css";
   import "./diskusjon.css";
-  import "./diplom.css";
   import "./kategori.css";
 
   const resultatSide = (
@@ -117,7 +116,6 @@ const diskusjonSide = (
   </>
 
 )
-
 const kategoriSide = (
   <>
       <div className="page">
