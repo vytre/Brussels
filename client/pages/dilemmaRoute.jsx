@@ -5,7 +5,7 @@ import { DilemmaKategorier } from "./dilemmaPage/dilemmaKategorier.jsx";
 import { DilemmaStart } from "./dilemmaPage/dilemmaStart.jsx";
 import { DilemmaQuestion } from "./dilemmaPage/dilemmaQuestion.jsx";
 import { DilemmaResult } from "./dilemmaPage/dilemmaResult.jsx";
-import { Test } from "./dilemmaAlder.jsx";
+import { Test } from "./dilemmaPage/dilemmaAlder.jsx";
 
 export function DilemmaRoute() {
   return (
