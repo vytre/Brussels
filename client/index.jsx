@@ -1,13 +1,13 @@
 import * as React from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
+//import "./index.css";
 
 import "./header.css"
 
-import "./introQuesOne.css"
+//import "./introQuesOne.css"
 import IntroQuestionOne from "/introQuesOne.jsx"
 
-import './introTogame.css'
+//import './introTogame.css'
 import IntroToGame from "/introToGame.jsx" 
 
 import Header from "/Header.jsx";
@@ -15,6 +15,11 @@ import FrontpageUnder from "/Frontpageunder.jsx"
 
 import IntroQuesOneIfYes from "/introQuesOneIfYes.jsx"
 import IntroQuesOneIfNo from "/introQuesOneIfNo.jsx"
+
+import "/questionsStyle.css"
+
+
+
 
 function sayHello() {
   alert("You clicked me!");
