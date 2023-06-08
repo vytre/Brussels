@@ -117,29 +117,7 @@ const diskusjonSide = (
   </>
 
 )
-/*
-const diplomSide = (
-  <>
 
-<div className="main-div">
-  <div className="diplom-bilde">
-  </div>
-<div className="containerHeader">
-    <div className="header">
-      <div className="logo"></div>
-      <h1 className="hjem">Hjem</h1>
-      <h1 className="dilemmaer">Dilemmaer</h1>
-      <h1 className="arkiv">Arkiv</h1>
-    </div>
-  </div>
-  <div className="print-diplom-div">
-    <button className="print-btn" type="button">Print ut!</button>
-  </div>
-  </div>
-  
-  </>
-)
-*/
 const kategoriSide = (
   <>
       <div className="page">
@@ -158,16 +136,13 @@ const kategoriSide = (
           
           <div className="brownBox">
             <div className="brownImg"></div>
-            <div className="text">Minimalisme <br /></div>
           </div>
 
           <div className="greenBox">
             <div className="greenImg"></div>
-            <div className="text">Dypøkologi <br /></div>
           </div>
           <div className="purpBox">
             <div className="purpImg"></div>
-            <div className="text">Krig <br /></div>
           </div>
 
         </div>
@@ -182,6 +157,6 @@ function render(){
 }
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(resultatSide);
+root.render(kategoriSide);
 
 

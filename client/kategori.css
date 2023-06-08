@@ -1,5 +1,5 @@
 /*GENERAL*/
-/*main{
+main{
     max-width: 100%;
     background: aquamarine;
 }
@@ -19,7 +19,7 @@ body {
     height:100vh;
 }
 /* AGE CHOICE MODULE */
-/*.container{
+.container{
     display: flex;
     flex-direction: column;
     
@@ -80,7 +80,10 @@ body {
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
     border-bottom-right-radius:50px;
-
+    background-image:url(./images/test_dypøko.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
     box-sizing: border-box;
     border: 10px solid rgba(150, 96, 142, 0.8);;
     margin: 10px;
@@ -99,7 +102,10 @@ body {
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
     border-bottom-right-radius:50px;
-
+    background-image:url(./images/test_minimal.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
     box-sizing: border-box;
     border: 10px solid rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 0.8);
     margin: 10px;
@@ -113,57 +119,19 @@ body {
     align-items: center;
     width:20vw;
     height:60vh;
-    top:0;
     border-top-left-radius:50px;
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
     border-bottom-right-radius:50px;
-
+    background-image:url(./images/test_krig.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
     box-sizing: border-box;
     border: 10px solid rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 0.8);
     margin: 10px;
 }
 
-.brownImg {
-    align-items: center;
-    width:20vw;
-    height:80%;
-    left:10vw;
-    top:16px;
-    display: flex;
-    background-image:url(./images/MInimalisme\ 1.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position: center;
-    
-}
-
-.greenImg {
-    align-items: center;
-    width:20vw;
-    height:80%;
-    left:10vw;
-    top:16px;
-    display: flex;
-    background-image:url(./images/image\ 1.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position: center;
-    
-}
-.purpImg {
-    align-items: center;
-    width:14vw;
-    height:80%;
-    display: flex;
-    position:static;
-    background-image:url(./images/krig2.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center;
-    border-radius: 25px;
-
-}
 .bgImg {
 
     overflow: hidden;
@@ -177,7 +145,7 @@ body {
 
 }
 /* FOR HEADER*/
-/*.containerHeader {
+.containerHeader {
     display: flex;
     position: static;
     width: 100vw;
