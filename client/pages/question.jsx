@@ -19,9 +19,10 @@ export function IntroQuestionsOne() {
 
   return (
     <div className="introToGameContainer">
-      <div className="abstractGreenShape" />
-      <div className="abstractYellowShape" />
-      <div className="abstractPurpleShape" />
+
+          {/*<div className="abstractGreenShape" />*/}
+          {/*<div className="abstractYellowShape" />*/}
+          {/*<div className="abstractPurpleShape" />*/}
 
       <div className="questionOneContainer">
         <div className="questionsOneTextContainer">
