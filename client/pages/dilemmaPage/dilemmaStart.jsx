@@ -1,13 +1,13 @@
-import { Header } from "../utils/header.jsx";
+import { Header } from "../../utils/header.jsx";
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
-import "../stylesheets/question.css";
+import "../../stylesheets/question.css";
 
 export function DilemmaStart() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/dilemma/question");
+    navigate("/dilemma/questions");
   };
 
   return (
