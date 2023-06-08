@@ -13,6 +13,9 @@ import IntroToGame from "/introToGame.jsx"
 import Header from "/Header.jsx";
 import FrontpageUnder from "/Frontpageunder.jsx"
 
+import IntroQuesOneIfYes from "/introQuesOneIfYes.jsx"
+import IntroQuesOneIfNo from "/introQuesOneIfNo.jsx"
+
 function sayHello() {
   alert("You clicked me!");
 }
@@ -94,6 +97,40 @@ function IntroQuestion(){
 }
 
 
+function IntroQuesOneIfYesh () {
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <IntroQuesOneIfYes />
+    </div>
+    </div>
+    </>
+
+  );
+
+}
+
+function IntroQuesOneIfNoh () {
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <IntroQuesOneIfNo />
+    </div>
+    </div>
+    </>
+
+  );
+
+}
+
+
+
+
+
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(<IntroQuestion/>);
+root.render(<IntroQuesOneIfNoh />);
