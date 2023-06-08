@@ -150,9 +150,6 @@ const kategoriSide = (
   </>
 )
 
-function render(){
-  root.render(resultatSide);
-}
 const element = document.getElementById("app");
 const root = createRoot(element);
 root.render(kategoriSide);
