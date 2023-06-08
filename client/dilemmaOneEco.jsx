@@ -1,5 +1,9 @@
+import {Header} from "./utils/header.jsx";
+
 function DilemmaOneEco () {
     return (
+      <>
+        <Header />
         <div className="introToGameContainer">
 
                 <div className="titleContainer">
@@ -16,7 +20,7 @@ function DilemmaOneEco () {
                 </div>  
 
             </div>
-
+      </>
     );
 }
 
