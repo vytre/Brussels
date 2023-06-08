@@ -1,0 +1,281 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+main{
+    max-width: 100%;
+    background: aquamarine;
+}
+body {
+    font-family: Arial;
+    overflow-x: hidden;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+/* DIV */
+.page{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color:rgba(243.6556175351143, 243.6556175351143, 243.6556175351143, 0.33000001311302185);
+    width: 100%;
+}
+/*SIDE TOPP*/
+.topContainer{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height: 100vh;
+    position: static;
+    background-image:url(../images/dypokologi_2.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+
+}
+.topBox{
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    position: static;
+}
+.topInfoBox{
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    position: static;
+    width: 100vw;
+    height: 90vh;
+    flex-direction: column;
+    gap: 5vh;
+}
+/*burde line opp med hvor bgbox var*/
+.bgBoxContainer{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    position: static;
+
+}
+.bgBox{
+    z-index: 0;
+    display: flex;
+    position: absolute;
+    width: 80vw;
+    height:30vh;
+    background-color: #c7b9a5b6;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.headingContainer{
+    justify-content: center;
+    width: 100vw;
+    margin-top: 25vh;
+    display: flex;
+    position: static;
+
+}
+.heading{
+    z-index: 1;
+    width:100vw;
+    height:15vh;
+    display: flex;
+    position: static;
+    justify-content: center;
+    align-items: center;
+
+    text-shadow: 0.2vh 0.2vw 0 #000, -0.2vh -0.2vw 0 #000, 0.2vh 0.2vw 0 #000, -0.2vh -0.2vw 0 #000;
+    color:rgba(255, 255, 255, 1);
+    font-family:Nunito;
+    text-align:center;
+    font-size:12vh;
+    letter-spacing: 3;
+
+}
+.text{
+    z-index: 10;
+    width: 70vw;
+
+    display: flex;
+
+    position:static;
+
+    text-shadow: -1px -1px 0 #000;
+    color:rgba(255, 255, 255, 1);
+    font-family:Nunito;
+    text-align: left;
+    font-size: 3vh;
+    letter-spacing: 1;
+}
+/* Info Containers*/
+.container{
+    margin-top: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+    position: static;
+    gap: 20vh;
+}
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height:70vh;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.infoContainer2{
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height:70vh;
+    top: 100vh;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.box{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
+    width:30vw;
+    height:60vh;
+}
+.box2{
+    margin-top: 10vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
+    width:35vw;
+    height:50vh;
+}
+.h2{
+    text-align: center;
+    font-size: 7vh;
+    padding: 2vh 2vw 2vh 2vw;
+}
+.h3{
+    padding: 2vh 2vw 2vh 2vw;
+    font-size: 4vh;
+}
+.h4{
+    padding: 2vh 2vw 2vh 2vw;
+    font-size: 2.5vh;
+}
+.btn{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 4vh;
+    height: 10vh;
+    width: 25vw;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+}
+.arneHammerImg{
+    width:60vw;
+    box-shadow: 7vh 7vh rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
+    height: 80vh;
+    display: flex;
+    position: relative;
+    background-image:url(../images/n_ss.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.arneAktivImg{
+    width:55vw;
+    display: flex;
+    box-shadow: -7vh 7vh rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
+    background-image:url(../images/arne_rebell_1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+/* FOR HEADER*/
+.containerHeader {
+    display: flex;
+    position: static;
+    width: 100vw;
+    height: 10vh;
+    background-color: #c7b9a5c7;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+
+}
+
+.logo{
+    width: 18vw;
+    height: 10vh;
+    background-image: url(../images/ancep_logo_1_2023_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    margin-right: 15vw;
+}
+
+.hjem {
+    margin-top: 4vh;
+    margin-left: 2vw;
+    font-family: Inter;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 3vh;
+    text-decoration: none;
+    outline: 0;
+    border-bottom: solid 0.5vh transparent;
+    transition: color .4s ease-out, border-bottom-color .4s ease-out;
+}
+
+.hjem:hover{
+    border-bottom: solid 0.5vh #96608ed8;
+
+}
+
+.dilemmaer {
+    margin-top: 4vh;
+    margin-left: 2vw;
+    font-family: Inter;
+    cursor: pointer;
+    justify-content: center;
+
+    font-size: 3vh;
+    border-bottom: solid 0.5vh transparent;
+    transition: color .4s ease-out, border-bottom-color .4s ease-out;
+
+}
+
+.dilemmaer:hover{
+    border-bottom: solid 0.5vh #96608ed8;
+}
+
+.arkiv {
+    margin-top: 4vh;
+    margin-left: 2vw;
+    font-family: Inter;
+    cursor: pointer;
+    justify-content: center;
+
+    font-size: 3vh;
+    border-bottom: solid 0.5vh transparent;
+    transition: color .4s ease-out, border-bottom-color .4s ease-out;
+}
+
+.arkiv:hover{
+    border-bottom: solid 0.5vh #96608ed8;
+}
