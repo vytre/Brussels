@@ -56,7 +56,6 @@ const groupSize = (
           </div>
           <div className="purpBox">
             <div className="purpImg"></div>
-            <div className="text">VGS <br /></div>
           </div>
 
         </div>

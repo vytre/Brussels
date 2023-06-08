@@ -9,7 +9,7 @@ body {
 }
 
 .page {
-    background-image:url(../images/bg_img.png);
+    background-image:url(../images/bg-img.jpg);
     background-repeat:no-repeat;
     background-size: 100% 100%;
     
@@ -46,18 +46,7 @@ body {
     font-size:10vh;
     letter-spacing:3;
 }
-.text {
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    color:rgba(255, 255, 255, 1);
-    width:560px;
-    height:20%;
-    position:static;
-    font-family:Nunito;
-    text-align: center;
-    font-size:7vh;
-    letter-spacing:3;
-    
-}
+
 .ageGroup {
     display: flex;
     flex-direction: row;
@@ -127,22 +116,8 @@ body {
 
 .brownImg {
     align-items: center;
-    width:20vw;
-    height:80%;
-    left:10vw;
-    top:16px;
-    display: flex;
-    background-image:url(../images/giraff_1.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position: center;
-    
-}
-
-.greenImg {
-    align-items: center;
-    width:20vw;
-    height:80%;
+    width:30vw;
+    height:100%;
     left:10vw;
     top:16px;
     display: flex;
@@ -152,15 +127,29 @@ body {
     background-position: center;
     
 }
+
+.greenImg {
+    align-items: center;
+    width:30vw;
+    height:100%;
+    left:10vw;
+    top:16px;
+    display: flex;
+    background-image:url(../images/ungdom2.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;
+    
+}
 .purpImg {
     align-items: center;
     width:30vw;
-    height:75%;
+    height:100%;
     left: 0;
     display: flex;
     top: 0;
     position:static;
-    background-image:url(../images/ungdom.png);
+    background-image:url(../images/vgs2.png);
     background-repeat:no-repeat;
     background-size:contain;
     background-position: center;
@@ -173,7 +162,7 @@ body {
     height:98vh;
     position: absolute;
     left:0px;
-    background-image:url(../images/bg_img.png);
+    background-image:url(../images/bg-img.jpg);
     background-repeat:repeat-y;
     background-size: 100vw, 100vh;
 
