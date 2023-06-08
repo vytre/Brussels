@@ -117,7 +117,7 @@ const diskusjonSide = (
   </>
 
 )
-
+/*
 const diplomSide = (
   <>
 
@@ -139,7 +139,7 @@ const diplomSide = (
   
   </>
 )
-
+*/
 const kategoriSide = (
   <>
       <div className="page">
@@ -178,7 +178,7 @@ const kategoriSide = (
 )
 
 function render(){
-  root.render(diplomSide);
+  root.render(resultatSide);
 }
 const element = document.getElementById("app");
 const root = createRoot(element);

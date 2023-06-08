@@ -1,13 +1,13 @@
 /*GENERAL*/
-main{
+/*main{
     max-width: 100%;
     background: aquamarine;
 }
-/*body {
+body {
     overflow: hidden;
     margin: 0px;
 }
-*/
+
 .page {
     background-image:url(./images/bg_img.png);
     background-repeat:no-repeat;
@@ -19,7 +19,7 @@ main{
     height:100vh;
 }
 /* AGE CHOICE MODULE */
-.container{
+/*.container{
     display: flex;
     flex-direction: column;
     
@@ -177,7 +177,7 @@ main{
 
 }
 /* FOR HEADER*/
-.containerHeader {
+/*.containerHeader {
     display: flex;
     position: static;
     width: 100vw;

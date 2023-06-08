@@ -132,7 +132,7 @@ background-color: rgb(208, 208, 208);
 	position: absolute;
 	width:18.6vw;
 	height: 63.5vh;
-	top:25vh;
+	top:30vh;
 	left:10%;
 	background-size: contain;
 }
@@ -162,7 +162,7 @@ background-color: rgb(208, 208, 208);
 	flex-direction: column;
 	width:18.6vw;
 	height: 63.5vh;
-	top:25vh;
+	top:30vh;
 	left:35%;
 	background-size: contain;
 	position:absolute;
