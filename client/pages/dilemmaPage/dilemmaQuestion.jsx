@@ -19,7 +19,7 @@ export function DilemmaQuestion() {
       setIndex(index + 1);
     }
     if (index >= questions.length - 1) {
-      navigate("/dilemma/result");
+      navigate("/dilemma/crossroads");
     }
   };
 
