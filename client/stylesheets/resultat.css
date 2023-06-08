@@ -14,6 +14,7 @@ body {
     align-items: center;
 	background-image: url(../images/flowerpower-BG.png);
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .resultat-midt-div {
@@ -119,7 +120,7 @@ background-color: rgb(208, 208, 208);
 	justify-content: center;
 	align-items: center;
 	position:absolute;
-	bottom:50vh;
+	bottom:25vh;
 }
 
 .resultat-dineSvar-div {
@@ -130,11 +131,11 @@ background-color: rgb(208, 208, 208);
 	flex-direction: column;
 	background-image: url(../images/dineSvar-bg.png);
 	position: absolute;
-	width:18.6vw;
+	width:22vw;
 	height: 40vh;
 	top:30vh;
 	left:10%;
-	background-size: contain;
+	background-size: cover;
 }
 .resultat-dineSvar-p {
 	text-align: center;
@@ -149,7 +150,7 @@ background-color: rgb(208, 208, 208);
 	flex-direction: row;
 	gap:3vw;	
 	position:absolute;
-	top:40vh; 	
+	top:22vh;
 	align-items: center;
 }
 
@@ -160,22 +161,23 @@ background-color: rgb(208, 208, 208);
 	justify-content: center;
 	background-image: url(../images/gjennomsnitt-bg.png);
 	flex-direction: column;
-	width:18.6vw;
-	height: 63.5vh;
+	width:22vw;
+	height: 40vh;
 	top:30vh;
 	left:35%;
-	background-size: contain;
+	background-size: cover;
 	position:absolute;
 }
 
 .resultat-gjennomsnitt-p-div {
 	display:flex;
+	width: ;
 	flex-direction: column;
 	background-position: top;
 	justify-content: center;
 	align-items: center;
 	position:absolute;
-	bottom:50vh;
+	bottom:25vh;
 }
 
 .resultat-gjennomsnitt-p {
@@ -231,7 +233,7 @@ background-color: rgb(208, 208, 208);
 	justify-content: center;
 	align-items: center;	
 	position:absolute;
-	top:40vh;
+	top:22vh;
 	gap:3vw;
 }
 
