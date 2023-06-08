@@ -2,35 +2,39 @@ import * as React from "react";
 
 import "../stylesheets/frontpage.css";
 import { Header } from "../utils/header.jsx";
-function sayHello() {
-  alert("You clicked me!");
-}
-
-function Button_Start() {
-  return (
-    <button onClick={sayHello} className="button_Start">
-      Start
-    </button>
-  );
-}
-
-function Button_ANCEP() {
-  return (
-    <button onClick={sayHello} className="button_ANCEP">
-      ANCEP
-    </button>
-  );
-}
-
-function Button_Arkivet() {
-  return (
-    <button onClick={sayHello} className="button_Arkivet">
-      Arkivet
-    </button>
-  );
-}
+import { useNavigate } from "react-router-dom";
 
 export function Frontpage() {
+  function Button_Start() {
+    return (
+      <button onClick={sayHello} className="button_Start">
+        Start
+      </button>
+    );
+  }
+
+  function Button_ANCEP() {
+    return (
+      <button onClick={sayHello} className="button_ANCEP">
+        ANCEP
+      </button>
+    );
+  }
+
+  function Button_Arkivet() {
+    return (
+      <button onClick={sayHello} className="button_Arkivet">
+        Arkivet
+      </button>
+    );
+  }
+
+  const navigate = useNavigate();
+
+  const startButton = () => {
+    navigate("/dilemma");
+  };
+
   return (
     <div className="main_column">
       <div className="starside_topp">
@@ -44,7 +48,7 @@ export function Frontpage() {
               gjøre i en gitt situasjon. Det er ingen svar som er riktig.
             </p>
           </div>
-          <div className="startGame">
+          <div className="startGame" onClick={startButton}>
             <h1 className="startTitle">Start</h1>
           </div>
         </div>
