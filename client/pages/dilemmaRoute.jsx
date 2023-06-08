@@ -1,17 +1,17 @@
 import * as React from "react";
 import { Route, Routes } from "react-router-dom";
-import { DilemmaAlder } from "./dilemmaPage/dilemmaAlder.jsx";
 import { DilemmaHvordan } from "./dilemmaPage/dilemmaHvordan.jsx";
 import { DilemmaKategorier } from "./dilemmaPage/dilemmaKategorier.jsx";
 import { DilemmaStart } from "./dilemmaPage/dilemmaStart.jsx";
 import { DilemmaQuestion } from "./dilemmaPage/dilemmaQuestion.jsx";
 import { DilemmaResult } from "./dilemmaPage/dilemmaResult.jsx";
+import { Test } from "./dilemmaAlder.jsx";
 
 export function DilemmaRoute() {
   return (
     <>
       <Routes>
-        <Route path={"/"} element={<DilemmaAlder />}></Route>
+        <Route path={"/"} element={<Test />}></Route>
         <Route path={"/work-mode"} element={<DilemmaHvordan />}></Route>
         <Route path={"/category"} element={<DilemmaKategorier />}></Route>
         <Route path={"/start-message"} element={<DilemmaStart />}></Route>
