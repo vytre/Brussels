@@ -17,13 +17,12 @@ body {
     flex-direction: column;
     background-color:rgba(243.6556175351143, 243.6556175351143, 243.6556175351143, 0.33000001311302185);
     width: 100vw;
-    height:90vh;
+    height:100vh;
 }
 /* AGE CHOICE MODULE */
 .containerHow{
     display: flex;
     flex-direction: column;
-    height: 90vh;
     width: 100vw;
 
     justify-content: center;
