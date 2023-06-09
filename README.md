@@ -49,26 +49,50 @@ const universityCourse = "PRO 202 Agile Project";
 const groupName = "Brussels";
 ```
 
-### *Folder*
-For folders we have use spinal-case
-
+### *Folder Structure*
 ```
 ├── docs
-│ ├── group-docs
-│ └── sprint-reports
-│ 
+│     ├── group-docs
+│     │        ├── Employment-Contract-Brussels.pdf
+│     │        ├── Radar-Test-Brussels.pdf
+│     │        └── Risk-Plan-Brussels.pdf
+│     │
+│     └── sprint-reports
+│               ├── Design-Sprint-Report.pdf
+│               └── Sprint-1-Report.pdf
 │ 
 ├── client
-│      ├── pages
-│           ├── frontpage.jsx
-│           ├── archive.jsx
-│      └── stylesheets
-│             └── frontpage.css
-│             └── arkiv.css
-│             └── header.css
-│      └── utils
+│     ├── application.jsx
+│     ├── index.html
+│     ├── index.jsx
+│     ├── pages
+│     │    ├── archive.jsx
+│     │    ├── dilemmaRoute.jsx
+│     │    ├── frontpage.jsx
+│     │    └── dilemmaPage
+│     │            ├── dilemmaAgeGroup.jsx
+│     │            ├── dilemmaCategory.jsx
+│     │            ├── dilemmaCrossroad.jsx
+│     │            ├── dilemmaQuestion.jsx
+│     │            ├── dilemmaResult.jsx
+│     │            ├── dilemmaStart.jsx
+│     │            └── dilemmaWorkMode.jsx
+│     │                
+│     ├── stylesheets
+│     │     ├── archive.css
+│     │     ├── frontpage.css
+│     │     ├── header.css
+│     │     └── dilemmaPage
+│     │            ├── dilemmaAgeGroup.css
+│     │            ├── dilemmaCategory.css
+│     │            ├── dilemmaCrossroad.css
+│     │            ├── dilemmaQuestion.css
+│     │            ├── dilemmaResult.css
+│     │            ├── dilemmaStart.css
+│     │            └── dilemmaWorkMode.css
+│     └── utils
 │           └── header.jsx
-│── application.jsx
-│── index.html
-│── index.jsx
+├── server
+│     └── server.js
+
 ````
