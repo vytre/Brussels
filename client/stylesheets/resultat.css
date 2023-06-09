@@ -45,15 +45,15 @@ body {
     display:flex;
 	flex-direction: column;
     width:100vw;
-    height:20vh;
+    height:5vh;
     position:absolute;
     align-items: center;
-	top:5vh;
+	top:10vh;
 }
 
 .resultat-tittel-resultat {
 	width: 100vw;
-    height: 20vh;
+    height: 5vh;
     position:static;
     font-size:10vh;
     color:white;
