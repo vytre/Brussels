@@ -120,19 +120,19 @@ background-color: rgb(208, 208, 208);
 	justify-content: center;
 	align-items: center;
 	position:absolute;
-	bottom:25vh;
+	bottom:35vh;
 }
 
 .resultat-dineSvar-div {
 	background-repeat: no-repeat;
 	display:flex;
 	align-items: center;
-	justify-content: center;
+
 	flex-direction: column;
 	background-image: url(../images/dineSvar-bg.png);
 	position: absolute;
 	width:22vw;
-	height: 40vh;
+	height: 50vh;
 	top:30vh;
 	left:10%;
 	background-size: cover;
@@ -150,19 +150,19 @@ background-color: rgb(208, 208, 208);
 	flex-direction: row;
 	gap:3vw;	
 	position:absolute;
-	top:22vh;
-	align-items: center;
+	top:31vh;
+	align-items: flex-end;
 }
 
 .resultat-gjennomsnitt-div {
 	background-repeat: no-repeat;
 	display:flex;
 	align-items:center;
-	justify-content: center;
+	justify-content: flex-end;
 	background-image: url(../images/gjennomsnitt-bg.png);
 	flex-direction: column;
 	width:22vw;
-	height: 40vh;
+	height: 50vh;
 	top:30vh;
 	left:35%;
 	background-size: cover;
@@ -171,26 +171,25 @@ background-color: rgb(208, 208, 208);
 
 .resultat-gjennomsnitt-p-div {
 	display:flex;
-	width: ;
 	flex-direction: column;
 	background-position: top;
 	justify-content: center;
 	align-items: center;
 	position:absolute;
-	bottom:25vh;
+	bottom:35vh;
 }
 
 .resultat-gjennomsnitt-p {
 	text-align: center;
 	position: static;
-	font-size:5vh;
+	font-size:3vh;
 	color:white;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;;
 }
 
 .resultat-dineSvarBlokk-1 {
 	width:2.5vw;
-	height:10vh;		
+	height:11vh;		
 	display:inline-block;
 	background-color: blue;
 	position: static;
@@ -211,18 +210,18 @@ background-color: rgb(208, 208, 208);
 }
 .resultat-blokk-p-1 {
 	position:absolute;
-	top:12.8vh;
+	top:14vh;
 	font-size: 1vw;
 }
 .resultat-blokk-p-2 {
 	position:absolute;
-	top:12.8vh;
+	top:14vh;
 	font-size: 1vw;
 	right:4.3vw;
 }
 .resultat-blokk-p-3 {
 	position:absolute;
-	top:13vh;
+	top:14vh;
 	font-size: 1vw;
 	left:10vw;
 }
@@ -231,23 +230,23 @@ background-color: rgb(208, 208, 208);
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center;	
+	align-items: flex-end;	
 	position:absolute;
-	top:22vh;
+	top:31vh;
 	gap:3vw;
 }
 
 .resultat-gjennomsnitt-blokk-1 {
 	position:static;
 	width:2.5vw;
-	height:10vh;	
+	height:11vh;	
 	display:inline-block;
 	background-color: blue;
 }
 .resultat-gjennomsnitt-blokk-2 {
 	position:static;
 	width:2.5vw;
-	height:10vh;	
+	height:8vh;	
 	display:inline-block;
 	background-color: red;
 }
@@ -261,19 +260,19 @@ background-color: rgb(208, 208, 208);
 
 .resultat-gs-blokk-p-1 {
 	position:absolute;
-	top:12.8vh;
+	top:15vh;
 	font-size: 1vw;
 
 }
 .resultat-gs-blokk-p-2 {
 	position:absolute;
-	top:12.8vh;
+	top:15vh;
 	font-size: 1vw;
 	right:4.3vw;
 }
 .resultat-gs-blokk-p-3 {
 	position:absolute;
-	top:13vh;
+	top:15vh;
 	font-size: 1vw;
 	left:10vw;
 }
@@ -281,21 +280,21 @@ background-color: rgb(208, 208, 208);
 .resultat-ds-score-blokk-1 {
 	position:absolute;
 	font-size:1vw;
-	bottom:10.5vh;
+	bottom:11vh;
 	left:0.5vw;
 }
 
 .resultat-ds-score-blokk-2 {
 	position:absolute;
 	font-size:1vw;
-	bottom:10vh;
+	bottom:8vh;
 	left:6.5vw;
 }
 
 .resultat-ds-score-blokk-3 {
 	position:absolute;
 	font-size:1vw;
-	bottom:13.5vh;
+	bottom:15vh;
 	left:11.5vw;
 }
 
@@ -309,13 +308,13 @@ background-color: rgb(208, 208, 208);
 .resultat-gs-score-blokk-2 {
 	position:absolute;
 	font-size:1vw;
-	bottom:10.5vh;
+	bottom:7.5vh;
 	left:6.5vw;
 }
 
 .resultat-gs-score-blokk-3 {
 	position:absolute;
 	font-size:1vw;
-	bottom:13.5vh;
+	bottom:15vh;
 	left:11.5vw;
 }
