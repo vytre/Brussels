@@ -19,7 +19,6 @@ export function DilemmaRoute() {
         <Route path={"/questions"} element={<DilemmaQuestion />}></Route>
         <Route path={"/crossroads"} element={<DilemmaOneEco />}></Route>
         <Route path={"/result"} element={<DilemmaResult />}></Route>
-
         <Route path={"*"} element={<h1>Dilemma Page not Found</h1>}></Route>
       </Routes>
     </>

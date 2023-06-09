@@ -11,28 +11,17 @@ export function DilemmaKategorier() {
   };
 
   return (
-
-      <div className="pageCategory">
+    <div className="pageCategory">
       <Header />
-      
       <div className="containerCategory">
-          <div className="headingCategory">Velg kategori</div>
-          <div className="ageGroupCategory">
-            
-            <div className="brownBoxCategory" onClick={handleClick}>
-          
-            </div>
-  
-            <div className="greenBoxCategory" onClick={handleClick}>
-             
-            </div>
-            <div className="purpBoxCategory" onClick={handleClick}>
-             
-            </div>
-  
-          </div>
-        </div>
-        </div>
+        <div className="headingCategory">Velg kategori</div>
+        <div className="ageGroupCategory">
+          <div className="brownBoxCategory" onClick={handleClick}></div>
 
+          <div className="greenBoxCategory" onClick={handleClick}></div>
+          <div className="purpBoxCategory" onClick={handleClick}></div>
+        </div>
+      </div>
+    </div>
   );
 }

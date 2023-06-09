@@ -35,7 +35,6 @@ export function Archive() {
             </div>
           </div>
         </div>
-
         <div className="beigeBar"></div>
 
         <div className="container">

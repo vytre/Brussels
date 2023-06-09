@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 export function DilemmaQuestion() {
   const questions = [
     "Er mennesker mer verdt enn dyr?",
-   /* "Er naturen mer verdt enn mennesker?",
+    /* "Er naturen mer verdt enn mennesker?",
     "Er det verdt å teste på dyr?",*/
   ];
 
@@ -29,11 +29,8 @@ export function DilemmaQuestion() {
       <div className="introToGameContainer43">
         <div className="questionOneContainer43">
           <div className="questionsOneTextContainer43">
-            <p className="questionOne43">
-              Er mennesker mer verdt enn dyr?
-            </p>
+            <p className="questionOne43">Er mennesker mer verdt enn dyr?</p>
           </div>
-
           <div className="yesOrNo43">
             <div className="yes43" onClick={handleClick}>
               <p className="yesTextDesign43">Ja</p>
