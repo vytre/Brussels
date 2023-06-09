@@ -1,6 +1,6 @@
 import "../stylesheets/archive.css";
 import { Header } from "../utils/header.jsx";
-import { useNavigate } from "react-router-dom";
+
 export function Archive() {
   function ancepDocButton() {
     window.location.href = "https://ancep.no/docs/";
