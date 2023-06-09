@@ -31,7 +31,7 @@ body {
     height: 90vh;
     margin-bottom: 0;
     border: 2px solid black;
-    background-image: url(../images/flowerpower-BG.png);
+    background-image: url(../../images/flowerpower-BG.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

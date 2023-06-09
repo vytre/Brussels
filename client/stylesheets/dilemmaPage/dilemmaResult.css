@@ -12,7 +12,7 @@ body {
     margin-right: auto;
     padding: 0;
     align-items: center;
-	background-image: url(../images/flowerpower-BG.png);
+	background-image: url(../../images/flowerpower-BG.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .resultat-tekstBoks1 {
-	background-image: url(../images/Rectangle33.png);
+	background-image: url(../../images/Rectangle33.png);
 	height:30vh;
 	width: 40vw;
 	top:20%;
@@ -94,7 +94,7 @@ background-color: rgb(208, 208, 208);
 }
 
 .resultat-tekstBoks2 {
-	background-image: url(../images/Rectangle33.png);
+	background-image: url(../../images/Rectangle33.png);
 	height:30vh;
 	width: 40vw;
 	top:50%;

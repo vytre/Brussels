@@ -1,4 +1,4 @@
-import "../../stylesheets/dilemmaQuestion.css";
+import "../../stylesheets/dilemmaPage/dilemmaQuestion.css";
 import * as React from "react";
 import { useState } from "react";
 import { Header } from "../../utils/header.jsx";

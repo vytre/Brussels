@@ -1,4 +1,4 @@
-import "../../stylesheets/dilemmaCrossroad.css";
+import "../../stylesheets/dilemmaPage/dilemmaCrossroad.css";
 import { Header } from "../../utils/header.jsx";
 import { useNavigate } from "react-router-dom";
 
