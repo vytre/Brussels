@@ -1,4 +1,4 @@
-import { Header } from "../../utils/header.jsx";
+  import { Header } from "../../utils/header.jsx";
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
 import "../../stylesheets/dilemmaPage/dilemmaStart.css";
@@ -11,7 +11,7 @@ export function DilemmaStart() {
   };
 
   return (
-    <>
+    <div className="page42">
       <Header />
       <div className="introToGameContainer42">
         <div className="titleContainer42">
@@ -32,6 +32,6 @@ export function DilemmaStart() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
