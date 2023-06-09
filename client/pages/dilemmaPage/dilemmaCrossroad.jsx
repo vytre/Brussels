@@ -2,7 +2,7 @@ import "../../stylesheets/dilemmaOneEcoStyle.css";
 import { Header } from "../../utils/header.jsx";
 import { useNavigate } from "react-router-dom";
 
-export function DilemmaOneEco() {
+export function DilemmaCrossroad() {
   const navigate = useNavigate();
   const handleClick = () => {
     navigate("/dilemma/result");

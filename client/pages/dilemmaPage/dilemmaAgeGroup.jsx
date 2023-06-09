@@ -3,7 +3,7 @@ import * as React from "react";
 import { Header } from "../../utils/header.jsx";
 import { useNavigate } from "react-router-dom";
 
-export function Test() {
+export function DilemmaSelectAgeGroup() {
   const navigate = useNavigate();
 
   const handleClick = () => {

@@ -3,7 +3,7 @@ import * as React from "react";
 import { useNavigate } from "react-router-dom";
 import "../../stylesheets/kategori.css";
 
-export function DilemmaKategorier() {
+export function DilemmaCategory() {
   const navigate = useNavigate();
 
   const handleClick = () => {
