@@ -98,7 +98,6 @@ const groupName = "Brussels";
 │     │            └── dilemmaWorkMode.css
 │     └── utils
 │           └── header.jsx
-├── server
-│     └── server.js
-
+└── server
+     └── server.js
 ````
