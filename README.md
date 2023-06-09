@@ -3,6 +3,12 @@
 * **[docs](https://github.com/vytre/Brussels/tree/main/docs)** - Document folder
   * **[group-docs](https://github.com/vytre/Brussels/tree/main/docs/group-docs)** - Group Documentation, Riskplan, Contract and Radar Test
   * **[sprint-reports](https://github.com/vytre/Brussels/tree/main/docs/sprint-reports)** - Weekly sprint reports
+* **[client](https://github.com/vytre/Brussels/tree/main/client)** - client side code
+  * **[images](https://github.com/vytre/Brussels/tree/main/client/images)** - Images used in our application
+  * **[pages](https://github.com/vytre/Brussels/tree/main/client/pages)** - Page components
+  * **[stylesheets](https://github.com/vytre/Brussels/tree/main/client/stylesheets)** - css Stylesheets
+  * **[utils](https://github.com/vytre/Brussels/tree/main/client/utils)** - commonly used components
+* **[server](https://github.com/vytre/Brussels/tree/main/server)** - server side code
 
 
 ## Starting the React App
