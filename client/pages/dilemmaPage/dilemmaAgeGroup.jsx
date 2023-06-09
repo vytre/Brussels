@@ -1,4 +1,4 @@
-import "../../stylesheets/dilemmaAlder.css";
+import "../../stylesheets/dilemmaAgeGroup.css";
 import * as React from "react";
 import { Header } from "../../utils/header.jsx";
 import { useNavigate } from "react-router-dom";

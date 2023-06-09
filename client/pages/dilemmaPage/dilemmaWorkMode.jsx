@@ -1,7 +1,7 @@
 import { Header } from "../../utils/header.jsx";
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
-import "../../stylesheets/dilemmaHvordan.css";
+import "../../stylesheets/dilemmaWorkMode.css";
 
 export function DilemmaWorkMode() {
   const navigate = useNavigate();
