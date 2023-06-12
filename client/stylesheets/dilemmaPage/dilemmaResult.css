@@ -12,9 +12,10 @@ body {
     margin-right: auto;
     padding: 0;
     align-items: center;
-	background-image: url(../../images/flowerpower-BG.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+
+	background-image:url(../../images/flowerpower-BG.png);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
 }
 
 .resultat-midt-div {
@@ -47,7 +48,6 @@ body {
 	flex-direction: column;
     width:100vw;
     height:5vh;
-    position:absolute;
     align-items: center;
 	top:10vh;
 }
@@ -98,7 +98,6 @@ background-color: rgb(208, 208, 208);
 	height:30vh;
 	width: 40vw;
 	top:50%;
-	left:10%;
 	position:absolute;
 	left:63%;
 	background-repeat: no-repeat;
@@ -128,7 +127,7 @@ background-color: rgb(208, 208, 208);
 .resultat-dineSvar-div {
 	display: flex;
     flex-direction: column;
-    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.25);
     background-color:rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 1);
     width:20vw;
     height:53vh;
@@ -168,7 +167,7 @@ background-color: rgb(208, 208, 208);
 .resultat-gjennomsnitt-div {
     display: flex;
     flex-direction: column;
-    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.25);
     background-color:#96608e;
     width:20vw;
     height:53vh;
