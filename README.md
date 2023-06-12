@@ -3,6 +3,12 @@
 * **[docs](https://github.com/vytre/Brussels/tree/main/docs)** - Document folder
   * **[group-docs](https://github.com/vytre/Brussels/tree/main/docs/group-docs)** - Group Documentation, Riskplan, Contract and Radar Test
   * **[sprint-reports](https://github.com/vytre/Brussels/tree/main/docs/sprint-reports)** - Weekly sprint reports
+* **[client](https://github.com/vytre/Brussels/tree/main/client)** - client side code
+  * **[images](https://github.com/vytre/Brussels/tree/main/client/images)** - Images used in our application
+  * **[pages](https://github.com/vytre/Brussels/tree/main/client/pages)** - Page components
+  * **[stylesheets](https://github.com/vytre/Brussels/tree/main/client/stylesheets)** - css Stylesheets
+  * **[utils](https://github.com/vytre/Brussels/tree/main/client/utils)** - commonly used components
+* **[server](https://github.com/vytre/Brussels/tree/main/server)** - server side code
 
 
 ## Starting the React App
@@ -49,26 +55,49 @@ const universityCourse = "PRO 202 Agile Project";
 const groupName = "Brussels";
 ```
 
-### *Folder*
-For folders we have use spinal-case
-
+### *Folder Structure*
 ```
 ├── docs
-│ ├── group-docs
-│ └── sprint-reports
-│ 
+│     ├── group-docs
+│     │        ├── Employment-Contract-Brussels.pdf
+│     │        ├── Radar-Test-Brussels.pdf
+│     │        └── Risk-Plan-Brussels.pdf
+│     │
+│     └── sprint-reports
+│               ├── Design-Sprint-Report.pdf
+│               └── Sprint-1-Report.pdf
 │ 
 ├── client
-│      ├── pages
-│           ├── frontpage.jsx
-│           ├── archive.jsx
-│      └── stylesheets
-│             └── frontpage.css
-│             └── arkiv.css
-│             └── header.css
-│      └── utils
+│     ├── application.jsx
+│     ├── index.html
+│     ├── index.jsx
+│     ├── pages
+│     │    ├── archive.jsx
+│     │    ├── dilemmaRoute.jsx
+│     │    ├── frontpage.jsx
+│     │    └── dilemmaPage
+│     │            ├── dilemmaAgeGroup.jsx
+│     │            ├── dilemmaCategory.jsx
+│     │            ├── dilemmaCrossroad.jsx
+│     │            ├── dilemmaQuestion.jsx
+│     │            ├── dilemmaResult.jsx
+│     │            ├── dilemmaStart.jsx
+│     │            └── dilemmaWorkMode.jsx
+│     │                
+│     ├── stylesheets
+│     │     ├── archive.css
+│     │     ├── frontpage.css
+│     │     ├── header.css
+│     │     └── dilemmaPage
+│     │            ├── dilemmaAgeGroup.css
+│     │            ├── dilemmaCategory.css
+│     │            ├── dilemmaCrossroad.css
+│     │            ├── dilemmaQuestion.css
+│     │            ├── dilemmaResult.css
+│     │            ├── dilemmaStart.css
+│     │            └── dilemmaWorkMode.css
+│     └── utils
 │           └── header.jsx
-│── application.jsx
-│── index.html
-│── index.jsx
+└── server
+     └── server.js
 ````
