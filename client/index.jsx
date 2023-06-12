@@ -24,6 +24,8 @@ import DilemmaEcoTwoOilWind from "/dilemmaEcoTwo.jsx"
 
 import "/dilemmaOneEco.css"
 
+import "/dilemmaEcoTwo.css"
+
 import "/mainDilemmaFramework.css"
 
 

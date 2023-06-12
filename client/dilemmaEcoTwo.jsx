@@ -1,6 +1,6 @@
 function DilemmaEcoTwoOilWind() {
     return (
-        <>
+    
         <div className="mainConForDilemma">
 
         
@@ -9,16 +9,17 @@ function DilemmaEcoTwoOilWind() {
                 </div>
 
                 <div className="dilemmaTextContainer"> 
-                <p className="dilemmaText"></p>
+                <p className="dilemmaText">Burde vi slutte med oljeutvinning, og kun fokusere på fornybar energi? Hvis ja, trykk på vindmøllen. Hvis nei, trykk på oljeriggen.</p>
                 </div>
 
-                <div className="dilemmaWindOilContainer">
-                <div className="oilContainer"/>
+                <div className="dilemmaWindOil">
                 <div className="windmillContainer"/>
+                <div className="oilContainer"/>
+                
                 </div>  
 
             </div>
-            </>
+            
 
     );
 }

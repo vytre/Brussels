@@ -3,7 +3,7 @@ body {
     overflow: hidden;
 }
 
-.dilemmaWindOilContainer {
+.dilemmaWindOil {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -18,7 +18,7 @@ body {
     height: 50vh;
     width: 28vw;
     background-image: url(/images/oilrig.jpg);
-    background-size: cover;
+    background-size: 30vw 50vh;
     background-repeat: no-repeat;
     cursor: pointer;
     animation: salad 10s infinite;
@@ -43,7 +43,7 @@ body {
     height: 50vh;
     width: 28vw;
     background-image: url(/images/vindmill.jpg);
-    background-size: cover;
+    background-size: 30vw 50vh;
     background-repeat: no-repeat;
     cursor: pointer;
     animation: steak 10s infinite;
