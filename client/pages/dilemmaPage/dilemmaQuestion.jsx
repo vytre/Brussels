@@ -24,7 +24,7 @@ export function DilemmaQuestion() {
   };
 
   return (
-    <>
+    <div className="page49">
       <Header />
       <div className="introToGameContainer43">
         <div className="questionOneContainer43">
@@ -41,6 +41,6 @@ export function DilemmaQuestion() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -8,12 +8,12 @@ main{
 }
 body {
     font-family: Arial;
-    overflow-x: hidden;
     margin: 0;
     background-color: #FFFFFF;
 }
 /* DIV */
-.page{
+.pageArchive{
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -21,7 +21,7 @@ body {
     width: 100%;
 }
 /*SIDE TOPP*/
-.topContainer{
+.topContainerArchive{
     display: flex;
     flex-direction: column;
     width:100vw;
@@ -32,25 +32,25 @@ body {
     background-size:100% 100%;
 
 }
-.topBox{
+.topBoxArchive{
     justify-content: center;
     width: 100vw;
     height: 90vh;
     display: flex;
     position: static;
 }
-.topInfoBox{
-    overflow: hidden;
-    justify-content: center;
+.topInfoBoxArchive{
     display: flex;
     position: static;
+    overflow: hidden;
+    justify-content: center;
     width: 100vw;
     height: 90vh;
     flex-direction: column;
     gap: 5vh;
 }
 /*burde line opp med hvor bgbox var*/
-.bgBoxContainer{
+.bgBoxContainerArchive{
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ body {
     position: static;
 
 }
-.bgBox{
+.bgBoxArchive{
     z-index: 0;
     display: flex;
     position: absolute;
@@ -71,7 +71,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.headingContainer{
+.headingContainerArchive{
     justify-content: center;
     width: 100vw;
     margin-top: 25vh;
@@ -79,7 +79,7 @@ body {
     position: static;
 
 }
-.heading{
+.headingArchive{
     z-index: 1;
     width:100vw;
     height:15vh;
@@ -96,7 +96,7 @@ body {
     letter-spacing: 3;
 
 }
-.text{
+.textArchive{
     z-index: 10;
     width: 70vw;
 
@@ -112,7 +112,7 @@ body {
     letter-spacing: 1;
 }
 /* Info Containers*/
-.container{
+.containerArchive{
     margin-top: 2.5vh;
     display: flex;
     flex-direction: column;
@@ -120,7 +120,7 @@ body {
     position: static;
     gap: 20vh;
 }
-.infoContainer{
+.infoContainerArchive{
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -129,7 +129,7 @@ body {
     gap: 10vw;
 }
 
-.infoContainer2{
+.infoContainer2Archive{
     display: flex;
     flex-direction: row;
 
@@ -140,7 +140,7 @@ body {
     gap: 10vw;
 }
 
-.box{
+.boxArchive{
     margin-top: 10vh;
     display: flex;
     flex-direction: column;
@@ -148,7 +148,7 @@ body {
     width:30vw;
     height:60vh;
 }
-.box2{
+.box2Archive{
     margin-top: 10vh;
     align-items: center;
     display: flex;
@@ -157,20 +157,20 @@ body {
     width:35vw;
     height:50vh;
 }
-.h2{
+.h2Archive{
     text-align: center;
     font-size: 7vh;
     padding: 2vh 2vw 2vh 2vw;
 }
-.h3{
+.h3Archive{
     padding: 2vh 2vw 2vh 2vw;
     font-size: 4vh;
 }
-.h4{
+.h4Archive{
     padding: 2vh 2vw 2vh 2vw;
     font-size: 2.5vh;
 }
-.btn{
+.btnArchive{
     background-color: #000000;
     color: #FFFFFF;
     font-size: 4vh;
@@ -182,7 +182,7 @@ body {
     border-bottom-right-radius: 100px;
 
 }
-.arneHammerImg{
+.arneHammerImgArchive{
     width:60vw;
     box-shadow: 7vh 7vh rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
     height: 80vh;
@@ -192,90 +192,11 @@ body {
     background-repeat:no-repeat;
     background-size:cover;
 }
-.arneAktivImg{
+.arneAktivImgArchive{
     width:55vw;
     display: flex;
     box-shadow: -7vh 7vh rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
     background-image:url(../images/arne_rebell_1.png);
     background-repeat:no-repeat;
     background-size:cover;
-}
-/* FOR HEADER*/
-.containerHeader {
-    display: flex;
-    position: static;
-    width: 100vw;
-    height: 10vh;
-    background-color: #c7b9a5c7;
-
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    margin-top: 0;
-
-}
-
-.logo{
-    width: 18vw;
-    height: 10vh;
-    background-image: url(../images/ancep_logo_1_2023_1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1vw;
-    margin-right: 15vw;
-}
-
-.hjem {
-    margin-top: 4vh;
-    margin-left: 2vw;
-    font-family: Inter;
-    cursor: pointer;
-    justify-content: center;
-    font-size: 3vh;
-    text-decoration: none;
-    outline: 0;
-    border-bottom: solid 0.5vh transparent;
-    transition: color .4s ease-out, border-bottom-color .4s ease-out;
-}
-
-.hjem:hover{
-    border-bottom: solid 0.5vh #96608ed8;
-
-}
-
-.dilemmaer {
-    margin-top: 4vh;
-    margin-left: 2vw;
-    font-family: Inter;
-    cursor: pointer;
-    justify-content: center;
-
-    font-size: 3vh;
-    border-bottom: solid 0.5vh transparent;
-    transition: color .4s ease-out, border-bottom-color .4s ease-out;
-
-}
-
-.dilemmaer:hover{
-    border-bottom: solid 0.5vh #96608ed8;
-}
-
-.arkiv {
-    margin-top: 4vh;
-    margin-left: 2vw;
-    font-family: Inter;
-    cursor: pointer;
-    justify-content: center;
-
-    font-size: 3vh;
-    border-bottom: solid 0.5vh transparent;
-    transition: color .4s ease-out, border-bottom-color .4s ease-out;
-}
-
-.arkiv:hover{
-    border-bottom: solid 0.5vh #96608ed8;
 }

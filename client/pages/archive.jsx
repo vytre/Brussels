@@ -8,17 +8,17 @@ export function Archive() {
 
   return (
     <div className={"mainCon"}>
-      <div className="page">
-        <div className="topContainer">
+      <div className="pageArchive">
+        <div className="topContainerArchive">
           <Header />
-          <div className="topBox">
-            <div className="topInfoBox">
-              <div className="headingContainer">
-                <div className="heading">Arnes Historie</div>
+          <div className="topBoxArchive">
+            <div className="topInfoBoxArchive">
+              <div className="headingContainerArchive">
+                <div className="headingArchive">Arnes Historie</div>
               </div>
-              <div className="bgBoxContainer">
-                <div className="bgBox">
-                  <div className="text">
+              <div className="bgBoxContainerArchive">
+                <div className="bgBoxArchive">
+                  <div className="textArchive">
                     Arne Næss var en norsk filosof som var en de mest
                     innflytelsesrike intellektuelle i Norge i andre halvdel av
                     1900-tallet. Gjennom Næss' innflytelse fikk analytisk
@@ -35,18 +35,16 @@ export function Archive() {
             </div>
           </div>
         </div>
-        <div className="beigeBar"></div>
-
-        <div className="container">
-          <div className="infoContainer">
-            <div className="arneHammerImg"></div>
-            <div className="box">
-              <div className="h2">Arkiv</div>
-              <div className="h3">
+        <div className="containerArchive">
+          <div className="infoContainerArchive">
+            <div className="arneHammerImgArchive"></div>
+            <div className="boxArchive">
+              <div className="h2Archive">Arkiv</div>
+              <div className="h3Archive">
                 Proffessor, fjellklatrer, Ridder av St. Olavs Orden. Men hvem
                 var Arne Næss egentlig
               </div>
-              <div className="h4">
+              <div className="h4Archive">
                 Arne var en norsk filosof, kjent for sin lidenskap til natur og
                 mennesker. Han blir sett på som mannen bak dypøkologien og var
                 en veldig innflytningsrik filosof. Arne sine ideer om verden er
@@ -55,22 +53,21 @@ export function Archive() {
             </div>
           </div>
 
-          <div className="infoContainer2">
-            <div className="box2">
-              <div className="h2">Arne Næss kunnskapssamling</div>
-              <div className="h4">
+          <div className="infoContainer2Archive">
+            <div className="box2Archive">
+              <div className="h2Archive">Arne Næss kunnskapssamling</div>
+              <div className="h4Archive">
                 ANCEP har til nå identifisert i overkant av 3400 dokumenter. En
                 oversikt over disse finner du her. Samlingen inneholder alt fra;
                 bøker, artikler, brev, bilder.
               </div>
-              <button className="btn" onClick={ancepDocButton}>
+              <button className="btnArchive" onClick={ancepDocButton}>
                 Kunnskapssamlingen
               </button>
             </div>
-            <div className="arneAktivImg"></div>
+            <div className="arneAktivImgArchive"></div>
           </div>
         </div>
-        <div className="beigeBar"></div>
       </div>
     </div>
   );
