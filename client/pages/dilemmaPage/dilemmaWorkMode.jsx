@@ -17,8 +17,8 @@ export function DilemmaWorkMode() {
 
   return (
     <>
-      <Header />
       <div className="pageHow">
+        <Header />
         <div className="containerHow">
           <div className="headingHow">Hvordan jobber du?</div>
           <div className="ageGroupHow">

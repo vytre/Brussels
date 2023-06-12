@@ -8,7 +8,7 @@ export function DilemmaCrossroad() {
     navigate("/dilemma/result");
   };
   return (
-    <>
+    <div className="pageCrossRoads">
       <Header />
       <div className="introToGameContainer">
         <div className="titleContainer">
@@ -28,6 +28,6 @@ export function DilemmaCrossroad() {
           <div className="steakContainer" onClick={handleClick} />
         </div>
       </div>
-    </>
+    </div>
   );
 }
