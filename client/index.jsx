@@ -22,11 +22,17 @@ import DilemmaOneEco from  "/dilemmaOneEco.jsx"
 
 import DilemmaEcoTwoOilWind from "/dilemmaEcoTwo.jsx"
 
+import DilemmaEcoThreeRecycle from "/dilemmaEcoThree.jsx"
+
 import "/dilemmaOneEco.css"
 
 import "/dilemmaEcoTwo.css"
 
+import "/dilemmaEcoThree.css"
+
 import "/mainDilemmaFramework.css"
+
+
 
 
 
@@ -168,9 +174,22 @@ function DilemmaTwoEco() {
   );
 }
 
+function DilemmaThreeRecycle() {
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <DilemmaEcoThreeRecycle />
+    </div>
+    </div>
+    </>
+  );
+}
+
 
 
 
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(<DilemmaTwoEco />);
+root.render(<DilemmaThreeRecycle />);
