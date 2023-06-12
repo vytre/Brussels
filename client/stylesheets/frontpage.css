@@ -432,6 +432,7 @@
 	margin-bottom: 2vh;
 	width: 40vw;
 	height: 15vh;
+	-webkit-text-stroke: 1px black;
 }
 
 .infoBoxStartside {

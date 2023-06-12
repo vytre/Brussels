@@ -11,7 +11,7 @@ body {
     height: 90vh;
     margin-bottom: 0;
 
-    background-image: url(../images/flowerpower-BG.png);
+    background-image: url(../../images/flowerpower-BG.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

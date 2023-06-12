@@ -9,7 +9,7 @@ body {
 }
 
 .pageHow {
-    background-image:url(./../images/bg-img.jpg);
+    background-image:url(../../images/bg-img.jpg);
     background-repeat:no-repeat;
     background-size: 100% 100%;
 
@@ -107,7 +107,7 @@ body {
     left:10vw;
     top:16px;
     display: flex;
-    background-image:url(../images/pngwing_1.png);
+    background-image:url(../../images/pngwing_1.png);
     background-repeat:no-repeat;
     background-size:contain;
     background-position: center;
@@ -120,7 +120,7 @@ body {
     display: flex;
     top: 0;
     position:static;
-    background-image:url(./../images/pngwing_2.png);
+    background-image:url(../../images/pngwing_2.png);
     background-repeat:no-repeat;
     background-size:contain;
     background-position: center;
@@ -133,7 +133,7 @@ body {
     height:98vh;
     position: absolute;
     left:0px;
-    background-image:url(./../images/bg-img.jpg);
+    background-image:url(../../images/bg-img.jpg);
     background-repeat:repeat-y;
     background-size: 100vw, 100vh;
 
