@@ -20,27 +20,27 @@ export function Frontpage() {
   }
 
   return (
-    <div className="main_column">
+    <div className="main_columnStartside">
       <div className="starside_topp">
         <Header />
-        <div className="infoBox">
-          <h1 className="title">Etisk Spill</h1>
-          <div className="infoTextBox">
-            <p className="startGameText">
+        <div className="infoBoxStartside">
+          <h1 className="titleStartside">Etisk Spill</h1>
+          <div className="infoTextBoxStartside">
+            <p className="startGameTextStartside">
               Her kan du teste din oppfatning av diverse dilemmaer. Man blir
               stilt spørsmål, og deretter velger man selv hva som er riktig å
               gjøre i en gitt situasjon. Det er ingen svar som er riktig.
             </p>
           </div>
-          <div className="startGame" onClick={startButton}>
-            <h1 className="startTitle">Start</h1>
+          <div className="startGameStartside" onClick={startButton}>
+            <h1 className="startTitleStartside">Start</h1>
           </div>
         </div>
       </div>
-      <div className="box_yellow">
-        <div className="row1_yellow">
-          <div className="text_box">
-            <div className="text_header_yellow">
+      <div className="box_yellowStartside">
+        <div className="row1_yellowStartside">
+          <div className="text_boxStartside">
+            <div className="text_header_yellowStartside">
               <h2>
                 ANCEP skal bidra til at
                 <br /> Arne Næss’ tanker blir
@@ -49,7 +49,7 @@ export function Frontpage() {
               </h2>
             </div>
 
-            <p className="text_yellow">
+            <p className="text_yellowStartside">
               ANCEP er organiasjonen som
               <br /> bidrar til å tilgjengeligegjøre Arne
               <br /> Næss sine værk. De har et stort,
@@ -59,27 +59,27 @@ export function Frontpage() {
               <br /> Næss sin verden.
             </p>
 
-            <div className="startGame" onClick={ancepButton}>
-              <h1 className="startTitle">ANCEP</h1>
+            <div className="ancepButton" onClick={ancepButton}>
+              <h1 className="ancepButtonTitle">ANCEP</h1>
             </div>
           </div>
         </div>
 
-        <div className="row2_yellow">
+        <div className="row2_yellowStartside">
           <div className="arne_klatrer"></div>
-          <div className="colorbox_yellow"></div>
+          <div className="colorbox_yellowStartside"></div>
         </div>
       </div>
 
-      <div className="box_blue">
-        <div className="row1_blue">
+      <div className="box_blueStartside">
+        <div className="row1_blueStartside">
           <div className="arne_fjellet"></div>
-          <div className="colorbox_blue"></div>
+          <div className="colorbox_blueStartside"></div>
         </div>
 
-        <div className="row2_blue">
-          <div className="text_box_blue">
-            <div className="text_header_blue">
+        <div className="row2_blueStartside">
+          <div className="text_box_blueStartside">
+            <div className="text_header_blueStartside">
               <h2>
                 ANCEP skal bidra til at
                 <br /> Arne Næss’ tanker blir
@@ -88,7 +88,7 @@ export function Frontpage() {
               </h2>
             </div>
 
-            <p className="text_blue">
+            <p className="text_blueStartside">
               ANCEP er organiasjonen som
               <br /> bidrar til å tilgjengeligegjøre Arne
               <br /> Næss sine værk. De har et stort,
@@ -101,14 +101,14 @@ export function Frontpage() {
         </div>
       </div>
 
-      <div className="box_green">
-        <div className="row1_green">
-          <div className="text_box_green">
-            <div className="text_header_green">
+      <div className="box_greenStartside">
+        <div className="row1_greenStartside">
+          <div className="text_box_greenStartside">
+            <div className="text_header_greenStartside">
               <h2>Hvem var Arne?</h2>
             </div>
 
-            <p className="text_green">
+            <p className="text_greenStartside">
               Arne var en norsk filosof, kjent for
               <br /> sin lidenskap til natur og
               <br />
@@ -119,14 +119,14 @@ export function Frontpage() {
               <br /> videre den dag idag.
             </p>
 
-            <div className="startGame" onClick={archiveButton}>
-              <h1 className="startTitle">Archive</h1>
+            <div className="archiveButton" onClick={archiveButton}>
+              <h1 className="archiveTitle">Archive</h1>
             </div>
           </div>
         </div>
-        <div className="row2_green">
+        <div className="row2_greenStartside">
           <div className="arne_glad"></div>
-          <div className="colorbox_green"></div>
+          <div className="colorbox_greenStartside"></div>
         </div>
       </div>
     </div>

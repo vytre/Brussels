@@ -1,4 +1,4 @@
-import "../../stylesheets/question.css";
+import "../../stylesheets/dilemmaPage/dilemmaQuestion.css";
 import * as React from "react";
 import { useState } from "react";
 import { Header } from "../../utils/header.jsx";
@@ -7,8 +7,8 @@ import { useNavigate } from "react-router-dom";
 export function DilemmaQuestion() {
   const questions = [
     "Er mennesker mer verdt enn dyr?",
-    "Er naturen mer verdt enn mennesker?",
-    "Er det verdt å teste på dyr?",
+    /* "Er naturen mer verdt enn mennesker?",
+    "Er det verdt å teste på dyr?",*/
   ];
 
   const [index, setIndex] = useState(0);
@@ -19,31 +19,28 @@ export function DilemmaQuestion() {
       setIndex(index + 1);
     }
     if (index >= questions.length - 1) {
-      navigate("/dilemma/result");
+      navigate("/dilemma/crossroads");
     }
   };
 
   return (
-    <div className={"mainCon"}>
+    <>
       <Header />
-      <div className={"questContain"}>
-        <div className="introToGameContainer">
-          <div className="questionOneContainer">
-            <div className="questionsOneTextContainer">
-              <p className="questionOne">{questions[index]}</p>
+      <div className="introToGameContainer43">
+        <div className="questionOneContainer43">
+          <div className="questionsOneTextContainer43">
+            <p className="questionOne43">Er mennesker mer verdt enn dyr?</p>
+          </div>
+          <div className="yesOrNo43">
+            <div className="yes43" onClick={handleClick}>
+              <p className="yesTextDesign43">Ja</p>
             </div>
-
-            <div className="yesOrNo">
-              <div className="yes" onClick={handleClick}>
-                <p className="yesTextDesign">Ja</p>
-              </div>
-              <div className="no" onClick={handleClick}>
-                <p className="noTextDesign">Nei</p>
-              </div>
+            <div className="no43" onClick={handleClick}>
+              <p className="noTextDesign43">Nei</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

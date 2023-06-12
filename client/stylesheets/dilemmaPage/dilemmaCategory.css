@@ -8,30 +8,29 @@ body {
     margin: 0px;
 }
 
-.page {
-    background-image:url(../images/bg-img.jpg);
+.pageCategory {
+    background-image:url(../../images/bg-img.jpg);
     background-repeat:no-repeat;
     background-size: 100% 100%;
-
     display: flex;
     flex-direction: column;
     background-color:rgba(243.6556175351143, 243.6556175351143, 243.6556175351143, 0.33000001311302185);
     width: 100vw;
-    height:90vh;
+    height:100vh;
 }
 /* AGE CHOICE MODULE */
-.container{
+.containerCategory{
     display: flex;
     flex-direction: column;
-
+    
     width: 100vw;
-
+    
     justify-content: center;
     align-items: center;
     position: static;
 
 }
-.heading {
+.headingCategory {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     color:rgba(255, 255, 255, 1);
     width:100vw;
@@ -46,8 +45,19 @@ body {
     font-size:10vh;
     letter-spacing:3;
 }
-
-.ageGroup {
+.textCategory {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color:rgba(255, 255, 255, 1);
+    width:560px;
+    height:20%;
+    position:static;
+    font-family:Nunito;
+    text-align: center;
+    font-size:6vh;
+    letter-spacing:3;
+    
+}
+.ageGroupCategory {
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -56,7 +66,7 @@ body {
     align-items: center;
     gap: 5vw;
 }
-.greenBox {
+.greenBoxCategory {
     display: flex;
     flex-direction: column;
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -70,12 +80,15 @@ body {
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
     border-bottom-right-radius:50px;
-
+    background-image:url(../../images/test_dypøko.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
     box-sizing: border-box;
     border: 10px solid rgba(150, 96, 142, 0.8);;
     margin: 10px;
 }
-.purpBox {
+.purpBoxCategory {
     display: flex;
     flex-direction: column;
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -89,12 +102,15 @@ body {
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
     border-bottom-right-radius:50px;
-
+    background-image:url(../../images/test_minimal.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
     box-sizing: border-box;
     border: 10px solid rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 0.8);
     margin: 10px;
 }
-.brownBox {
+.brownBoxCategory {
     display: flex;
     flex-direction: column;
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -103,70 +119,20 @@ body {
     align-items: center;
     width:20vw;
     height:60vh;
-    top:0;
     border-top-left-radius:50px;
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
     border-bottom-right-radius:50px;
-
+    background-image:url(../../images/test_krig.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
     box-sizing: border-box;
     border: 10px solid rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 0.8);
     margin: 10px;
 }
 
-.brownImg {
-    align-items: center;
-    width:30vw;
-    height:100%;
-    left:10vw;
-    top:16px;
-    display: flex;
-    background-image:url(../images/barneskole2.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position: center;
 
-}
-
-.greenImg {
-    align-items: center;
-    width:30vw;
-    height:100%;
-    left:10vw;
-    top:16px;
-    display: flex;
-    background-image:url(../images/ungdom2.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position: center;
-
-}
-.purpImg {
-    align-items: center;
-    width:30vw;
-    height:100%;
-    left: 0;
-    display: flex;
-    top: 0;
-    position:static;
-    background-image:url(../images/vgs2.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position: center;
-
-}
-.bgImg {
-
-    overflow: hidden;
-    width:100vw;
-    height:98vh;
-    position: absolute;
-    left:0px;
-    background-image:url(../images/bg-img.jpg);
-    background-repeat:repeat-y;
-    background-size: 100vw, 100vh;
-
-}
 /* FOR HEADER*/
 .containerHeader {
     display: flex;
@@ -187,7 +153,7 @@ body {
 .logo{
     width: 18vw;
     height: 10vh;
-    background-image: url(../images/ancep_logo_1_2023_1.png);
+    background-image: url(../../images/ancep_logo_1_2023_1.png);
     background-repeat: no-repeat;
     background-size: contain;
     justify-content: center;
@@ -224,7 +190,6 @@ body {
     font-size: 3vh;
     border-bottom: solid 0.5vh transparent;
     transition: color .4s ease-out, border-bottom-color .4s ease-out;
-
 }
 
 .dilemmaer:hover{
