@@ -1,13 +1,20 @@
 import { Header } from "../../utils/header.jsx";
 import * as React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "../../stylesheets/dilemmaPage/dilemmaCategory.css";
 
 export function DilemmaCategory() {
   const navigate = useNavigate();
+  const params = useParams();
+  const ageGroup = params.ageGroup;
+  const workMode = params.workMode;
 
-  const handleClick = () => {
-    navigate("/dilemma/start-message");
+  const handleClick = (category) => {
+    navigate(`/dilemma/${ageGroup}/${workMode}/${category}`);
+    console.log(ageGroup);
+    console.log(workMode);
+    console.log(category);
+    console.log("-------");
   };
 
   return (
@@ -16,10 +23,19 @@ export function DilemmaCategory() {
       <div className="containerCategory">
         <div className="headingCategory">Velg kategori</div>
         <div className="ageGroupCategory">
-          <div className="brownBoxCategory" onClick={handleClick}></div>
+          <div
+            className="brownBoxCategory"
+            onClick={() => handleClick("war")}
+          ></div>
 
-          <div className="greenBoxCategory" onClick={handleClick}></div>
-          <div className="purpBoxCategory" onClick={handleClick}></div>
+          <div
+            className="greenBoxCategory"
+            onClick={() => handleClick("deepEcology")}
+          ></div>
+          <div
+            className="purpBoxCategory"
+            onClick={() => handleClick("minimalism")}
+          ></div>
         </div>
       </div>
     </div>

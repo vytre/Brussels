@@ -6,8 +6,10 @@ import { useNavigate } from "react-router-dom";
 export function DilemmaSelectAgeGroup() {
   const navigate = useNavigate();
 
-  const handleClick = () => {
-    navigate("/dilemma/work-mode");
+  const handleClick = (ageGroup) => {
+    console.log(ageGroup);
+    console.log("-------");
+    navigate(`/dilemma/${ageGroup}/work-mode`);
   };
 
   return (
@@ -17,13 +19,22 @@ export function DilemmaSelectAgeGroup() {
         <div className="tittelAge">Velg Aldersgruppe</div>
         <div className="ageGroupAge">
           <div className="brownBoxAge">
-            <div className="brownImgAge" onClick={handleClick}></div>
+            <div
+              className="brownImgAge"
+              onClick={() => handleClick("5-7")}
+            ></div>
           </div>
           <div className="greenBoxAge">
-            <div className="greenImgAge" onClick={handleClick}></div>
+            <div
+              className="greenImgAge"
+              onClick={() => handleClick("8-10")}
+            ></div>
           </div>
           <div className="purpBoxAge">
-            <div className="purpImgAge" onClick={handleClick}></div>
+            <div
+              className="purpImgAge"
+              onClick={() => handleClick("vgs")}
+            ></div>
           </div>
         </div>
       </div>

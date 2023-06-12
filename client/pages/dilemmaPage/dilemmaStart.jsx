@@ -1,13 +1,21 @@
   import { Header } from "../../utils/header.jsx";
 import * as React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "../../stylesheets/dilemmaPage/dilemmaStart.css";
 
 export function DilemmaStart() {
   const navigate = useNavigate();
+  const params = useParams();
+  const ageGroup = params.ageGroup;
+  const workMode = params.workMode;
+  const category = params.category;
 
   const handleClick = () => {
-    navigate("/dilemma/questions");
+    navigate(`/dilemma/${ageGroup}/${workMode}/${category}/questions`);
+    console.log(ageGroup);
+    console.log(workMode);
+    console.log(category);
+    console.log("-------");
   };
 
   return (
