@@ -16,10 +16,15 @@ import FrontpageUnder from "/Frontpageunder.jsx"
 import IntroQuesOneIfYes from "/introQuesOneIfYes.jsx"
 import IntroQuesOneIfNo from "/introQuesOneIfNo.jsx"
 
-import "/questionsStyle.css"
+
 
 import DilemmaOneEco from  "/dilemmaOneEco.jsx"
 
+import DilemmaEcoTwoOilWind from "/dilemmaEcoTwo.jsx"
+
+import "/dilemmaOneEco.css"
+
+import "/mainDilemmaFramework.css"
 
 
 
@@ -148,10 +153,22 @@ function DilemmaOneEcoVeggie() {
   );
 }
 
+function DilemmaTwoEco() {
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <DilemmaEcoTwoOilWind />
+    </div>
+    </div>
+    </>
+  );
+}
 
 
 
 
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(<DilemmaOneEcoVeggie />);
+root.render(<DilemmaTwoEco />);
