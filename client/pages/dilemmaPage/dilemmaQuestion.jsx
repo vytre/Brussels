@@ -60,36 +60,37 @@ const war = {
     no: "Hva om det eskalerer en situasjon, er det fortsatt riktig?",
   },
 };
-
-function getQuestion() {
+export function DilemmaQuestion() {
   const params = useParams();
   const category = params.category;
+  const ageGroup = params.ageGroup;
+  const workMode = params.workMode;
 
-  let categoryQuestionObject = {};
-  switch (category) {
-    case "war":
-      categoryQuestionObject = { ...war };
+  function getQuestion() {
+    let categoryQuestionObject = {};
+    switch (category) {
+      case "war":
+        categoryQuestionObject = { ...war };
 
-      console.log("war");
-      break;
-    case "deepEcology":
-      categoryQuestionObject = { ...deepEcology };
+        console.log("war");
+        break;
+      case "deepEcology":
+        categoryQuestionObject = { ...deepEcology };
 
-      console.log("deepEcology");
-      break;
-    case "minimalism":
-      categoryQuestionObject = { ...minimalism };
+        console.log("deepEcology");
+        break;
+      case "minimalism":
+        categoryQuestionObject = { ...minimalism };
 
-      console.log("minimalism");
-      break;
-    default:
-      console.log("Bug....");
-      break;
+        console.log("minimalism");
+        break;
+      default:
+        console.log("Bug....");
+        break;
+    }
+    return categoryQuestionObject;
   }
-  return categoryQuestionObject;
-}
 
-export function DilemmaQuestion() {
   const questionObject = getQuestion();
   console.log(questionObject);
 
@@ -111,7 +112,7 @@ export function DilemmaQuestion() {
       }
     }
     if (index >= 4) {
-      navigate("/dilemma/crossroads");
+      navigate(`/dilemma/${ageGroup}/${workMode}/${category}/crossroads`);
     }
   };
 
