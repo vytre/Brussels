@@ -7,8 +7,6 @@ export function SelectAgeGroup() {
   const navigate = useNavigate();
 
   const handleClick = (ageGroup) => {
-    console.log(ageGroup);
-    console.log("-------");
     navigate(`/dilemma/${ageGroup}/work-mode`);
   };
 

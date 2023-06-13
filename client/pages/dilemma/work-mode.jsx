@@ -9,9 +9,6 @@ export function WorkMode() {
   const ageGroup = params.ageGroup;
 
   const handleClick = (workMode) => {
-    console.log(ageGroup);
-    console.log(workMode);
-    console.log("-------");
     navigate(`/dilemma/${ageGroup}/${workMode}/category`);
   };
 

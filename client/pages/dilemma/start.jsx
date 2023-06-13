@@ -1,4 +1,4 @@
-  import { Header } from "../../utils/header.jsx";
+import { Header } from "../../utils/header.jsx";
 import * as React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import "../../stylesheets/dilemma/start.css";
@@ -12,10 +12,6 @@ export function Start() {
 
   const handleClick = () => {
     navigate(`/dilemma/${ageGroup}/${workMode}/${category}/questions`);
-    console.log(ageGroup);
-    console.log(workMode);
-    console.log(category);
-    console.log("-------");
   };
 
   return (

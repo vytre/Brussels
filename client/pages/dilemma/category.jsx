@@ -11,10 +11,6 @@ export function Category() {
 
   const handleClick = (category) => {
     navigate(`/dilemma/${ageGroup}/${workMode}/${category}`);
-    console.log(ageGroup);
-    console.log(workMode);
-    console.log(category);
-    console.log("-------");
   };
 
   return (
