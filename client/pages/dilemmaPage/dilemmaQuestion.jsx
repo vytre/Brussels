@@ -43,7 +43,7 @@ const minimalism = {
 
 const war = {
   1: {
-    question: "Er det alltid feil aa sende inn soldater i et annet land?",
+    question: "Er det alltid feil å sende inn soldater i et annet land?",
     yes: "Hva om det er brudd på menneskerettigheter, er det fortsatt alltid feil?",
     no: "Hva om det eskalerer en situasjon, er det fortsatt riktig?",
   },
