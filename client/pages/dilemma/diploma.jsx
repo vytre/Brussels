@@ -1,4 +1,5 @@
-export function printFunction() {
+import "../../stylesheets/dilemma/diploma.css";
+export function Diploma() {
   let uname = prompt("Navn:");
   return (
     <div id="diplom">

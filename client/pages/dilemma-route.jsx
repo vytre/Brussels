@@ -6,6 +6,8 @@ import { Start } from "./dilemma/start.jsx";
 import { Question } from "./dilemma/question.jsx";
 import { Crossroad } from "./dilemma/crossroad.jsx";
 import { Result } from "./dilemma/result.jsx";
+import { SelectAgeGroup } from "./dilemma/age-group.jsx";
+import { Diploma } from "./dilemma/diploma.jsx";
 
 function DilemmaWorkMode() {
   return null;
@@ -15,7 +17,7 @@ export function DilemmaRoute() {
   return (
     <>
       <Routes>
-        <Route path={"/"} element={<Category />}></Route>
+        <Route path={"/"} element={<SelectAgeGroup />}></Route>
         <Route path={"/:ageGroup/work-mode"} element={<WorkMode />}></Route>
         <Route
           path={"/:ageGroup/:workMode/category"}
@@ -36,6 +38,10 @@ export function DilemmaRoute() {
         <Route
           path={"/:ageGroup/:workMode/:category/result"}
           element={<Result />}
+        ></Route>
+        <Route
+          path={"/:ageGroup/:workMode/:category/diploma"}
+          element={<Diploma />}
         ></Route>
         <Route path={"*"} element={<h1>Dilemma Page not Found</h1>}></Route>
       </Routes>

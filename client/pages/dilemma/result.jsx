@@ -1,14 +1,19 @@
 import { Header } from "../../utils/header.jsx";
 import * as React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "../../stylesheets/dilemma/result.css";
 
 export function Result() {
   const navigate = useNavigate();
+  const params = useParams();
+  const ageGroup = params.ageGroup;
+  const workMode = params.workMode;
+  const category = params.category;
+
   const navigateToArchive = navigate("/archive");
 
   function navigateToDiploma() {
-    navigate("/dilemma/diploma");
+    navigate(`/dilemma/${ageGroup}/${workMode}/${category}/diploma`);
   }
 
   return (
