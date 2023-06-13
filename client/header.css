@@ -28,7 +28,7 @@
 .hjem {
   margin-top: 4vh;
   margin-left: 2vw;
-  font-family: Inter;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   cursor: pointer;
   justify-content: center;
   font-size: 3vh;
@@ -46,7 +46,7 @@
 .dilemmaer {
   margin-top: 4vh;
   margin-left: 2vw;
-  font-family: Inter;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   cursor: pointer;
   justify-content: center;
 
@@ -63,7 +63,7 @@
 .arkiv {
   margin-top: 4vh;
   margin-left: 2vw;
-  font-family: Inter;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   cursor: pointer;
   justify-content: center;
 

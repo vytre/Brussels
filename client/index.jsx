@@ -18,19 +18,46 @@ import IntroQuesOneIfNo from "/introQuesOneIfNo.jsx"
 
 
 
-import DilemmaOneEco from  "/dilemmaOneEco.jsx"
+import DilemmaOneEco from  "/dilemmaEcoOne.jsx"
 
 import DilemmaEcoTwoOilWind from "/dilemmaEcoTwo.jsx"
 
 import DilemmaEcoThreeRecycle from "/dilemmaEcoThree.jsx"
 
-import "/dilemmaOneEco.css"
+import MinimalismOne from "/dilemmaMinimalismOne.jsx"
+
+import MinimalismTwo from "/dilemmaMinimalismTwo.jsx"
+
+import MinimalismThree from "./dilemmaMinimalismThree";
+
+import WarAndConflictOne from "./dilemmaWarOne";
+
+import WarAndConflictTwo from "./dilemmaWarTwo.jsx"
+
+import WarAndConflictThree from "./dilemmaWarThree";
+
+import "/dilemmaEcoOne.css"
 
 import "/dilemmaEcoTwo.css"
 
 import "/dilemmaEcoThree.css"
 
+import "/dilemmaMinimalismOne.css"
+
+import "/dilemmaMinimalismTwo.css"
+
 import "/mainDilemmaFramework.css"
+
+import "/dilemmaMinimalismThree.css"
+
+import "/dilemmaWarOne.css"
+
+import "/dilemmaWarThree.css"
+
+
+
+
+
 
 
 
@@ -187,9 +214,92 @@ function DilemmaThreeRecycle() {
   );
 }
 
+function MinimalismOneDil() {
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <MinimalismOne />
+    </div>
+    </div>
+    </>
+  );
+}
+
+
+function MinimalismTwoDil() {
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <MinimalismTwo />
+    </div>
+    </div>
+    </>
+  );
+}
+
+
+function MinimalismThreeDil() {
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <MinimalismThree />
+    </div>
+    </div>
+    </>
+  );
+}
+
+
+function WarAndConflictOneDil() {
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <WarAndConflictOne />
+    </div>
+    </div>
+    </>
+  );
+}
+
+function WarAndConflictTwoDil() {
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <WarAndConflictTwo />
+    </div>
+    </div>
+    </>
+  );
+}
+
+function WarAndConflictThreeDil() {
+  return (
+    <>
+    <div className="mainCon">
+    <Header />
+    <div className="introGame">
+    <WarAndConflictThree />
+    </div>
+    </div>
+    </>
+  );
+}
+
+
+
 
 
 
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(<DilemmaThreeRecycle />);
+root.render(<WarAndConflictThreeDil />);

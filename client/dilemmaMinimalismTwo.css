@@ -1,0 +1,70 @@
+body {
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.badWorkConditions {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 50vh;
+    width: 50vw;
+    margin-top: 5vh;
+    gap: 4vh;
+    
+}
+
+.badConditions {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(/images/tree.jpeg);
+    background-size: 25vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: salad 10s infinite;
+    border-radius: 1vh;
+}
+
+
+.badConditions:hover {
+    opacity: 0.7;
+}
+
+@keyframes salad {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+
+
+.goodConditions {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(/images/sweatshop.jpg);
+    background-size: 26vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: steak 10s infinite;
+    border-radius: 1vh;
+}
+
+.goodConditions:hover {
+    opacity: 0.7;
+}
+
+@keyframes steak {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+
+.dilemmaTextWorkCondition {
+    font-size: 2vh;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
