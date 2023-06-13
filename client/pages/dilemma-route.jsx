@@ -13,10 +13,7 @@ export function DilemmaRoute() {
     <>
       <Routes>
         <Route path={"/"} element={<SelectAgeGroup />}></Route>
-        <Route
-          path={"/:ageGroup/work-mode"}
-          element={<WorkMode />}
-        ></Route>
+        <Route path={"/:ageGroup/work-mode"} element={<WorkMode />}></Route>
         <Route
           path={"/:ageGroup/:workMode/category"}
           element={<Category />}
@@ -33,7 +30,10 @@ export function DilemmaRoute() {
           path={"/:ageGroup/:workMode/:category/crossroads"}
           element={<Crossroad />}
         ></Route>
-        <Route path={"/result"} element={<Result />}></Route>
+        <Route
+          path={"/:ageGroup/:workMode/:category/result"}
+          element={<Result />}
+        ></Route>
         <Route path={"*"} element={<h1>Dilemma Page not Found</h1>}></Route>
       </Routes>
     </>
