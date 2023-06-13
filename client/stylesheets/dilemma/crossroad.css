@@ -255,7 +255,7 @@ body {
 .deepEcologyCrossroad1Answer1 {
     height: 50vh;
     width: 28vw;
-    /*background-image: url(../../images/salad.jpg);*/
+    background-image: url(../../images/salad.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -280,7 +280,7 @@ body {
 .deepEcologyCrossroad1Answer2 {
     height: 50vh;
     width: 28vw;
-    /*background-image: url(../../images/steak.jpg);*/
+    background-image: url(../../images/steak.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -302,8 +302,24 @@ body {
 
 /*CROSSROAD 2*/
 .deepEcologyCrossroad2Answer1 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/vindmill.jpg);
+    background-size: 30vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: salad 10s infinite;
+    border-radius: 1vh;
 }
 .deepEcologyCrossroad2Answer2 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/oilrig.jpg);
+    background-size: 30vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: steak 10s infinite;
+    border-radius: 1vh;
 }
 .deepEcologyCrossroad2Answer1:hover {
     opacity: 0.7;
@@ -327,8 +343,24 @@ body {
 }
 /*CROSSROAD 3*/
 .deepEcologyCrossroad3Answer1 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/trash-can.jpg);
+    background-size: 25vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: salad 10s infinite;
+    border-radius: 1vh;
 }
 .deepEcologyCrossroad3Answer2 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/man-with-trash-behind.jpg);
+    background-size: 26vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: steak 10s infinite;
+    border-radius: 1vh;
 }
 .deepEcologyCrossroad3Answer1:hover {
     opacity: 0.7;
@@ -354,8 +386,24 @@ body {
 /*MINIMALISM CROSSROADS*/
 /*CROSSROAD 1*/
 .minimalismCrossroad1Answer1 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/old-phone.png);
+    background-size: 25vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: salad 10s infinite;
+    border-radius: 1vh;
 }
 .minimalismCrossroad1Answer2 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/new-phones.png);
+    background-size: 26vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: steak 10s infinite;
+    border-radius: 1vh;
 }
 .minimalismCrossroad1Answer1:hover {
     opacity: 0.7;
@@ -380,8 +428,25 @@ body {
 
 /*CROSSROAD 2*/
 .minimalismCrossroad2Answer1 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/tree.jpeg);
+    background-size: 25vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: salad 10s infinite;
+    border-radius: 1vh;
+
 }
 .minimalismCrossroad2Answer2 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/sweatshop.jpg);
+    background-size: 26vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: steak 10s infinite;
+    border-radius: 1vh;
 }
 .minimalismCrossroad2Answer1:hover {
     opacity: 0.7;
@@ -405,8 +470,24 @@ body {
 }
 /*CROSSROAD 3*/
 .minimalismCrossroad3Answer1 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/green-bag.png);
+    background-size: 25vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: salad 10s infinite;
+    border-radius: 1vh;
 }
 .minimalismCrossroad3Answer2 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/red-bag.jpg);
+    background-size: 26vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: steak 10s infinite;
+    border-radius: 1vh;
 }
 .minimalismCrossroad3Answer1:hover {
     opacity: 0.7;
@@ -431,8 +512,24 @@ body {
 /*WAR CROSSROADS*/
 /*CROSSROAD 1*/
 .warCrossroad1Answer1 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/farmer-walking-away.jpg);
+    background-size: 30vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: salad 10s infinite;
+    border-radius: 1vh;
 }
 .warCrossroad1Answer2 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/farmer-tied-up.jpg);
+    background-size: 33vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: steak 10s infinite;
+    border-radius: 1vh;
 }
 .warCrossroad1Answer1:hover {
     opacity: 0.7;
@@ -457,8 +554,24 @@ body {
 
 /*CROSSROAD 2*/
 .warCrossroad2Answer1 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/farmer-tied-up.jpg);
+    background-size: 33vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: steak 10s infinite;
+    border-radius: 1vh;
 }
 .warCrossroad2Answer2 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/farmer-walking-away.jpg);
+    background-size: 30vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: salad 10s infinite;
+    border-radius: 1vh;
 }
 .warCrossroad2Answer1:hover {
     opacity: 0.7;
@@ -482,8 +595,24 @@ body {
 }
 /*CROSSROAD 3*/
 .warCrossroad3Answer1 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/norway-flag.jpg);
+    background-size: 30vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: steak 10s infinite;
+    border-radius: 1vh;
 }
 .warCrossroad3Answer2 {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(../../images/ukraine.png);
+    background-size: 25vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: salad 10s infinite;
+    border-radius: 1vh;
 }
 .warCrossroad3Answer1:hover {
     opacity: 0.7;
