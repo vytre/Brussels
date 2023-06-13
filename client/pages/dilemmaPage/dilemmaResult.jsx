@@ -2,10 +2,30 @@ import { Header } from "../../utils/header.jsx";
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
 import "../../stylesheets/dilemmaPage/dilemmaResult.css";
+import { createRoot } from "react-dom/client";
+import "../../stylesheets/dilemmaPage/dilemmaDiplomPage.css";
+
+const element = document.getElementById("app");
+const root = createRoot(element);
 
 export function DilemmaResult() {
   const navigate = useNavigate();
   const handleClick = navigate("/archive");
+
+  function printFunction() {
+    let uname = prompt("Navn:");
+    root.render(
+      <div id="diplom">
+      <div id="diplom-div">
+      <p id="diplomNavn" className="printDiplomNavn">{uname}</p>
+      <button id="printBtn" className="no-print" type="button" onClick={printUt}>print ut</button>
+      </div>
+  </div>
+    )
+    function printUt(){
+      print();
+    }
+  }
 
   return (
     <>
@@ -87,8 +107,8 @@ export function DilemmaResult() {
                 Gratulerer med gjennomført spill!
                 <p>Om du vil kan du nå printe ut diplom.</p>
               </p>
-              <button className="resultat-btn" type="button">
-                Print diplom
+              <button className="resultat-btn" type="button" onClick={printFunction}>
+                Få diplom
               </button>
             </div>
           </div>
