@@ -1,3 +1,4 @@
+/*
 body {
     overflow: hidden;
     margin: 0px;
@@ -5,7 +6,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-.containerHeader {
+*/
+  .containerHeader {
   position: absolute;
   width: 100vw;
   height: 10vh;

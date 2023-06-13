@@ -1,9 +1,13 @@
   import * as React from "react";
+  import React, {Component} from 'react';
+  import React,{useRef} from 'react';
   import { createRoot } from "react-dom/client";
+  import { useReactToPrint } from "react-to-print";
 
   import "./index.css";
   import "./diskusjon.css";
   import "./kategori.css";
+  import "./diplomSide.css";
 
   const resultatSide = (
     <>
@@ -80,7 +84,7 @@
             Om du vil kan du nå printe ut diplom.
           </p>
         </p>
-        <button className="btn"type="button" onClick={render}>Print diplom</button>
+        <button className="btn"type="button" onClick={testfunction}>Print diplom</button>
       </div>
         </div>
         </div>
@@ -150,8 +154,53 @@ const kategoriSide = (
   </>
 )
 
+export default function printComponent(){
+  let componentRef = useRef();
+  return (
+    <>
+    <div>
+    <reactToPrint
+    trigger={() => <button>print test</button>}
+    content={() => componentRef}
+    />
+  
+    <ComponentToPrint ref={(el) => (componentRef = el)}/> 
+    </div>
+    </>
+  );
+}
+
+class ComponentToPrint extends React.Component {
+  render() {
+    return (
+      <div id="diplom">
+      <div id="diplom-div">
+      <p id="diplomNavn">{uname}</p>
+      <p id="diplomDato">2023/10/10</p>
+      </div>
+    </div>
+    );
+  }
+}
+
+function testfunction() {
+  let uname = prompt("Navn:");
+  root.render(
+    <div id="diplom">
+    <div id="diplom-div">
+    <p id="diplomNavn" className="printDiplomNavn">{uname}</p>
+    <button id="printBtn" className="no-print" type="button" onClick={printUt}>print ut</button>
+    </div>
+</div>
+  )
+  function printUt(){
+    print();
+  }
+}
+
 const element = document.getElementById("app");
 const root = createRoot(element);
-root.render(kategoriSide);
+root.render(resultatSide);
+
 
 

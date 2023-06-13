@@ -1,10 +1,11 @@
 @charset "utf-8";
+/*
 body {
     width:100vw;
     height:100vh;
     background-image: url(./images/bg-1920.png);
 	background-repeat: no-repeat;
-}	
+}*/	
 .main-div {
 	display:flex;
     flex-direction: column;

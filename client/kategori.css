@@ -3,10 +3,12 @@ main{
     max-width: 100%;
     background: aquamarine;
 }
+/*
 body {
     overflow: hidden;
     margin: 0px;
 }
+*/
 
 .page {
     background-image:url(./images/bg_img.png);
