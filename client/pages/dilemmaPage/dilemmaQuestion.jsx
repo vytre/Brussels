@@ -3,6 +3,7 @@ import * as React from "react";
 import { useState } from "react";
 import { Header } from "../../utils/header.jsx";
 import { useNavigate, useParams } from "react-router-dom";
+import { scoreSheet } from "../../utils/scoresheet.js";
 
 const deepEcology = {
   1: {
@@ -92,6 +93,7 @@ export function DilemmaQuestion() {
   }
 
   const questionObject = getQuestion();
+
   console.log(questionObject);
 
   const [index, setIndex] = useState(1);
@@ -106,12 +108,17 @@ export function DilemmaQuestion() {
         } else if (value === "no") {
           setQuestion(questionObject[index].no);
         }
+        scoreSheet.push(question);
+        scoreSheet.push(value);
         setIndex(index + 1);
       } else if (question !== questionObject[index].question) {
+        scoreSheet.push(question);
+        scoreSheet.push(value);
         setQuestion(questionObject[index].question);
       }
     }
     if (index >= 4) {
+      console.log(scoreSheet);
       navigate(`/dilemma/${ageGroup}/${workMode}/${category}/crossroads`);
     }
   };
