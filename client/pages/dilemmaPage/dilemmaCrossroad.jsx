@@ -106,7 +106,7 @@ export function DilemmaCrossroad() {
       setImageTwo(questionObject[index].imageTwo);
     }
     if (index >= 4) {
-      navigate("/dilemma/result");
+      navigate(`/dilemma/${ageGroup}/${workMode}/${category}/result`);
     }
   };
 
