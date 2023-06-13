@@ -12,6 +12,7 @@ export function Result() {
 
   const navigateToArchive = navigate("/archive");
 
+  // Navigates to printable diploma page
   function navigateToDiploma() {
     navigate(`/dilemma/${ageGroup}/${workMode}/${category}/diploma`);
   }

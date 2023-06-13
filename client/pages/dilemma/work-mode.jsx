@@ -8,6 +8,8 @@ export function WorkMode() {
   const params = useParams();
   const ageGroup = params.ageGroup;
 
+  // Navigates user to the next page, and saves work mode in url path
+
   const handleClick = (workMode) => {
     navigate(`/dilemma/${ageGroup}/${workMode}/category`);
   };

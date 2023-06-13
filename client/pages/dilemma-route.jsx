@@ -9,13 +9,11 @@ import { Result } from "./dilemma/result.jsx";
 import { SelectAgeGroup } from "./dilemma/age-group.jsx";
 import { Diploma } from "./dilemma/diploma.jsx";
 
-function DilemmaWorkMode() {
-  return null;
-}
-
 export function DilemmaRoute() {
   return (
     <>
+      {/*user choice is saved using "useParams"
+       useParams saves the user choice in the url path, which can be retrieved later */}
       <Routes>
         <Route path={"/"} element={<SelectAgeGroup />}></Route>
         <Route path={"/:ageGroup/work-mode"} element={<WorkMode />}></Route>

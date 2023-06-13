@@ -67,6 +67,9 @@ export function Question() {
   const workMode = params.workMode;
 
   function getQuestion() {
+    // Fills categoryQuestionObject with correct dilemma-object based on user selected category.
+    // The category is retrieved from url path
+
     let categoryQuestionObject = {};
     switch (category) {
       case "war":
@@ -89,13 +92,14 @@ export function Question() {
 
   const questionObject = getQuestion();
 
-  console.log(questionObject);
-
+  // We index from 1, and sets first question to the first question in the questionObject
   const [index, setIndex] = useState(1);
   const [question, setQuestion] = useState(questionObject[1].question);
   const navigate = useNavigate();
 
   const handleClick = (value) => {
+    // if question is equal the current indexed question, this means that the user has clicked either yes or no. So the if statement will set the next question to be the followup question to the questionObject question
+
     if (index < 4) {
       if (question === questionObject[index].question) {
         if (value === "yes") {
@@ -104,11 +108,13 @@ export function Question() {
           setQuestion(questionObject[index].no);
         }
         setIndex(index + 1);
+        // Question is not equal to the "next" question. So the question is updated
       } else if (question !== questionObject[index].question) {
         setQuestion(questionObject[index].question);
       }
     }
     if (index >= 4) {
+      // When all questions are looped through, go to next page
       navigate(`/dilemma/${ageGroup}/${workMode}/${category}/crossroads`);
     }
   };

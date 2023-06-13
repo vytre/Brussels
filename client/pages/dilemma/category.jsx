@@ -9,6 +9,7 @@ export function Category() {
   const ageGroup = params.ageGroup;
   const workMode = params.workMode;
 
+  // Navigates user to the next page, and saves category in url path
   const handleClick = (category) => {
     navigate(`/dilemma/${ageGroup}/${workMode}/${category}`);
   };

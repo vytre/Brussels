@@ -1,5 +1,6 @@
 import "../../stylesheets/dilemma/diploma.css";
 export function Diploma() {
+  // Prompts user for username. Then lets user Print the diploma, inscribed with username.
   let uname = prompt("Navn:");
   return (
     <div id="diplom">

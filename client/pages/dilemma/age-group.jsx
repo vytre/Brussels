@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 export function SelectAgeGroup() {
   const navigate = useNavigate();
 
+  // Navigates user to the next page, and saves age group in url path
   const handleClick = (ageGroup) => {
     navigate(`/dilemma/${ageGroup}/work-mode`);
   };
