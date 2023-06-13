@@ -73,16 +73,16 @@ const groupName = "Brussels";
 │     ├── index.jsx
 │     ├── pages
 │     │    ├── archive.jsx
-│     │    ├── dilemmaRoute.jsx
+│     │    ├── dilemma-route.jsx
 │     │    ├── frontpage.jsx
 │     │    └── dilemmaPage
-│     │            ├── dilemmaAgeGroup.jsx
-│     │            ├── dilemmaCategory.jsx
-│     │            ├── dilemmaCrossroad.jsx
-│     │            ├── dilemmaQuestion.jsx
-│     │            ├── dilemmaResult.jsx
-│     │            ├── dilemmaStart.jsx
-│     │            └── dilemmaWorkMode.jsx
+│     │            ├── age-group.jsx
+│     │            ├── category.jsx
+│     │            ├── crossroad.jsx
+│     │            ├── question.jsx
+│     │            ├── result.jsx
+│     │            ├── start.jsx
+│     │            └── work-mode.jsx
 │     │                
 │     ├── stylesheets
 │     │     ├── archive.css

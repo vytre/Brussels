@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Frontpage } from "./pages/frontpage.jsx";
-import { DilemmaRoute } from "./pages/dilemmaRoute.jsx";
+import { DilemmaRoute } from "./pages/dilemma-route.jsx";
 import { Archive } from "./pages/archive.jsx";
 
 export function Application() {

@@ -240,7 +240,7 @@ body {
     
 }
 
-.veggieOrNotContainer {
+.dilemmaImageContainer {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -250,8 +250,9 @@ body {
     gap: 4vh;
     
 }
-
-.saladContainer {
+/*DEEP ECOLOGY CROSSROADS*/
+/*CROSSROAD 1*/
+.deepEcologyCrossroad1Answer1 {
     height: 50vh;
     width: 28vw;
     /*background-image: url(../../images/salad.jpg);*/
@@ -263,11 +264,11 @@ body {
 }
 
 
-.saladContainer:hover {
+.deepEcologyCrossroad1Answer1:hover {
     opacity: 0.7;
 }
 
-@keyframes salad {
+@keyframes deepEcologyCrossroad1Answer1 {
     0% {outline: 1vh solid #93c572;}
     25% {outline: 1vh solid white;}
     50% {outline: 1vh solid #93c572;}
@@ -276,7 +277,7 @@ body {
 }
 
 
-.steakContainer {
+.deepEcologyCrossroad1Answer2 {
     height: 50vh;
     width: 28vw;
     /*background-image: url(../../images/steak.jpg);*/
@@ -287,11 +288,217 @@ body {
     border-radius: 1vh;
 }
 
-.steakContainer:hover {
+.deepEcologyCrossroad1Answer2:hover {
     opacity: 0.7;
 }
 
-@keyframes steak {
+@keyframes deepEcologyCrossroad1Answer2 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+
+/*CROSSROAD 2*/
+.deepEcologyCrossroad2Answer1 {
+}
+.deepEcologyCrossroad2Answer2 {
+}
+.deepEcologyCrossroad2Answer1:hover {
+    opacity: 0.7;
+}
+.deepEcologyCrossroad2Answer2:hover {
+    opacity: 0.7;
+}
+@keyframes deepEcologyCrossroad2Answer1 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+@keyframes deepEcologyCrossroad2Answer2 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+/*CROSSROAD 3*/
+.deepEcologyCrossroad3Answer1 {
+}
+.deepEcologyCrossroad3Answer2 {
+}
+.deepEcologyCrossroad3Answer1:hover {
+    opacity: 0.7;
+}
+.deepEcologyCrossroad3Answer2:hover {
+    opacity: 0.7;
+}
+@keyframes deepEcologyCrossroad3Answer1 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+@keyframes deepEcologyCrossroad3Answer2 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+
+/*MINIMALISM CROSSROADS*/
+/*CROSSROAD 1*/
+.minimalismCrossroad1Answer1 {
+}
+.minimalismCrossroad1Answer2 {
+}
+.minimalismCrossroad1Answer1:hover {
+    opacity: 0.7;
+}
+.minimalismCrossroad1Answer2:hover {
+     opacity: 0.7;
+ }
+@keyframes minimalismCrossroad1Answer1 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+@keyframes minimalismCrossroad1Answer2 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+
+/*CROSSROAD 2*/
+.minimalismCrossroad2Answer1 {
+}
+.minimalismCrossroad2Answer2 {
+}
+.minimalismCrossroad2Answer1:hover {
+    opacity: 0.7;
+}
+.minimalismCrossroad2Answer2:hover {
+    opacity: 0.7;
+}
+@keyframes minimalismCrossroad2Answer1 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+@keyframes minimalismCrossroad2Answer2 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+/*CROSSROAD 3*/
+.minimalismCrossroad3Answer1 {
+}
+.minimalismCrossroad3Answer2 {
+}
+.minimalismCrossroad3Answer1:hover {
+    opacity: 0.7;
+}
+.minimalismCrossroad3Answer2:hover {
+    opacity: 0.7;
+}
+@keyframes minimalismCrossroad3Answer1 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+@keyframes minimalismCrossroad3Answer2 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+/*WAR CROSSROADS*/
+/*CROSSROAD 1*/
+.warCrossroad1Answer1 {
+}
+.warCrossroad1Answer2 {
+}
+.warCrossroad1Answer1:hover {
+    opacity: 0.7;
+}
+.warCrossroad1Answer2:hover {
+    opacity: 0.7;
+}
+@keyframes warCrossroad1Answer1 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+@keyframes warCrossroad1Answer2 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+
+/*CROSSROAD 2*/
+.warCrossroad2Answer1 {
+}
+.warCrossroad2Answer2 {
+}
+.warCrossroad2Answer1:hover {
+    opacity: 0.7;
+}
+.warCrossroad2Answer2:hover {
+    opacity: 0.7;
+}
+@keyframes warCrossroad2Answer1 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+@keyframes warCrossroad2Answer2 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+/*CROSSROAD 3*/
+.warCrossroad3Answer1 {
+}
+.warCrossroad3Answer2 {
+}
+.warCrossroad3Answer1:hover {
+    opacity: 0.7;
+}
+.warCrossroad3Answer2:hover {
+    opacity: 0.7;
+}
+@keyframes warCrossroad3Answer1 {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+@keyframes warCrossroad3Answer2 {
     0% {outline: 1vh solid #93c572;}
     25% {outline: 1vh solid white;}
     50% {outline: 1vh solid #93c572;}

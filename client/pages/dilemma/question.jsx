@@ -1,4 +1,4 @@
-import "../../stylesheets/dilemmaPage/dilemmaQuestion.css";
+import "../../stylesheets/dilemma/question.css";
 import * as React from "react";
 import { useState } from "react";
 import { Header } from "../../utils/header.jsx";
@@ -61,7 +61,7 @@ const war = {
     no: "Hva om det eskalerer en situasjon, er det fortsatt riktig?",
   },
 };
-export function DilemmaQuestion() {
+export function Question() {
   const params = useParams();
   const category = params.category;
   const ageGroup = params.ageGroup;

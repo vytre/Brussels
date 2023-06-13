@@ -1,9 +1,9 @@
 import { Header } from "../../utils/header.jsx";
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
-import "../../stylesheets/dilemmaPage/dilemmaResult.css";
+import "../../stylesheets/dilemma/result.css";
 
-export function DilemmaResult() {
+export function Result() {
   const navigate = useNavigate();
   const handleClick = navigate("/archive");
 

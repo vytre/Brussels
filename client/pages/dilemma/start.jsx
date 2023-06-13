@@ -1,9 +1,9 @@
   import { Header } from "../../utils/header.jsx";
 import * as React from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import "../../stylesheets/dilemmaPage/dilemmaStart.css";
+import "../../stylesheets/dilemma/start.css";
 
-export function DilemmaStart() {
+export function Start() {
   const navigate = useNavigate();
   const params = useParams();
   const ageGroup = params.ageGroup;
