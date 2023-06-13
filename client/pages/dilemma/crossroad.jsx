@@ -108,29 +108,29 @@ export function Crossroad() {
   const [crossroad, setCrossroad] = useState(
     categoryCrossroadObject[1].crossroad
   );
+  const listLength = Object.keys(categoryCrossroadObject).length;
+
+
 
   const handleClick = (value) => {
-    //hardcoded value with a getLength of the json obj?
-
-    console.log(index);
-    setIndex(index + 1);
-    setCrossroad(categoryCrossroadObject[index].crossroad);
-
-    if (index < 4) {
-      console.log(index);
+    //
+    if (index === listLength) {
+      navigate(`/dilemma/${ageGroup}/${workMode}/${category}/result`);
+    } else {
+      setIndex(index + 1);
+      setCrossroad(categoryCrossroadObject[index+1].crossroad);
       if (value === 1) {
         //STORE USER ANSWER HERE with agegroup, category, crossroad index
       } else if (value === 2) {
         //STORE USER ANSWER HERE with agegroup, category, crossroad index
       }
-    } else if (index >= 4) {
-      navigate(`/dilemma/${ageGroup}/${workMode}/${category}/result`);
     }
   };
 
   return (
     <div className="pageCrossRoads">
       <Header />
+      <div>{index}</div>
       <div className="introToGameContainer">
         <div className="titleContainer">
           <h1 className="dilemmaTitle">Dilemma</h1>
