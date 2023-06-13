@@ -254,7 +254,7 @@ body {
 .saladContainer {
     height: 50vh;
     width: 28vw;
-    background-image: url(../../images/salad.jpg);
+    /*background-image: url(../../images/salad.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -279,7 +279,7 @@ body {
 .steakContainer {
     height: 50vh;
     width: 28vw;
-    background-image: url(../../images/steak.jpg);
+    /*background-image: url(../../images/steak.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
