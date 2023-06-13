@@ -1,0 +1,63 @@
+body {
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.dilemmaNewOrOldPhone {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 50vh;
+    width: 50vw;
+    margin-top: 5vh;
+    gap: 4vh;
+    
+}
+
+.oldPhone {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(/images/old-phone.png);
+    background-size: 25vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: salad 10s infinite;
+    border-radius: 1vh;
+}
+
+
+.oldPhone:hover {
+    opacity: 0.7;
+}
+
+@keyframes salad {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
+
+
+.newPhone {
+    height: 50vh;
+    width: 28vw;
+    background-image: url(/images/new-phones.png);
+    background-size: 26vw 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    animation: steak 10s infinite;
+    border-radius: 1vh;
+}
+
+.newPhone:hover {
+    opacity: 0.7;
+}
+
+@keyframes steak {
+    0% {outline: 1vh solid #93c572;}
+    25% {outline: 1vh solid white;}
+    50% {outline: 1vh solid #93c572;}
+    75% {outline: 1vh solid white;}
+    100% {outline: 1vh solid #93c572;}
+}
