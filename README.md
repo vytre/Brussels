@@ -41,15 +41,24 @@ Our React Application is hosted on Azure Webservers at --> https://brussels-ance
 We have no set Code Editors, we are using WebStorm, VSC and IntelliJ.
 
 ### *Plugins*
+![VSC](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E) <br>
 We are using the **[Prettier Plugin](https://prettier.io/)** integrated with our IDEs
 
 ### *Functions and Variables*
-We are using lowerCamelCase for our Funtions and Variables
+We are using lowerCamelCase for local Funtions and Variables and UpperCammelCase for export functions
 
 *Functions*
 ```javascript
 function showYear() {
   console.log("Hello, World!");
+}
+
+export function FrontPage() {
+  return (
+    <div>
+      <h1>This is a Frontpage Header</h1>
+    </div>
+  );
 }
 
 ````
@@ -79,33 +88,46 @@ const groupName = "Brussels";
 │     ├── application.jsx
 │     ├── index.html
 │     ├── index.jsx
+│     ├── package-lock.json
+│     ├── package.json
+│     ├── index.jsx
 │     ├── pages
 │     │    ├── archive.jsx
-│     │    ├── dilemmaRoute.jsx
+│     │    ├── dilemma-route.jsx
 │     │    ├── frontpage.jsx
 │     │    └── dilemmaPage
-│     │            ├── dilemmaAgeGroup.jsx
-│     │            ├── dilemmaCategory.jsx
-│     │            ├── dilemmaCrossroad.jsx
-│     │            ├── dilemmaQuestion.jsx
-│     │            ├── dilemmaResult.jsx
-│     │            ├── dilemmaStart.jsx
-│     │            └── dilemmaWorkMode.jsx
-│     │                
+│     │            ├── age-group.jsx
+│     │            ├── category.jsx
+│     │            ├── crossroad.jsx
+│     │            ├── diploma.jsx
+│     │            ├── question.jsx
+│     │            ├── result.jsx
+│     │            ├── start.jsx
+│     │            └── work-mode.jsx
+│     │
+│     │                             
 │     ├── stylesheets
 │     │     ├── archive.css
 │     │     ├── frontpage.css
 │     │     ├── header.css
-│     │     └── dilemmaPage
-│     │            ├── dilemmaAgeGroup.css
-│     │            ├── dilemmaCategory.css
-│     │            ├── dilemmaCrossroad.css
-│     │            ├── dilemmaQuestion.css
-│     │            ├── dilemmaResult.css
-│     │            ├── dilemmaStart.css
-│     │            └── dilemmaWorkMode.css
+│     │     └── dilemma
+│     │            ├── age-group.css
+│     │            ├── category.css
+│     │            ├── crossroad.css
+│     │            ├── diploma.css
+│     │            ├── discuss.css
+│     │            ├── question.css
+│     │            ├── result.css
+│     │            ├── start.css
+│     │            └── work-mode.css
+│     │
+│     │ 
 │     └── utils
 │           └── header.jsx
+│   
+│
 └── server
-     └── server.js
+      ├── package-lock.json
+      ├── package.json
+      └── server.js
 ````
