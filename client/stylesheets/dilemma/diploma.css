@@ -1,0 +1,67 @@
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+@media print
+{
+    .printDiplomNavn
+    {
+        top:10vh !important;
+    }
+}
+
+@page {
+    size: A4;
+}
+
+#diplom {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    width:55.491vw;
+    height:84.21h;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+    background-image: url(../../images/Elegant_Diploma_Certificate_Template.png);
+}
+
+#diplom-div {
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+    height:100vh;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+#diplomNavn {
+    position:absolute;
+    width:10vw;
+    height:10vh;
+    left:24vw;
+    top:27vh;
+    font-size: 3vw;
+
+}
+
+#printBtn {
+    position:absolute;
+    top:68vh;
+    left:60vw;
+    z-index:1;
+    width:10vw;
+    height:7vh;
+    border-style: solid;
+    border-radius: 10vw;
+    font-size:2vw;
+}
+
+#printBtn:hover {
+    cursor: pointer;
+    background-color: rgb(208, 208, 208);
+}

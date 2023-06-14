@@ -1,0 +1,412 @@
+@charset "utf-8";
+body {
+	width: 100vw;
+	height: 100vh;
+}
+.resultat-main-div {
+	display:flex;
+    flex-direction: column;
+    width: 100vw;   
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    align-items: center;
+
+	background-image:url(../../images/flowerpower-BG.png);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+
+.resultat-midt-div {
+	display:flex;
+	flex-direction: row;
+	width:100vw;
+	height:100vh;
+}
+
+.resultat-venstre-div {
+	display:flex;
+	flex-direction: row;
+	width:500vw;
+	height:90vh;
+	position: static;
+	align-items: flex-end;
+}
+
+.resultat-høyre-div {
+	display:flex;
+	flex-direction: column;
+	width:50vw;
+	height:90vh;
+	position: static;
+}
+
+.resultat-div-resultat-tittel {
+    position: absolute;
+    display:flex;
+	flex-direction: column;
+    width:100vw;
+    height:5vh;
+    align-items: center;
+	top:10vh;
+}
+
+.resultat-tittel-resultat {
+	width: 100vw;
+    height: 5vh;
+    position:static;
+    font-size:10vh;
+    color:white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    text-align: center;
+}
+
+.resultat-tekstBoks1 {
+	background-image: url(../../images/Rectangle33.png);
+	height:30vh;
+	width: 40vw;
+	top:20%;
+	background-size: contain;
+	position:absolute;
+	left:60%;
+	background-repeat: no-repeat;
+}
+.resultat-boks-p {
+	position: absolute;
+	top:4vh;
+	left:3vw;
+	font-size:1vw;
+}
+
+.resultat-btn {
+	position:absolute;	
+	left:17vw;
+	top:17vh;
+	font-size:2vw;
+	border-style: solid;
+	border-radius: 100px;
+}
+
+.resultat-btn:hover {
+cursor: pointer;
+background-color: rgb(208, 208, 208);
+}
+
+.resultat-tekstBoks2 {
+	background-image: url(../../images/Rectangle33.png);
+	height:30vh;
+	width: 40vw;
+	top:50%;
+	position:absolute;
+	left:63%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.resultat-diplomBtn {
+	position:relative;	
+	left:50%;
+	top:20%;
+	font-size:30px;
+	border-style: solid;
+	border-radius: 100px;
+}
+
+.resultat-dineSvar-p-div {
+	display:flex;
+	flex-direction: column;
+	background-position: top;
+	justify-content: flex-start;
+	align-items: center;
+	position:absolute;
+	width: 20vw;
+	bottom: 40vh;
+}
+
+.resultat-dineSvar-div {
+	display: flex;
+    flex-direction: column;
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color:rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 1);
+    width:20vw;
+    height:53vh;
+    justify-content: flex-end;
+    align-items: center;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+
+    box-sizing: border-box;
+    border: 10px solid rgba(150, 96, 142, 0.8);;
+    margin: 10px;
+}
+
+
+.resultat-dineSvar-p {
+	text-align: center;
+	position: static;
+	font-size:5vh;
+	color:white;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;;
+
+}
+
+.resultat-blokker-ds-div {
+	display:flex;
+	flex-direction: row;
+	gap:3vw;	
+	position:static;
+	width: 20vw;
+	height: 40vh;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.resultat-gjennomsnitt-div {
+    display: flex;
+    flex-direction: column;
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color:#96608e;
+    width:20vw;
+    height:53vh;
+    justify-content: flex-end;
+    align-items: center;	
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+
+    box-sizing: border-box;
+    border: 10px solid rgba(129.00000751018524, 169.00000512599945, 121.00000038743019, 0.8);
+    margin: 10px;
+
+}
+
+.resultat-gjennomsnitt-p-div {
+	display:flex;
+	flex-direction: column;
+	background-position: top;
+	justify-content: flex-start;
+	align-items: center;
+	position:absolute;
+	width: 20vw;
+	bottom: 40vh;
+}
+
+.resultat-gjennomsnitt-p {
+	text-align: center;
+	position: static;
+	font-size:5vh;
+	color:white;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;;
+}
+
+.resultat-dineSvarBlokk-1 {
+	width:2.5vw;
+	height:40vh;		
+	display:flex;	
+	justify-content: flex-end;
+	align-items: center;
+	position: static;
+	flex-direction: column;
+}
+
+.resultat-ds-score-fargeblokk-1{
+	width:2.5vw;
+	height:11vh;		
+	display:flex;
+	justify-content: center;
+	background-color: blue;
+	position: static;
+}
+.resultat-dineSvarBlokk-2 {
+	width:2.5vw;
+	height:40vh;	
+	flex-direction: column;
+	display:flex;
+	align-items: center;
+	justify-content: flex-end;
+	position:static;
+
+}
+
+.resultat-ds-score-fargeblokk-2{
+	width:2.5vw;
+	height:8vh;	
+	display:flex;
+	justify-content: center;
+	position:static;
+	background-color: red;
+}
+
+.resultat-dineSvarBlokk-3 {
+	width:2.5vw;
+	height:40vh;	
+	display:flex;
+	justify-content: flex-end;
+	position:static;
+	flex-direction: column;
+	align-items: center;
+}
+
+.resultat-ds-score-fargeblokk-3{
+	width:2.5vw;
+	height:15vh;	
+	display:flex;
+	justify-content: center;
+	position:static;
+	background-color: yellow;
+	flex-direction: column;
+}
+
+.resultat-blokk-p-1 {
+	position:static;
+	top:76vh;
+	font-size: 1vw;
+}
+.resultat-blokk-p-2 {
+	position:static;
+	top:76vh;
+	font-size: 1vw;
+
+}
+.resultat-blokk-p-3 {
+	position:static;
+	top:76vh;
+	font-size: 1vw;
+
+}
+
+.resultat-gs-blokker-div {
+	display:flex;
+	flex-direction: row;
+	gap:3vw;	
+	position:static;
+	width: 20vw;
+	height: 40vh;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.resultat-gjennomsnitt-blokk-1 {
+	width:2.5vw;
+	height:40vh;		
+	display:flex;	
+	justify-content: flex-end;
+	align-items: center;
+	position: static;
+	flex-direction: column;
+}
+
+.resultat-gs-score-blokk-1 {
+	position:static;
+	font-size:1vw;
+	bottom:19vh;
+}
+
+.resultat-gs-score-fargeblokk-1{
+	width:2.5vw;
+	height:11vh;		
+	display:flex;
+	justify-content: center;
+	background-color: blue;
+	position: static;
+}
+
+.resultat-gs-blokk-p-1 {
+	position:static;
+	top:76vh;
+	font-size: 1vw;
+
+}
+.resultat-gjennomsnitt-blokk-2 {
+	width:2.5vw;
+	height:40vh;	
+	flex-direction: column;
+	display:flex;
+	align-items: center;
+	justify-content: flex-end;
+	position:static;
+
+}
+
+.resultat-gs-score-blokk-2 {
+	position:static;
+	font-size:1vw;
+	bottom:15vh;
+}
+
+
+
+.resultat-gs-blokk-p-2 {
+	position:static;
+	top:76vh;
+	font-size: 1vw;
+}
+
+.resultat-gs-score-fargeblokk-2{
+	width:2.5vw;
+	height:8vh;	
+	display:flex;
+	justify-content: center;
+	position:static;
+	background-color: red;
+}
+
+.resultat-gjennomsnitt-blokk-3 {
+	width:2.5vw;
+	height:40vh;	
+	display:flex;
+	justify-content: flex-end;
+	position:static;
+	flex-direction: column;
+	align-items: center;
+}
+
+.resultat-gs-score-blokk-3 {
+	position:static;
+	font-size:1vw;
+	bottom:23vh;
+}
+
+.resultat-gs-score-fargeblokk-3{
+	width:2.5vw;
+	height:15vh;	
+	display:flex;
+	justify-content: center;
+	position:static;
+	background-color: yellow;
+	flex-direction: column;
+}
+
+.resultat-gs-blokk-p-3 {
+	position:static;
+	top:76vh;
+	font-size: 1vw;
+}
+
+.resultat-ds-score-blokk-1 {
+	position:static;
+	font-size:1vw;
+	bottom:19vh;
+
+}
+
+.resultat-ds-score-blokk-2 {
+	position:static;
+	font-size:1vw;
+	bottom:15vh;
+
+}
+
+.resultat-ds-score-blokk-3 {
+	position:static;
+	font-size:1vw;
+	bottom:23vh;
+
+}
+
+
+

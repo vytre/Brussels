@@ -1,0 +1,202 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+main{
+    max-width: 100%;
+    background: aquamarine;
+}
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+/* DIV */
+.pageArchive{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color:rgba(243.6556175351143, 243.6556175351143, 243.6556175351143, 0.33000001311302185);
+    width: 100%;
+}
+/*SIDE TOPP*/
+.topContainerArchive{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height: 100vh;
+    position: static;
+    background-image:url(../images/dypokologi_2.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+
+}
+.topBoxArchive{
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    position: static;
+}
+.topInfoBoxArchive{
+    display: flex;
+    position: static;
+    overflow: hidden;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    flex-direction: column;
+    gap: 5vh;
+}
+/*burde line opp med hvor bgbox var*/
+.bgBoxContainerArchive{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    position: static;
+
+}
+.bgBoxArchive{
+    z-index: 0;
+    display: flex;
+    position: absolute;
+    width: 80vw;
+    height:30vh;
+    background-color: #c7b9a5b6;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.headingContainerArchive{
+    justify-content: center;
+    width: 100vw;
+    margin-top: 25vh;
+    display: flex;
+    position: static;
+
+}
+.headingArchive{
+    z-index: 1;
+    width:100vw;
+    height:15vh;
+    display: flex;
+    position: static;
+    justify-content: center;
+    align-items: center;
+
+    text-shadow: 0.2vh 0.2vw 0 #000, -0.2vh -0.2vw 0 #000, 0.2vh 0.2vw 0 #000, -0.2vh -0.2vw 0 #000;
+    color:rgba(255, 255, 255, 1);
+    font-family:Nunito;
+    text-align:center;
+    font-size:12vh;
+    letter-spacing: 3;
+
+}
+.textArchive{
+    z-index: 10;
+    width: 70vw;
+
+    display: flex;
+
+    position:static;
+
+    text-shadow: -1px -1px 0 #000;
+    color:rgba(255, 255, 255, 1);
+    font-family:Nunito;
+    text-align: left;
+    font-size: 3vh;
+    letter-spacing: 1;
+}
+/* Info Containers*/
+.containerArchive{
+    margin-top: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+    position: static;
+    gap: 20vh;
+}
+.infoContainerArchive{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height:70vh;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.infoContainer2Archive{
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height:70vh;
+    top: 100vh;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.boxArchive{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
+    width:30vw;
+    height:60vh;
+}
+.box2Archive{
+    margin-top: 10vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
+    width:35vw;
+    height:50vh;
+}
+.h2Archive{
+    text-align: center;
+    font-size: 7vh;
+    padding: 2vh 2vw 2vh 2vw;
+}
+.h3Archive{
+    padding: 2vh 2vw 2vh 2vw;
+    font-size: 4vh;
+}
+.h4Archive{
+    padding: 2vh 2vw 2vh 2vw;
+    font-size: 2.5vh;
+}
+.btnArchive{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 4vh;
+    height: 10vh;
+    width: 25vw;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+}
+.arneHammerImgArchive{
+    width:60vw;
+    box-shadow: 7vh 7vh rgba(227.37499594688416, 163.91853779554367, 40.73802061378956, 0.10000000149011612);
+    height: 80vh;
+    display: flex;
+    position: relative;
+    background-image:url(../images/n_ss.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.arneAktivImgArchive{
+    width:55vw;
+    display: flex;
+    box-shadow: -7vh 7vh rgba(14.709078166633844, 252.15562462806702, 81.19411155581474, 0.10000000149011612);
+    background-image:url(../images/arne_rebell_1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
