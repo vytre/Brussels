@@ -10,7 +10,9 @@ export function Result() {
   const workMode = params.workMode;
   const category = params.category;
 
-  const navigateToArchive = navigate("/archive");
+  function navigateToArchive() {
+    navigate("/archive");
+  }
 
   // Navigates to printable diploma page
   function navigateToDiploma() {
