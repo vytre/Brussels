@@ -110,18 +110,19 @@ export function Crossroad() {
   );
   const listLength = Object.keys(categoryCrossroadObject).length;
 
-
-
   const handleClick = (value) => {
     //
     if (index === listLength) {
+      alert("Discuss your answer!");
       navigate(`/dilemma/${ageGroup}/${workMode}/${category}/result`);
     } else {
       setIndex(index + 1);
-      setCrossroad(categoryCrossroadObject[index+1].crossroad);
+      setCrossroad(categoryCrossroadObject[index + 1].crossroad);
       if (value === 1) {
+        alert("Discuss your answer!");
         //STORE USER ANSWER HERE with agegroup, category, crossroad index
       } else if (value === 2) {
+        alert("Discuss your answer!");
         //STORE USER ANSWER HERE with agegroup, category, crossroad index
       }
     }
