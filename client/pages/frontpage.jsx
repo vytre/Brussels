@@ -80,22 +80,31 @@ export function Frontpage() {
         <div className="row2_blueStartside">
           <div className="text_box_blueStartside">
             <div className="text_header_blueStartside">
-              <h2>
-                ANCEP skal bidra til at
-                <br /> Arne Næss’ tanker blir
-                <br /> gjort lett tilgjengelige for
-                <br /> alle.
-              </h2>
+              <h2>Dypøkologien</h2>
             </div>
 
             <p className="text_blueStartside">
-              ANCEP er organiasjonen som
-              <br /> bidrar til å tilgjengeligegjøre Arne
-              <br /> Næss sine værk. De har et stort,
-              <br /> og variert arkiv av Arne Næss sine
-              <br /> tanker, og meninger. Med dette så
-              <br /> kan alle dykke dypt inn i Arne
-              <br /> Næss sin verden.
+              Dypøkologien Arne Næss var dypt
+              <br />
+              interessert i dypøkologi, og anses
+              <br />
+              som grunnleggeren av dette feltet.
+              <br />
+              Dette handler om at alt liv har
+              <br />
+              verdi, og at mennesker
+              <br />
+              burde tilpasse seg naturen.
+              <br />
+              Selv om Arne
+              <br />
+              Næss skrev om mange andre
+              <br />
+              temaer som krig, så
+              <br />
+              var det dypøkologien
+              <br />
+              han var mest kjent for.
             </p>
           </div>
         </div>
