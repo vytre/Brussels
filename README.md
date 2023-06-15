@@ -1,4 +1,21 @@
 # PRO202-Agile-Project Team Brussels
+
+## Starting the React App
+To start the applictation you will need to have [node.js](https://nodejs.org/en) and [npm](https://www.npmjs.com/) installed on your computer. <br>
+Once you have it installed you can clone the project and run the commands
+```
+npm run build
+```
+
+```
+npm run start
+```
+This will run the built app then start the application locally <br>
+open http://localhost:3000 in your web-browser to view the app
+
+## Azure
+[![Build and deploy Node.js app to Azure Web App - Brussels-ANCEP](https://github.com/vytre/Brussels/actions/workflows/main_brussels-ancep.yml/badge.svg)](https://github.com/vytre/Brussels/actions/workflows/main_brussels-ancep.yml) <br>
+Our React Application is hosted on Azure Webservers at --> https://brussels-ancep.azurewebsites.net/
 ## Overview
 * **[docs](https://github.com/vytre/Brussels/tree/main/docs)** - Document folder
   * **[group-docs](https://github.com/vytre/Brussels/tree/main/docs/group-docs)** - Group Documentation, Riskplan, Contract and Radar Test
@@ -11,37 +28,37 @@
 * **[server](https://github.com/vytre/Brussels/tree/main/server)** - server side code
 
 
-## Starting the React App
-Open project in root folder and run:
-```
-npm run build
-```
-This will download dependencies and build the app
 
-```
-npm run start
-```
-This will run the built app locally, open http://localhost:3000 in your web-browser to view the app
 
-## Azure WebServer
-[![Build and deploy Node.js app to Azure Web App - Brussels-ANCEP](https://github.com/vytre/Brussels/actions/workflows/main_brussels-ancep.yml/badge.svg)](https://github.com/vytre/Brussels/actions/workflows/main_brussels-ancep.yml) <br>
-Our React App is hosted on Azure Webservers at https://brussels-ancep.azurewebsites.net/
+
 
 ## Standards
 
 ### *Code Editors*
+![VSC](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) ![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![WebStorm](https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=WebStorm&logoColor=white)
+
+
 We have no set Code Editors, we are using WebStorm, VSC and IntelliJ.
 
 ### *Plugins*
+![VSC](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E) <br>
 We are using the **[Prettier Plugin](https://prettier.io/)** integrated with our IDEs
 
 ### *Functions and Variables*
-We are using lowerCamelCase for our Funtions and Variables
+We are using lowerCamelCase for local Funtions and Variables and UpperCammelCase for export functions
 
 *Functions*
 ```javascript
 function showYear() {
   console.log("Hello, World!");
+}
+
+export function FrontPage() {
+  return (
+    <div>
+      <h1>This is a Frontpage Header</h1>
+    </div>
+  );
 }
 
 ````
@@ -71,33 +88,46 @@ const groupName = "Brussels";
 │     ├── application.jsx
 │     ├── index.html
 │     ├── index.jsx
+│     ├── package-lock.json
+│     ├── package.json
+│     ├── index.jsx
 │     ├── pages
 │     │    ├── archive.jsx
-│     │    ├── dilemmaRoute.jsx
+│     │    ├── dilemma-route.jsx
 │     │    ├── frontpage.jsx
 │     │    └── dilemmaPage
-│     │            ├── dilemmaAgeGroup.jsx
-│     │            ├── dilemmaCategory.jsx
-│     │            ├── dilemmaCrossroad.jsx
-│     │            ├── dilemmaQuestion.jsx
-│     │            ├── dilemmaResult.jsx
-│     │            ├── dilemmaStart.jsx
-│     │            └── dilemmaWorkMode.jsx
-│     │                
+│     │            ├── age-group.jsx
+│     │            ├── category.jsx
+│     │            ├── crossroad.jsx
+│     │            ├── diploma.jsx
+│     │            ├── question.jsx
+│     │            ├── result.jsx
+│     │            ├── start.jsx
+│     │            └── work-mode.jsx
+│     │
+│     │                             
 │     ├── stylesheets
 │     │     ├── archive.css
 │     │     ├── frontpage.css
 │     │     ├── header.css
-│     │     └── dilemmaPage
-│     │            ├── dilemmaAgeGroup.css
-│     │            ├── dilemmaCategory.css
-│     │            ├── dilemmaCrossroad.css
-│     │            ├── dilemmaQuestion.css
-│     │            ├── dilemmaResult.css
-│     │            ├── dilemmaStart.css
-│     │            └── dilemmaWorkMode.css
+│     │     └── dilemma
+│     │            ├── age-group.css
+│     │            ├── category.css
+│     │            ├── crossroad.css
+│     │            ├── diploma.css
+│     │            ├── discuss.css
+│     │            ├── question.css
+│     │            ├── result.css
+│     │            ├── start.css
+│     │            └── work-mode.css
+│     │
+│     │ 
 │     └── utils
 │           └── header.jsx
+│   
+│
 └── server
-     └── server.js
+      ├── package-lock.json
+      ├── package.json
+      └── server.js
 ````

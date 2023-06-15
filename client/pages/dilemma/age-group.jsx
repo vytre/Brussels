@@ -1,14 +1,13 @@
-import "../../stylesheets/dilemmaPage/dilemmaAgeGroup.css";
+import "../../stylesheets/dilemma/age-group.css";
 import * as React from "react";
 import { Header } from "../../utils/header.jsx";
 import { useNavigate } from "react-router-dom";
 
-export function DilemmaSelectAgeGroup() {
+export function SelectAgeGroup() {
   const navigate = useNavigate();
 
+  // Navigates user to the next page, and saves age group in url path
   const handleClick = (ageGroup) => {
-    console.log(ageGroup);
-    console.log("-------");
     navigate(`/dilemma/${ageGroup}/work-mode`);
   };
 

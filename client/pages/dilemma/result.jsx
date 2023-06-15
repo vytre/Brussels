@@ -1,11 +1,23 @@
 import { Header } from "../../utils/header.jsx";
 import * as React from "react";
-import { useNavigate } from "react-router-dom";
-import "../../stylesheets/dilemmaPage/dilemmaResult.css";
+import { useNavigate, useParams } from "react-router-dom";
+import "../../stylesheets/dilemma/result.css";
 
-export function DilemmaResult() {
+export function Result() {
   const navigate = useNavigate();
-  const handleClick = navigate("/archive");
+  const params = useParams();
+  const ageGroup = params.ageGroup;
+  const workMode = params.workMode;
+  const category = params.category;
+
+  function navigateToArchive() {
+    navigate("/archive");
+  }
+
+  // Navigates to printable diploma page
+  function navigateToDiploma() {
+    navigate(`/dilemma/${ageGroup}/${workMode}/${category}/diploma`);
+  }
 
   return (
     <>
@@ -22,7 +34,6 @@ export function DilemmaResult() {
               </div>
               <div className="resultat-blokker-ds-div">
                 <div className="resultat-dineSvarBlokk-1">
-                
                   <p className="resultat-ds-score-blokk-1">10</p>
                   <p className="resultat-ds-score-fargeblokk-1"></p>
                   <p className="resultat-blokk-p-2">Dypøkologi</p>
@@ -31,7 +42,6 @@ export function DilemmaResult() {
                   <p className="resultat-ds-score-blokk-2">8</p>
                   <p className="resultat-ds-score-fargeblokk-2"></p>
                   <p className="resultat-blokk-p-1">Krig</p>
-                  
                 </div>
                 <div className="resultat-dineSvarBlokk-3">
                   <p className="resultat-ds-score-blokk-3">15</p>
@@ -46,7 +56,6 @@ export function DilemmaResult() {
               </div>
               <div className="resultat-gs-blokker-div">
                 <div className="resultat-gjennomsnitt-blokk-1">
-
                   <p className="resultat-gs-score-blokk-1">10</p>
                   <p className="resultat-gs-score-fargeblokk-1"></p>
                   <p className="resultat-gs-blokk-p-2">Dypøkologi</p>
@@ -55,7 +64,6 @@ export function DilemmaResult() {
                   <p className="resultat-gs-score-blokk-2">10</p>
                   <p className="resultat-gs-score-fargeblokk-2"></p>
                   <p className="resultat-gs-blokk-p-1">Krig</p>
-                  
                 </div>
                 <div className="resultat-gjennomsnitt-blokk-3">
                   <p className="resultat-gs-score-blokk-3">15</p>
@@ -77,7 +85,7 @@ export function DilemmaResult() {
               <button
                 className="resultat-btn"
                 type="button"
-                onClick={handleClick}
+                onClick={navigateToArchive}
               >
                 Ta meg videre
               </button>
@@ -87,8 +95,12 @@ export function DilemmaResult() {
                 Gratulerer med gjennomført spill!
                 <p>Om du vil kan du nå printe ut diplom.</p>
               </p>
-              <button className="resultat-btn" type="button">
-                Print diplom
+              <button
+                className="resultat-btn"
+                type="button"
+                onClick={navigateToDiploma}
+              >
+                Få diplom
               </button>
             </div>
           </div>
