@@ -48,17 +48,17 @@ arne_presenting_1.png: https://media.snl.no/media/263128/standard_NTB_oS6ntokdbk
 
 arne_rebell_1.png: https://vcdn.polarismedia.no/aadd731a-13df-4018-a4d3-c86986aba2eb?fit=crop&h=500&q=80&tight=false&w=800
 
-barneskole.png:
+barneskole.png: https://img.tineye.com/result/6d4cdc57ba74a6d91f2d47ff0d0859898dfb6aa052f75bb2fdf61a678a0a3770-4?size=160
 
-barneskole2.png
+barneskole2.png https://img.tineye.com/result/6d4cdc57ba74a6d91f2d47ff0d0859898dfb6aa052f75bb2fdf61a678a0a3770-4?size=160
 
-bg-1920.png:
+bg-1920.png: laget selv
 
 bg-img.jpg:
 
-bg-resultat.png:
+bg-resultat.png: Laget selv
 
-bg_img.png:
+bg_img.png: https://www.shutterstock.com/image-vector/minimalist-abstract-background-outline-leaves-260nw-1934439368.jpg
 
 bird_1.png:
 
