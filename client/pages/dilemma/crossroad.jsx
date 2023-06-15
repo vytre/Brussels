@@ -80,23 +80,20 @@ export function Crossroad() {
   const category = params.category;
   const ageGroup = params.ageGroup;
   const workMode = params.workMode;
+
   function getCrossroad() {
     let categoryCrossroadObject = {};
     switch (category) {
       case "war":
         categoryCrossroadObject = { ...war };
-        console.log("war");
         break;
       case "deepEcology":
         categoryCrossroadObject = { ...deepEcology };
-        console.log("deepEcology");
         break;
       case "minimalism":
         categoryCrossroadObject = { ...minimalism };
-        console.log("minimalism");
         break;
       default:
-        console.log("Bug....");
         break;
     }
     return categoryCrossroadObject;
@@ -111,18 +108,20 @@ export function Crossroad() {
   const listLength = Object.keys(categoryCrossroadObject).length;
 
   const handleClick = (value) => {
-    //
     if (index === listLength) {
-      alert("Discuss your answer!");
       navigate(`/dilemma/${ageGroup}/${workMode}/${category}/result`);
     } else {
       setIndex(index + 1);
       setCrossroad(categoryCrossroadObject[index + 1].crossroad);
       if (value === 1) {
-        alert("Discuss your answer!");
+        if (workMode === "group") {
+          alert("Discuss your answer!");
+        }
         //STORE USER ANSWER HERE with agegroup, category, crossroad index
       } else if (value === 2) {
-        alert("Discuss your answer!");
+        if (workMode === "group") {
+          alert("Discuss your answer!");
+        }
         //STORE USER ANSWER HERE with agegroup, category, crossroad index
       }
     }
@@ -131,7 +130,6 @@ export function Crossroad() {
   return (
     <div className="pageCrossRoads">
       <Header />
-      <div>{index}</div>
       <div className="introToGameContainer">
         <div className="titleContainer">
           <h1 className="dilemmaTitle">Dilemma</h1>
