@@ -86,65 +86,65 @@ green-bag.png: https://www.shutterstock.com/image-vector/vector-green-ecological
 
 groupdiscussing.png: https://cdn.pixabay.com/photo/2017/02/01/12/07/african-2029984_1280.png
 
-hverdags 1.png:
+hverdags 1.png: https://www.shutterstock.com/image-vector/decision-making-behavior-mental-trap-260nw-1505587583.jpg
 
-image 1.png:
+image 1.png: https://www.shutterstock.com/image-photo/plant-hands-grass-background-260nw-154639625.jpg
 
 kangerooooooooooooooooo_1.png:
 
-krig2.jpg:
+krig2.jpg: https://www.forsvaret.no/aktuelt-og-presse/presse/eventer/_/image/ba0cd06a-999e-4381-9d7c-eec7a41f7005:39baa40093f53f21182bcb01f1da5c68a742cb4b/block-1024-682-/30092020b7b.jpg?quality=70
 
-man-with-trash-behind.jpg:
+man-with-trash-behind.jpg: https://images1.calcalist.co.il/PicServer3/2020/12/14/1043931/1NL.jpg
 
-monke_1.png:
+monke_1.png: https://www.stickeredecorativ.ro/ori-sticker-copii-maimuta-2377_14561.jpg
 
-n_ss.png:
+n_ss.png: https://www.morgenbladet.no/resizer/Ex5D8XDJS3admYySx6lRTHr1gyk=/600x0/filters:format(jpg):quality(70):focal(-5x-5:5x5)/cloudfront-eu-central-1.images.arcpublishing.com/mentormedier/OTLSJMD6NTJK7LKPKFYUCUWUTY.jpg
 
-new-phones.png:
+new-phones.png: https://icdn.ensonhaber.com/resimler/diger/kok/2022/04/06/android-telefon_2899.jpg
 
-norway-flag.jpg:
+norway-flag.jpg: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTE0S0lL4fSjoJXz1obbP_sx6GdLjlWCGwhvjSEFdrZpPY99eNb
 
-oilrig.jpg:
+oilrig.jpg: https://www.shutterstock.com/image-photo/image-oil-platform-while-cloudless-260nw-124714042.jpg
 
-old-phone.png:
+old-phone.png: https://img.tineye.com/result/0772e304404e61e4c164a93c588a5af0da904a6812c5c58c3a37b77d33b1bc0c-9?size=160
 
-pngwing_1.png:
+pngwing_1.png: https://www.shutterstock.com/image-vector/little-boy-studying-260nw-158055218.jpg
 
-pngwing_2.png:
+pngwing_2.png: https://www.shutterstock.com/image-vector/illustration-featuring-group-kids-studying-260nw-208227811.jpg
 
-red-bag.jpg:
+red-bag.jpg: https://images-na.ssl-images-amazon.com/images/I/61CqrvLV9%2BL._UL1200_.jpg
 
-salad.jpg:
+salad.jpg: https://www.eatingwell.com/thmb/1iBm2Hy9PE7cZzeWqNNPMt3AtqI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/kale-and-quinoa-salad-with-lemon-dressing-50e7ff379b924df8ab3dd665e2efefb5.jpg
 
-steak.jpg:
+steak.jpg: https://www.seriouseats.com/sous-vide-steaks-recipe
 
-sweatshop.jpg:
+sweatshop.jpg: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7_sDsUwMF24357swX92sUnWuIJDbr1-oQay7GcLr-2mVgsHXf
 
-test-bg.jpg:
+test-bg.jpg: https://wallpapertag.com/wallpaper/middle/d/e/2/365002-light-green-background-1920x1080-pc.jpg
 
-test-bg2.jpg:
+test-bg2.jpg: https://www.vecteezy.com/vector-art/5909347-watercolor-background-with-hand-drawn-flowers
 
-test_dypøko.png:
+test_dypøko.png: https://www.shutterstock.com/image-photo/plant-hands-grass-background-260nw-154639625.jpg
 
-test_krig.png:
+test_krig.png: https://www.forsvaret.no/aktuelt-og-presse/presse/eventer/_/image/ba0cd06a-999e-4381-9d7c-eec7a41f7005:39baa40093f53f21182bcb01f1da5c68a742cb4b/block-1024-682-/30092020b7b.jpg?quality=70
 
-test_minimal.png:
+test_minimal.png: https://nn.wikipedia.org/wiki/Fil:Donald_Judd_Concrete_Blocks.jpg
 
-tiger_1.png:
+tiger_1.png: https://images.ua.prom.st/1038786965_w640_h640_11bbfc48e12f25__1c971dce23.jpg
 
-trash-can.jpg:
+trash-can.jpg: https://www.shutterstock.com/image-photo/recycling-isolated-bins-on-white-260nw-1107885656.jpg
 
-tree.jpeg:
+tree.jpeg: https://www.shutterstock.com/image-photo/big-oak-tree-english-meadow-260nw-1014421504.jpg
 
-ukraine.png:
+ukraine.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjx8gUNHO8rRk3sdvv0YpVs67t16aE9YnLaHYimIloj3y8QGb_
 
-ungdom.png:
+ungdom.png: https://www.pngmart.com/files/21/Jungle-Animals-PNG-HD.png
 
 ungdom2.png:
 
-vgs2.png:
+vgs2.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8YMEiYEZH7Fg697W5KTLmajy1hX3WJJpPM4-2kMrl7KjvEYLY
 
-vindmill.jpg:
+vindmill.jpg: https://www.shutterstock.com/image-photo/beautiful-sunset-above-windmills-on-260nw-307407410.jpg
 
-war.jpg:
+war.jpg: https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2022-10/221028-movie-still-all-quiet-on-the-western-front-ac-613p-4bd289.jpg
 
