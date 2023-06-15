@@ -68,7 +68,7 @@ dypokologi_2.png: https://www.datocms-assets.com/55942/1636045329-arne-naess-er-
 
 farmer-tied-up.jpg: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRnEbR92PngZuRnDUp7UGdoSHjmjFCmZnYGkJcx_XB8Zw2nwR-3
 
-farmer-walking-away.jpg:
+farmer-walking-away.jpg: https://www.slowfood.com/wp-content/uploads/2019/06/SF0063393-768x512.jpg
 
 flower-vine.png:
 
