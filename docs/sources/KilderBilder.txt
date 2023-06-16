@@ -64,6 +64,8 @@ bird_1.png: https://stock.adobe.com/images/cute-animals-collection/37327279
 
 dypokologi_2.png: https://www.datocms-assets.com/55942/1636045329-arne-naess-er-doed.jpg?q=70&auto=format&w=1280&fit=crop&crop=faces,focalpoint&iptc=allow&h=816
 
+dineSvar-bg.png: Laget selv
+
 farmer-tied-up.jpg: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRnEbR92PngZuRnDUp7UGdoSHjmjFCmZnYGkJcx_XB8Zw2nwR-3
 
 farmer-walking-away.jpg: https://www.slowfood.com/wp-content/uploads/2019/06/SF0063393-768x512.jpg
@@ -72,11 +74,9 @@ flower.png: https://www.shutterstock.com/image-vector/minimalist-abstract-backgr
 
 flowerpower-BG.png: Laget selv
 
-flowerpower.jpg: 
+flowerpower.jpg: https://www.vecteezy.com/vector-art/5909347-watercolor-background-with-hand-drawn-flowers
 
 giraff_1.png: https://stock.adobe.com/images/cute-animals-collection/37327279
-
-gjennomsnitt-bg.png:
 
 green-bag.png: https://www.shutterstock.com/image-vector/vector-green-ecological-shopping-bag-260nw-2020995551.jpg
 
@@ -136,7 +136,7 @@ ukraine.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjx8gUNHO8rRk
 
 ungdom.png: https://www.pngmart.com/files/21/Jungle-Animals-PNG-HD.png
 
-ungdom2.png:
+ungdom2.png: https://stock.adobe.com/images/cute-animals-collection/37327279
 
 vgs2.png: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8YMEiYEZH7Fg697W5KTLmajy1hX3WJJpPM4-2kMrl7KjvEYLY
 
