@@ -54,15 +54,13 @@ barneskole2.png https://img.tineye.com/result/6d4cdc57ba74a6d91f2d47ff0d0859898d
 
 bg-1920.png: laget selv
 
-bg-img.jpg:
+bg-img.jpg: laget selv
 
 bg-resultat.png: Laget selv
 
 bg_img.png: https://www.shutterstock.com/image-vector/minimalist-abstract-background-outline-leaves-260nw-1934439368.jpg
 
-bird_1.png:
-
-dineSvar-bg.png:
+bird_1.png: https://stock.adobe.com/images/cute-animals-collection/37327279
 
 dypokologi_2.png: https://www.datocms-assets.com/55942/1636045329-arne-naess-er-doed.jpg?q=70&auto=format&w=1280&fit=crop&crop=faces,focalpoint&iptc=allow&h=816
 
@@ -70,15 +68,13 @@ farmer-tied-up.jpg: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRnEbR9
 
 farmer-walking-away.jpg: https://www.slowfood.com/wp-content/uploads/2019/06/SF0063393-768x512.jpg
 
-flower-vine.png:
-
 flower.png: https://www.shutterstock.com/image-vector/minimalist-abstract-background-outline-leaves-260nw-1934439368.jpg
 
-flowerpower-BG.png:
+flowerpower-BG.png: Laget selv
 
-flowerpower.jpg:
+flowerpower.jpg: 
 
-giraff_1.png:
+giraff_1.png: https://stock.adobe.com/images/cute-animals-collection/37327279
 
 gjennomsnitt-bg.png:
 
@@ -90,7 +86,7 @@ hverdags 1.png: https://www.shutterstock.com/image-vector/decision-making-behavi
 
 image 1.png: https://www.shutterstock.com/image-photo/plant-hands-grass-background-260nw-154639625.jpg
 
-kangerooooooooooooooooo_1.png:
+kangerooooooooooooooooo_1.png: https://stock.adobe.com/images/cute-animals-collection/37327279
 
 krig2.jpg: https://www.forsvaret.no/aktuelt-og-presse/presse/eventer/_/image/ba0cd06a-999e-4381-9d7c-eec7a41f7005:39baa40093f53f21182bcb01f1da5c68a742cb4b/block-1024-682-/30092020b7b.jpg?quality=70
 
