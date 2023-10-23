@@ -2,7 +2,7 @@
 
 ## Starting the React App
 To start the applictation you will need to have [node.js](https://nodejs.org/en) and [npm](https://www.npmjs.com/) installed on your computer. <br>
-Once you have it installed you can clone the project and run the commands
+Once you have it installed you can clone the project and run the commands.
 ```
 npm run build
 ```
